@@ -1,0 +1,27 @@
+{
+  "id": "./",
+  "name": "Vui để học - Ngô Minh Hiếu",
+  "short_name": "Vui để học",
+  "description": "Trắc nghiệm tương tác bằng nhận diện cử chỉ và bộ đề Toán cộng trừ ngẫu nhiên.",
+  "lang": "vi",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#071b3a",
+  "theme_color": "#071b3a",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
