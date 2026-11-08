@@ -1146,7 +1146,7 @@ body.dialog-open{overflow:hidden}
 .vui-auth-submit{border:0;border-radius:26px;min-height:clamp(38px,7.4vh,54px);width:100%;background:linear-gradient(100deg,#04b9ed,#063de9);box-shadow:0 3px 0 #082a9e,0 0 10px #30c8ff;color:white;font-size:clamp(16px,3.1vh,22px);font-weight:1000;cursor:pointer;line-height:1.1;padding:5px 10px}
 .vui-auth-submit:disabled{opacity:.65;cursor:wait}
 #vuiAuthMessage{min-height:0;margin:0;text-align:center;color:#a20d28;font-weight:800;font-size:10px;line-height:1.1}
-.vui-auth-first{position:static;width:100%;text-align:center;font-size:clamp(10px,1.9vh,13px);margin:0;line-height:1}
+.vui-auth-first{display:none!important;position:static;width:100%;text-align:center;font-size:clamp(10px,1.9vh,13px);margin:0;line-height:1}
 .vui-auth-first button{color:#073d9b;text-decoration:none;border:1px solid #8db4f0;border-radius:18px;background:rgba(237,246,255,.98);padding:clamp(5px,.9vh,8px) 10px;width:100%;white-space:nowrap;line-height:1.1}
 .vui-auth-modal{position:fixed;inset:0;z-index:1000000;background:#031a43b8;display:grid;place-items:center;padding:18px}
 .vui-auth-modal.hidden{display:none}
@@ -1169,25 +1169,26 @@ body.dialog-open{overflow:hidden}
  .vui-auth-first button{padding:4px 8px}
 }
 @media(max-width:600px) and (orientation:portrait){
- .vui-auth-scene{background-size:auto 100%;background-position:center center}
- .vui-auth-panel{left:50%;top:50%;transform:translate(-50%,-50%);width:min(92vw,460px);height:auto;max-height:88svh;min-height:0;padding:clamp(14px,2.4svh,22px) clamp(14px,4vw,22px);gap:clamp(8px,1.4svh,12px);background:rgba(239,249,255,.985);border:1px solid #fff;border-radius:22px;box-shadow:0 10px 30px rgba(0,55,145,.28);overflow:auto;grid-template-rows:auto auto auto auto}
- .vui-auth-title{font-size:clamp(17px,4.6vw,22px);white-space:normal}
- #vuiLoginForm{grid-template-rows:repeat(2,48px) auto 50px;gap:9px}
- .vui-auth-field{height:48px;min-height:48px;max-height:none;padding:0 11px}
- .vui-auth-field input{font-size:15px}
- .vui-auth-options{font-size:clamp(10px,3vw,13px);min-height:22px}
- .vui-auth-options input{width:17px;height:17px}
- .vui-auth-submit{height:50px;min-height:50px;font-size:19px}
- .vui-auth-first{font-size:13px}
- .vui-auth-first button{padding:9px 10px;white-space:normal}
+ .vui-auth-scene{min-height:100svh;height:100svh;background-image:url('assets/login_mobile_v56.png');background-size:100% 100%;background-position:center center}
+ .vui-auth-panel{left:50%;top:50%;transform:translate(-50%,-50%);width:min(92vw,440px);height:auto;max-height:78svh;min-height:0;padding:clamp(16px,2.2svh,22px) clamp(15px,4vw,22px);gap:clamp(9px,1.3svh,12px);background:rgba(244,250,255,.985);border:1px solid rgba(255,255,255,.98);border-radius:24px;box-shadow:0 12px 34px rgba(0,55,145,.28),inset 0 0 14px rgba(255,255,255,.9);overflow:auto;grid-template-rows:auto auto}
+ .vui-auth-title{font-size:clamp(18px,4.8vw,23px);white-space:normal;line-height:1.18}
+ #vuiLoginForm{grid-template-rows:50px 50px auto 52px;gap:10px}
+ .vui-auth-field{height:50px;min-height:50px;max-height:none;padding:0 12px;border-radius:14px}
+ .vui-auth-field input{font-size:16px}
+ .vui-auth-options{font-size:clamp(11px,3.2vw,14px);min-height:24px;gap:6px}
+ .vui-auth-options input{width:18px;height:18px}
+ .vui-auth-submit{height:52px;min-height:52px;font-size:20px;border-radius:28px}
+ .vui-auth-first{display:none!important}
+ #vuiAuthMessage{font-size:11px}
 }
 @media(max-width:360px) and (orientation:portrait){
- .vui-auth-panel{width:94vw;padding:12px;gap:7px}
- #vuiLoginForm{grid-template-rows:44px 44px auto 46px;gap:7px}
- .vui-auth-field{height:44px;min-height:44px}
+ .vui-auth-panel{width:94vw;max-height:82svh;padding:13px 12px;gap:8px}
+ .vui-auth-title{font-size:17px}
+ #vuiLoginForm{grid-template-rows:46px 46px auto 48px;gap:8px}
+ .vui-auth-field{height:46px;min-height:46px}
  .vui-auth-options{font-size:10px}
- .vui-auth-submit{height:46px;min-height:46px;font-size:17px}
- .vui-auth-first{font-size:11px}
+ .vui-auth-submit{height:48px;min-height:48px;font-size:18px}
+ .vui-auth-first{display:none!important}
 }
 </style>
 </head><body>
@@ -2709,9 +2710,47 @@ loadBank();samples();
 </script>
 
 
+<div id="vuiAdminPanel" class="vui-auth-modal hidden">
+ <div class="vui-auth-modal-card" style="width:min(760px,100%);max-height:90vh;overflow:auto">
+  <button type="button" class="vui-auth-close" id="vuiAdminClose">×</button>
+  <h2>👑 QUẢN TRỊ TÀI KHOẢN</h2>
+  <form id="vuiAdminCreateForm" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:9px">
+   <input id="vuiNewFullName" placeholder="Họ và tên" required>
+   <input id="vuiNewUsername" placeholder="Tên đăng nhập" required>
+   <input id="vuiNewPassword" type="password" placeholder="Mật khẩu ban đầu (tối thiểu 8 ký tự)" required>
+   <select id="vuiNewRole"><option value="NGUOI_HOC">Người học</option><option value="GIAO_VIEN">Giáo viên</option><option value="NHAN_VIEN">Nhân viên</option><option value="ADMIN">ADMIN</option></select>
+   <button class="vui-auth-submit" type="submit">+ TẠO TÀI KHOẢN</button>
+  </form>
+  <p id="vuiAdminMessage" role="status"></p>
+  <h3 style="margin:16px 0 6px;color:#0752bd">Yêu cầu quên mật khẩu</h3><div id="vuiAdminResetRequests" style="overflow:auto"></div><h3 style="margin:16px 0 6px;color:#0752bd">Danh sách tài khoản</h3><div id="vuiAdminUsers" style="overflow:auto"></div>
+ </div>
+</div>
+
+<div id="vuiChangePasswordModal" class="vui-auth-modal hidden">
+ <form id="vuiChangePasswordForm" class="vui-auth-modal-card">
+  <button type="button" class="vui-auth-close" id="vuiChangePasswordClose">×</button>
+  <h2>🔑 ĐỔI MẬT KHẨU</h2>
+  <input id="vuiOldPassword" type="password" placeholder="Mật khẩu hiện tại" required>
+  <input id="vuiNewPassword2" type="password" placeholder="Mật khẩu mới (ít nhất 8 ký tự)" required>
+  <button class="vui-auth-submit" type="submit">CẬP NHẬT MẬT KHẨU</button>
+  <p id="vuiChangePasswordMessage"></p>
+ </form>
+</div>
+
+<div id="vuiForgotModal" class="vui-auth-modal hidden">
+ <form id="vuiForgotForm" class="vui-auth-modal-card">
+  <button type="button" class="vui-auth-close" id="vuiForgotClose">×</button>
+  <h2>🔑 KHÔI PHỤC MẬT KHẨU</h2>
+  <p>Nhập tên đăng nhập để gửi yêu cầu đến ADMIN. ADMIN sẽ xác minh và đặt lại mật khẩu cho bạn.</p>
+  <input id="vuiForgotUsername" autocomplete="username" placeholder="Tên đăng nhập" required>
+  <button type="submit" class="vui-auth-submit">GỬI YÊU CẦU</button>
+  <p id="vuiForgotMessage" role="status"></p>
+ </form>
+</div>
+
 <script id="vui-auth-controller">
 (()=>{
- const AUTH_API_URL='https://script.google.com/macros/s/AKfycbyUCg9mQ8bWFyUvEiuTrvHFvTx8TKIeNCkgog_thr7QDf1gCr23JJtu0UoYts1CAhxG/exec';
+ const AUTH_API_URL='https://script.google.com/macros/s/AKfycbw_-Y_jhU9kRF5crsMb1-OTh7AcuJEvhrxkwM749cuJoCp9vnWy2r3ttV2_UEozrqqg/exec';
  const TOKEN_KEY='vuiHocAuthToken';
  const $=id=>document.getElementById(id);
  const gate=$('vuiAuthGate');
@@ -2753,11 +2792,20 @@ loadBank();samples();
  }
  function showGate(){gate.classList.remove('vui-auth-hidden');}
  function hideGate(){gate.classList.add('vui-auth-hidden');}
+ function showSignedInControls(user){
+   changeBtn.style.display='block';
+   adminBtn.style.display=(user&&user.role==='ADMIN')?'block':'none';
+ }
+ async function refreshBootstrapAvailability(){
+   const first=$('vuiShowBootstrap');
+   try{const r=await api('bootstrapStatus');first.closest('.vui-auth-first').style.display=r.available?'block':'none';}
+   catch(e){first.closest('.vui-auth-first').style.display='none';}
+ }
  async function validateSaved(){
    const token=localStorage.getItem(TOKEN_KEY)||sessionStorage.getItem(TOKEN_KEY);
-   if(!token){showGate();return;}
-   try{const r=await api('validate',{token});window.vuiHocCurrentUser=r.user;hideGate();changeBtn.style.display='block';if(r.user.role==='ADMIN')adminBtn.style.display='block';}
-   catch(e){localStorage.removeItem(TOKEN_KEY);sessionStorage.removeItem(TOKEN_KEY);showGate();}
+   if(!token){showGate();await refreshBootstrapAvailability();return;}
+   try{const r=await api('validate',{token});window.vuiHocCurrentUser=r.user;hideGate();showSignedInControls(r.user);}
+   catch(e){localStorage.removeItem(TOKEN_KEY);sessionStorage.removeItem(TOKEN_KEY);showGate();await refreshBootstrapAvailability();}
  }
  $('vuiTogglePass').onclick=()=>{const p=$('vuiLoginPass');p.type=p.type==='password'?'text':'password';};
  $('vuiLoginForm').addEventListener('submit',async e=>{
@@ -2765,19 +2813,21 @@ loadBank();samples();
    try{
      const r=await api('login',{username:$('vuiLoginUser').value,password:$('vuiLoginPass').value,device:navigator.userAgent.slice(0,180)});
      const store=$('vuiRemember').checked?localStorage:sessionStorage;
-     store.setItem(TOKEN_KEY,r.token);window.vuiHocCurrentUser=r.user;hideGate();
-     if(r.user.mustChangePassword) alert('ADMIN yêu cầu bạn đổi mật khẩu ở lần đăng nhập này. Vui lòng liên hệ quản trị viên để thực hiện chức năng đổi mật khẩu.');
+     store.setItem(TOKEN_KEY,r.token);window.vuiHocCurrentUser=r.user;hideGate();showSignedInControls(r.user);
+     if(r.user.mustChangePassword){alert('Đây là mật khẩu tạm thời. Vui lòng đổi mật khẩu ngay.');$('vuiChangePasswordModal').classList.remove('hidden');}
    }catch(err){message(err.message);}
    finally{btn.disabled=false;}
  });
- $('vuiForgot').onclick=()=>alert('Vui lòng liên hệ ADMIN để được đặt lại mật khẩu. Tính năng tự khôi phục qua email chưa được cấu hình.');
+ $('vuiForgot').onclick=()=>{$('vuiForgotModal').classList.remove('hidden');$('vuiForgotUsername').value=$('vuiLoginUser').value||'';$('vuiForgotMessage').textContent='';};
+ $('vuiForgotClose').onclick=()=>$('vuiForgotModal').classList.add('hidden');
+ $('vuiForgotForm').addEventListener('submit',async e=>{e.preventDefault();const out=$('vuiForgotMessage');out.textContent='Đang gửi yêu cầu...';try{const r=await api('forgotRequest',{username:$('vuiForgotUsername').value});out.textContent=r.message;}catch(err){out.textContent=err.message;}});
  $('vuiShowBootstrap').onclick=()=>$('vuiBootstrapModal').classList.remove('hidden');
  $('vuiCloseBootstrap').onclick=()=>$('vuiBootstrapModal').classList.add('hidden');
  $('vuiBootstrapForm').addEventListener('submit',async e=>{
    e.preventDefault();const out=$('vuiBootstrapMessage');out.textContent='Đang khởi tạo...';
    try{
      const r=await api('bootstrap',{bootstrapToken:$('vuiBootstrapToken').value,username:$('vuiBootstrapUser').value,fullName:$('vuiBootstrapName').value,password:$('vuiBootstrapPass').value});
-     out.textContent=r.message+' Đóng cửa sổ và đăng nhập.';
+     out.textContent=r.message+' Đóng cửa sổ và đăng nhập.';$('vuiShowBootstrap').closest('.vui-auth-first').style.display='none';
      $('vuiBootstrapForm').reset();
    }catch(err){out.textContent=err.message;}
  });
@@ -2799,6 +2849,11 @@ loadBank();samples();
  $('vuiAdminClose').onclick=()=>adminPanel.classList.add('hidden');
  async function loadAdminUsers(){
    const host=$('vuiAdminUsers');host.textContent='Đang tải danh sách...';
+   const reqHost=$('vuiAdminResetRequests');reqHost.textContent='Đang tải yêu cầu...';
+   try{const token=localStorage.getItem(TOKEN_KEY)||sessionStorage.getItem(TOKEN_KEY);const reqs=await api('adminResetRequests',{token});
+    reqHost.innerHTML=reqs.length?'<table style="width:100%;border-collapse:collapse;font-size:13px"><thead><tr><th>Thời gian</th><th>Tài khoản</th><th>Trạng thái</th><th>Xử lý</th></tr></thead><tbody>'+reqs.map(r=>'<tr><td>'+esc(new Date(r.time).toLocaleString('vi-VN'))+'</td><td>'+esc(r.username)+'</td><td>'+esc(r.status)+'</td><td>'+(r.userId?'<button data-id="'+esc(r.userId)+'" class="vuiReqReset">Đặt lại mật khẩu</button>':'Không có tài khoản')+'</td></tr>').join('')+'</tbody></table>':'Chưa có yêu cầu nào.';
+    reqHost.querySelectorAll('.vuiReqReset').forEach(btn=>btn.onclick=async()=>{const pw=prompt('Nhập mật khẩu mới (ít nhất 8 ký tự):');if(!pw)return;try{await api('adminResetPassword',{token,userId:btn.dataset.id,newPassword:pw});$('vuiAdminMessage').textContent='Đã đặt lại mật khẩu. Hãy thông báo riêng cho người dùng sau khi xác minh danh tính.';await loadAdminUsers();}catch(e){$('vuiAdminMessage').textContent=e.message;}});
+   }catch(e){reqHost.textContent=e.message;}
    try{const token=localStorage.getItem(TOKEN_KEY)||sessionStorage.getItem(TOKEN_KEY);const rows=await api('adminList',{token});
     host.innerHTML='<table style="width:100%;border-collapse:collapse;font-size:13px"><thead><tr><th>Tài khoản</th><th>Họ tên</th><th>Vai trò</th><th>Trạng thái</th><th>Thao tác</th></tr></thead><tbody>'+rows.map(u=>'<tr><td>'+esc(u.username)+'</td><td>'+esc(u.fullName)+'</td><td>'+esc(u.role)+'</td><td>'+esc(u.status)+'</td><td><button data-id="'+esc(u.id)+'" data-status="'+(u.status==='KHOA'?'HOAT_DONG':'KHOA')+'" class="vuiAdminToggle">'+(u.status==='KHOA'?'Mở khóa':'Khóa')+'</button> <button data-id="'+esc(u.id)+'" class="vuiAdminReset">Đặt lại MK</button></td></tr>').join('')+'</tbody></table>';
     host.querySelectorAll('.vuiAdminToggle').forEach(btn=>btn.onclick=async()=>{try{await api('adminSetStatus',{token:localStorage.getItem(TOKEN_KEY)||sessionStorage.getItem(TOKEN_KEY),userId:btn.dataset.id,status:btn.dataset.status});await loadAdminUsers();}catch(e){$('vuiAdminMessage').textContent=e.message;}});
@@ -2809,37 +2864,11 @@ loadBank();samples();
  function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
  $('vuiAdminCreateForm').addEventListener('submit',async e=>{e.preventDefault();const token=localStorage.getItem(TOKEN_KEY)||sessionStorage.getItem(TOKEN_KEY);try{const r=await api('adminCreate',{token,fullName:$('vuiNewFullName').value,username:$('vuiNewUsername').value,password:$('vuiNewPassword').value,role:$('vuiNewRole').value});$('vuiAdminMessage').textContent=r.message;$('vuiAdminCreateForm').reset();await loadAdminUsers();}catch(err){$('vuiAdminMessage').textContent=err.message;}});
  const originalHideGate=hideGate;
- window.addEventListener('load',()=>{setTimeout(()=>{if(window.vuiHocCurrentUser){changeBtn.style.display='block';if(window.vuiHocCurrentUser.role==='ADMIN')adminBtn.style.display='block';}},600);});
+ 
  const oldValidateSaved=validateSaved;
 })();
 </script>
 <script>
 window.addEventListener('load',()=>{const b=document.createElement('button');b.id='vuiAuthLogout';b.textContent='Đăng xuất';b.style.cssText='position:fixed;right:12px;top:12px;z-index:99990;border:0;border-radius:20px;padding:8px 13px;background:#073d9b;color:#fff;font-weight:800;box-shadow:0 2px 8px #0003';b.onclick=()=>window.vuiHocLogout&&window.vuiHocLogout();document.body.appendChild(b);});
 </script>
-<div id="vuiAdminPanel" class="vui-auth-modal hidden">
- <div class="vui-auth-modal-card" style="width:min(760px,100%);max-height:90vh;overflow:auto">
-  <button type="button" class="vui-auth-close" id="vuiAdminClose">×</button>
-  <h2>👑 QUẢN TRỊ TÀI KHOẢN</h2>
-  <form id="vuiAdminCreateForm" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:9px">
-   <input id="vuiNewFullName" placeholder="Họ và tên" required>
-   <input id="vuiNewUsername" placeholder="Tên đăng nhập" required>
-   <input id="vuiNewPassword" type="password" placeholder="Mật khẩu ban đầu (tối thiểu 8 ký tự)" required>
-   <select id="vuiNewRole"><option value="NGUOI_HOC">Người học</option><option value="GIAO_VIEN">Giáo viên</option><option value="NHAN_VIEN">Nhân viên</option><option value="ADMIN">ADMIN</option></select>
-   <button class="vui-auth-submit" type="submit">+ TẠO TÀI KHOẢN</button>
-  </form>
-  <p id="vuiAdminMessage" role="status"></p>
-  <div id="vuiAdminUsers" style="overflow:auto"></div>
- </div>
-</div>
-
-<div id="vuiChangePasswordModal" class="vui-auth-modal hidden">
- <form id="vuiChangePasswordForm" class="vui-auth-modal-card">
-  <button type="button" class="vui-auth-close" id="vuiChangePasswordClose">×</button>
-  <h2>🔑 ĐỔI MẬT KHẨU</h2>
-  <input id="vuiOldPassword" type="password" placeholder="Mật khẩu hiện tại" required>
-  <input id="vuiNewPassword2" type="password" placeholder="Mật khẩu mới (ít nhất 8 ký tự)" required>
-  <button class="vui-auth-submit" type="submit">CẬP NHẬT MẬT KHẨU</button>
-  <p id="vuiChangePasswordMessage"></p>
- </form>
-</div>
 </body></html>
