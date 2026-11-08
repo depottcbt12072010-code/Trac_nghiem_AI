@@ -1,4 +1,4 @@
-const CACHE='vui-de-hoc-v57-mobile-viewport-auth-diagnostics';
+const CACHE='vui-de-hoc-v58-auth-url-configured';
 const CORE=['./','./index.html','./manifest.webmanifest','./icons/icon-152.webp','./icons/icon-192.webp','./assets/vuihoc_brand_logo_3d.png','./assets/login_screen_reference.png','./assets/login_screen_clean_v52.png','./assets/login_mobile_v56.png',
 './images/topics/nature.webp','./images/topics/land.webp','./images/topics/sea.webp',
 './images/topics/transport.webp','./images/topics/home.webp','./images/topics/school.webp',
