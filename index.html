@@ -2711,17 +2711,45 @@ loadBank();samples();
 
 <script id="vui-auth-controller">
 (()=>{
- const AUTH_API_URL='https://script.google.com/macros/s/AKfycbx3Ii62nl1FQg3Bj36wC4CG5ujsRspo5mQzARMAJxslTp0RjGmJK8L6bKRMTiGfU7aq/exec';
+ const AUTH_API_URL='https://script.google.com/macros/s/AKfycbx3LPVjLea4sXgAZCedFIQoJrEZFU9bQuOZGk5pfhD9MBinqBbSZh-Rf0gvB2exLa0/exec';
  const TOKEN_KEY='vuiHocAuthToken';
  const $=id=>document.getElementById(id);
  const gate=$('vuiAuthGate');
  const message=(s)=>$('vuiAuthMessage').textContent=s||'';
  async function api(action,data={}){
    if(!AUTH_API_URL || AUTH_API_URL.includes('PASTE_DEPLOYED')) throw new Error('Chưa cấu hình URL Apps Script Web App trong index.html.');
-   const response=await fetch(AUTH_API_URL,{method:'POST',mode:'cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({action,...data})});
-   const result=await response.json();
-   if(!result.ok) throw new Error(result.error||'Không thể xử lý yêu cầu.');
-   return result.data;
+   // Use a hidden iframe + ordinary HTML form POST. This avoids CORS restrictions
+   // that commonly cause "Failed to fetch" when a PWA calls Apps Script directly.
+   return new Promise((resolve,reject)=>{
+     const nonce=Array.from(crypto.getRandomValues(new Uint8Array(18))).map(b=>b.toString(16).padStart(2,'0')).join('');
+     const frameName='vuiAuthFrame_'+nonce;
+     const iframe=document.createElement('iframe');
+     iframe.name=frameName;
+     iframe.setAttribute('aria-hidden','true');
+     iframe.style.cssText='position:fixed;width:1px;height:1px;left:-20px;bottom:-20px;border:0;opacity:0;pointer-events:none';
+     const form=document.createElement('form');
+     form.method='POST';form.action=AUTH_API_URL;form.target=frameName;
+     form.style.display='none';
+     const request=document.createElement('input');
+     request.type='hidden';request.name='request';
+     request.value=JSON.stringify({action,...data});
+     const nonceInput=document.createElement('input');
+     nonceInput.type='hidden';nonceInput.name='nonce';nonceInput.value=nonce;
+     form.append(request,nonceInput);
+     let settled=false;
+     const cleanup=()=>{window.removeEventListener('message',onMessage);form.remove();iframe.remove();clearTimeout(timer);};
+     const finish=(fn,value)=>{if(settled)return;settled=true;cleanup();fn(value);};
+     const onMessage=(event)=>{
+       const d=event.data;
+       if(!d||d.type!=='VUIHOC_AUTH_RESULT'||d.nonce!==nonce)return;
+       if(d.payload&&d.payload.ok)finish(resolve,d.payload.data);
+       else finish(reject,new Error((d.payload&&d.payload.error)||'Máy chủ xác thực không xử lý được yêu cầu.'));
+     };
+     const timer=setTimeout(()=>finish(reject,new Error('Máy chủ không phản hồi. Hãy kiểm tra URL Web App, quyền truy cập và phiên bản triển khai Apps Script.')),25000);
+     window.addEventListener('message',onMessage);
+     document.body.append(iframe,form);
+     form.submit();
+   });
  }
  function showGate(){gate.classList.remove('vui-auth-hidden');}
  function hideGate(){gate.classList.add('vui-auth-hidden');}

@@ -1,4 +1,4 @@
-const CACHE='vui-de-hoc-v52-precise-fit-clean-art';
+const CACHE='vui-de-hoc-v53-auth-iframe-transport';
 const CORE=['./','./index.html','./manifest.webmanifest','./icons/icon-152.webp','./icons/icon-192.webp','./assets/vuihoc_brand_logo_3d.png','./assets/login_screen_reference.png','./assets/login_screen_clean_v52.png',
 './images/topics/nature.webp','./images/topics/land.webp','./images/topics/sea.webp',
 './images/topics/transport.webp','./images/topics/home.webp','./images/topics/school.webp',

@@ -347,3 +347,6 @@ Cập nhật cache PWA lên v29.
 - Sao chép các trường câu hỏi, 4 phương án, đáp án đúng, gợi ý, giải thích và mức độ vào đúng cấu trúc ngân hàng hiện có của Đường đua tri thức.
 - Không sửa cấu trúc hoặc dữ liệu gốc của Giải cứu hành tinh; không ghi đè câu hỏi đã có. Câu hỏi được lưu trong khóa lưu trữ hiện có của Đường đua tri thức.
 - Cache PWA nâng lên v37.
+
+
+v53: API xác thực chuyển sang hidden iframe form POST + postMessage để tránh lỗi CORS `Failed to fetch`. Cần cập nhật Code.gs và deploy Apps Script phiên bản mới cùng với PWA.
