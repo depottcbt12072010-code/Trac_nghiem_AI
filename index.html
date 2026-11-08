@@ -2751,46 +2751,41 @@ loadBank();samples();
 
 <script id="vui-auth-controller">
 (()=>{
- const AUTH_API_URL='https://script.google.com/macros/s/AKfycbzhpaGINt-RRhGmVUgr7fAiAbHrh2qvMIsTwInqHLasSuI9SmLDCpYZH-sUBNYEQB43/exec';
+ const AUTH_API_URL='https://vui-de-hoc-auth.depot-tcbt-12072010.workers.dev';
  const TOKEN_KEY='vuiHocAuthToken';
  const $=id=>document.getElementById(id);
  const gate=$('vuiAuthGate');
  const message=(s)=>$('vuiAuthMessage').textContent=s||'';
  async function api(action,data={}){
-   if(!AUTH_API_URL || AUTH_API_URL.includes('PASTE_DEPLOYED')) throw new Error('Chưa cấu hình URL Apps Script Web App trong index.html.');
-   // Use a hidden iframe + ordinary HTML form POST. This avoids CORS restrictions
-   // that commonly cause "Failed to fetch" when a PWA calls Apps Script directly.
-   return new Promise((resolve,reject)=>{
-     const nonce=Array.from(crypto.getRandomValues(new Uint8Array(18))).map(b=>b.toString(16).padStart(2,'0')).join('');
-     const frameName='vuiAuthFrame_'+nonce;
-     const iframe=document.createElement('iframe');
-     iframe.name=frameName;
-     iframe.setAttribute('aria-hidden','true');
-     iframe.style.cssText='position:fixed;width:1px;height:1px;left:-20px;bottom:-20px;border:0;opacity:0;pointer-events:none';
-     const form=document.createElement('form');
-     form.method='POST';form.action=AUTH_API_URL;form.target=frameName;
-     form.style.display='none';
-     const request=document.createElement('input');
-     request.type='hidden';request.name='request';
-     request.value=JSON.stringify({action,...data});
-     const nonceInput=document.createElement('input');
-     nonceInput.type='hidden';nonceInput.name='nonce';nonceInput.value=nonce;
-     form.append(request,nonceInput);
-     let settled=false;
-     const cleanup=()=>{window.removeEventListener('message',onMessage);form.remove();iframe.remove();clearTimeout(timer);};
-     const finish=(fn,value)=>{if(settled)return;settled=true;cleanup();fn(value);};
-     const onMessage=(event)=>{
-       const d=event.data;
-       if(!d||d.type!=='VUIHOC_AUTH_RESULT'||d.nonce!==nonce)return;
-       if(d.payload&&d.payload.ok)finish(resolve,d.payload.data);
-       else finish(reject,new Error((d.payload&&d.payload.error)||'Máy chủ xác thực không xử lý được yêu cầu.'));
-     };
-     const timer=setTimeout(()=>finish(reject,new Error('Chưa nhận được phản hồi từ Apps Script. Hãy kiểm tra mục Executions trong Apps Script: nếu không có doPost thì kiểm tra URL /exec và quyền truy cập; nếu có doPost thì kiểm tra lỗi thực thi trong nhật ký.')),25000);
-     window.addEventListener('message',onMessage);
-     document.body.append(iframe,form);
-     form.submit();
-   });
+   if(!AUTH_API_URL || AUTH_API_URL.includes('YOUR-WORKER-NAME'))
+     throw new Error('Chưa cấu hình URL Cloudflare Worker trong index.html.');
+   const controller=new AbortController();
+   const timer=setTimeout(()=>controller.abort(),30000);
+   try{
+     const response=await fetch(AUTH_API_URL,{
+       method:'POST',
+       headers:{'Content-Type':'application/json'},
+       body:JSON.stringify({action,...data}),
+       mode:'cors',
+       credentials:'omit',
+       cache:'no-store',
+       signal:controller.signal
+     });
+     const raw=await response.text();
+     let envelope;
+     try{envelope=JSON.parse(raw);}catch(_){
+       throw new Error('Cổng xác thực trả về dữ liệu không phải JSON (HTTP '+response.status+').');
+     }
+     if(!response.ok) throw new Error(envelope.error||('Lỗi cổng xác thực HTTP '+response.status+'.'));
+     if(!envelope || envelope.ok!==true) throw new Error((envelope&&envelope.error)||'Máy chủ xác thực từ chối yêu cầu.');
+     return envelope.data;
+   }catch(err){
+     if(err&&err.name==='AbortError') throw new Error('Hết thời gian chờ cổng xác thực. Vui lòng kiểm tra kết nối mạng và trạng thái Cloudflare Worker.');
+     if(err instanceof TypeError) throw new Error('Không kết nối được cổng xác thực. Kiểm tra URL Worker, HTTPS và cấu hình CORS.');
+     throw err;
+   }finally{clearTimeout(timer);}
  }
+
  function showGate(){gate.classList.remove('vui-auth-hidden');}
  function hideGate(){gate.classList.add('vui-auth-hidden');}
  function showSignedInControls(user){
