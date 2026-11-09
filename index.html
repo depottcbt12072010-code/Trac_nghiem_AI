@@ -1362,7 +1362,74 @@ body>header nav #gameTab{margin-left:auto}
 @media(max-width:650px){#game.english-quiz .math-decor{min-height:48px;gap:7px;margin-bottom:7px}#game.english-quiz .english-decor-item{width:42px;height:42px;border-radius:12px;font-size:25px}}
 @media(prefers-reduced-motion:reduce){#game.english-quiz .english-decor-item{animation:none!important}}
 </style>
-</head><body>
+
+
+
+
+
+<style id="main-menu-3d-stage-final-v5">
+/* Full-bleed, responsive 3D home screen artwork with real clickable controls */
+#mainMenu.main-menu-stage-final-v5{
+ display:block!important;position:relative!important;width:100%!important;max-width:none!important;
+ min-height:0!important;margin:0 auto!important;padding:0!important;border:0!important;border-radius:0!important;
+ background:transparent!important;box-shadow:none!important;overflow:visible!important;
+}
+#mainMenu.main-menu-stage-final-v5.hidden{display:none!important}
+body:has(#mainMenu.main-menu-stage-final-v5:not(.hidden))>header{display:none!important}
+#mainMenu .main-menu-artwork-final-v5{
+ position:relative;width:min(100%,1672px);margin:0 auto;aspect-ratio:1672/941;overflow:hidden;
+ background:radial-gradient(ellipse at 50% 55%,#7e27e8 0%,#154fd3 56%,#061c69 100%);
+ border:1px solid rgba(255,255,255,.75);border-radius:clamp(0px,1.2vw,18px);
+ box-shadow:0 16px 42px rgba(3,14,67,.42),inset 0 0 0 2px rgba(255,255,255,.22);
+}
+#mainMenu .main-menu-artwork-final-v5>img{
+ display:block;width:100%;height:100%;object-fit:fill;position:absolute;inset:0;
+ user-select:none;-webkit-user-drag:none;
+}
+#mainMenu .main-menu-hitareas-final-v5{position:absolute;inset:0;z-index:5}
+#mainMenu .main-menu-hit-final-v5{
+ position:absolute;display:block;padding:0;margin:0;border:0;background:transparent!important;
+ border-radius:24px;cursor:pointer;outline:none;box-shadow:none!important;
+ -webkit-tap-highlight-color:transparent;touch-action:manipulation;
+}
+#mainMenu .main-menu-hit-final-v5:focus-visible{outline:3px solid #fff;outline-offset:3px;background:#fff2!important;box-shadow:0 0 0 7px #35d8ff88!important}
+#mainMenu .main-menu-hit-final-v5:active{background:#ffffff24!important;transform:scale(.985)}
+/* Hit areas match the three portals in the supplied 3D artwork */
+#mainMenu .hit-math{left:18.1%;top:32.5%;width:22.2%;height:46%}
+#mainMenu .hit-english{left:39.2%;top:32.5%;width:21.8%;height:46%}
+#mainMenu .hit-mystery{left:60.4%;top:32.5%;width:22.5%;height:46%}
+#mainMenu .hit-start{left:32%;top:81%;width:36%;height:14%}
+#mainMenu .hit-music{left:77%;top:0.5%;width:5.8%;height:10.5%;border-radius:50%}
+#mainMenu .hit-sound{left:83.5%;top:0.5%;width:5.8%;height:10.5%;border-radius:50%}
+#mainMenu .hit-fullscreen{left:90%;top:0.5%;width:5.8%;height:10.5%;border-radius:50%}
+#mainMenu .main-menu-art-glow-final-v5{
+ position:absolute;inset:0;pointer-events:none;z-index:2;opacity:.55;
+ background:linear-gradient(115deg,transparent 0 35%,#ffffff12 46%,transparent 54% 100%);
+ background-size:220% 100%;animation:mainMenuLightSweepV5 8s ease-in-out infinite;
+}
+@keyframes mainMenuLightSweepV5{0%,25%{background-position:120% 0}70%,100%{background-position:-120% 0}}
+#mainMenu .main-menu-artwork-final-v5:after{
+ content:"";position:absolute;inset:0;pointer-events:none;z-index:3;
+ background:radial-gradient(circle at 12% 18%,#fff9 0 1.5px,transparent 3px),
+ radial-gradient(circle at 88% 22%,#fff9 0 1.5px,transparent 3px),
+ radial-gradient(circle at 52% 12%,#fff8 0 1px,transparent 3px),
+ radial-gradient(circle at 17% 82%,#fff7 0 1px,transparent 3px),
+ radial-gradient(circle at 83% 79%,#fff8 0 1px,transparent 3px);
+ animation:mainMenuSparkleV5 3.6s ease-in-out infinite alternate;
+}
+@keyframes mainMenuSparkleV5{from{opacity:.2}to{opacity:.85}}
+#mainMenu .main-menu-artwork-final-v5.is-starting .hit-math,
+#mainMenu .main-menu-artwork-final-v5.is-starting .hit-english,
+#mainMenu .main-menu-artwork-final-v5.is-starting .hit-mystery{animation:mainMenuPortalPulseV5 .7s ease-in-out 2}
+@keyframes mainMenuPortalPulseV5{50%{box-shadow:0 0 0 7px #fff8,0 0 32px 12px #ffe76caa!important}}
+@media(max-width:700px){
+ #mainMenu .main-menu-artwork-final-v5{width:100%;border-radius:0;aspect-ratio:1672/941;overflow:hidden}
+ #mainMenu .main-menu-artwork-final-v5>img{object-fit:fill}
+}
+@media(prefers-reduced-motion:reduce){
+ #mainMenu .main-menu-art-glow-final-v5,#mainMenu .main-menu-artwork-final-v5:after{animation:none!important}
+}
+</style></head><body>
 <header><div><h1>🎓 VUI ĐỂ HỌC - KHÁM PHÁ CHÂN TRỜI AI</h1><p>"Chơi mà học - Học mà chơi"</p></div><img id="headerLogo" class="hidden" style="max-height:54px;max-width:130px;object-fit:contain" alt="Logo"><nav><button id="gameTab" class="primary">🏠 Menu chính</button></nav></header>
 <main>
 <section id="teacher" class="panel hidden">
@@ -1389,33 +1456,20 @@ body>header nav #gameTab{margin-left:auto}
 <div class="row"><button class="primary" id="saveSetup">Lưu thiết lập</button><button id="resetSetup">Khôi phục mặc định</button></div></div>
 <div id="testPane" class="hidden"><h2>Kiểm tra camera & thử cử chỉ</h2><p class="small">Đứng cách camera khoảng 1,5–2,5 m, thấy rõ toàn thân và hai bàn tay. Camera cần quyền truy cập và trang chạy qua HTTPS hoặc localhost.</p><div class="row"><button class="primary" id="startTest">Bật camera & AI</button><button id="stopTest">Tắt camera</button></div><div class="camera-wrap" style="max-width:720px;margin-top:14px"><video id="testVideo" autoplay playsinline muted></video><div class="cam-placeholder" id="testPlaceholder">Camera đang tắt</div><div class="cam-status" id="testStatus">Chưa khởi động AI</div><div class="feedback" id="testFeedback"></div></div><div class="notice" id="testHint">Chọn “Bật camera & AI” để kiểm tra bốn cử chỉ.</div></div>
 </section>
-<section id="mainMenu" class="main-menu-screen subject-home-v31">
-  <div class="subject-home-inner-v31">
-    <div class="subject-home-brand-v31">🎓 VUI ĐỂ HỌC</div>
-    <h1>CHỌN MÔN HỌC</h1>
-    <p>Bé hãy chọn một môn học để bắt đầu khám phá nhé!</p>
-    <div class="subject-home-cards-v31">
-      <button type="button" id="openMathMenuV31" class="subject-home-card-v31 math-home-card-v31">
-        <span class="subject-home-icon-v31">🧮</span>
-        <strong>TOÁN HỌC</strong>
-        <small>Thi trắc nghiệm · Cộng · Trừ · Nhân · Chia</small>
-        <span class="subject-home-cta-v31">Vào môn Toán →</span>
-      </button>
-      <button type="button" id="openEnglishMenuV31" class="subject-home-card-v31 english-home-card-v31">
-        <span class="subject-home-icon-v31">🌎</span>
-        <strong>TIẾNG ANH</strong>
-        <small>Giảng dạy theo chủ đề · Thi trắc nghiệm</small>
-        <span class="subject-home-cta-v31">Khám phá Tiếng Anh →</span>
-      </button>
-      <button type="button" id="openMysteryExploreV1" class="subject-home-card-v31">
-        <span class="subject-home-icon-v31">🔮✨</span>
-        <strong>KHÁM PHÁ BÍ ẨN</strong>
-        <small>Câu đố dân gian · Hiện tượng thiên nhiên · Mẹo hay · Hộp bí ẩn</small>
-        <span class="subject-home-cta-v31">Mở cánh cửa bí ẩn →</span>
-      </button>
+<section class="main-menu-screen main-menu-stage-final-v5" id="mainMenu" aria-label="Màn hình chính Vui Để Học">
+  <div class="main-menu-artwork-final-v5">
+    <img src="assets/main_menu_fullstage_3d.png" alt="Sân khấu Vui Để Học 3D với linh vật, hai bạn nhỏ và ba cánh cửa học tập">
+    <div class="main-menu-hitareas-final-v5" aria-label="Chọn hoạt động">
+      <button type="button" class="main-menu-hit-final-v5 hit-math" id="openMathMenuV31" aria-label="Mở môn Toán học" title="Toán học"></button>
+      <button type="button" class="main-menu-hit-final-v5 hit-english" id="openEnglishMenuV31" aria-label="Mở môn Tiếng Anh" title="Tiếng Anh"></button>
+      <button type="button" class="main-menu-hit-final-v5 hit-mystery" id="openMysteryExploreV1" aria-label="Mở Khám phá bí ẩn" title="Khám phá bí ẩn"></button>
+      <button type="button" class="main-menu-hit-final-v5 hit-start" id="mainMenuStartExplore" aria-label="Bắt đầu khám phá" title="Bắt đầu khám phá"></button>
+      <button type="button" class="main-menu-hit-final-v5 hit-music" id="mainMenuMusicToggle" aria-label="Bật hoặc tắt nhạc nền" aria-pressed="false" title="Nhạc nền"></button>
+      <button type="button" class="main-menu-hit-final-v5 hit-sound" id="mainMenuSfxToggle" aria-label="Bật hoặc tắt âm thanh hiệu ứng" aria-pressed="true" title="Âm thanh hiệu ứng"></button>
+      <button type="button" class="main-menu-hit-final-v5 hit-fullscreen" id="mainMenuFullscreenToggle" aria-label="Toàn màn hình" title="Toàn màn hình"></button>
     </div>
+    <div class="main-menu-art-glow-final-v5" aria-hidden="true"></div>
   </div>
-  <div class="vuihoc-ai-brand-footer"><img src="assets/vuihoc_brand_logo_3d.png" alt="Logo 3D Ngô Minh Hiếu - Khám phá chân trời AI"><span><strong>Ngô Minh Hiếu</strong><small>Khám phá chân trời AI</small></span></div>
 </section>
 <div class="math-setup hidden math-menu-screen-v31" id="mathSetupPanel">
   <div class="math-setup-toolbar">
@@ -3255,4 +3309,88 @@ $('mxPause').addEventListener('keydown',e=>{if(e.key==='Escape')closeApp();});
  window.addEventListener('pageshow',()=>{if(document.getElementById('mainMenu')?.classList.contains('hidden')===false && app.getAttribute('aria-hidden')==='true')hideMystery();});
 })();
 </script>
-</body></html>
+
+
+
+<script id="main-menu-audio-motion-final-v5">
+(function(){
+ 'use strict';
+ const menu=document.getElementById('mainMenu');
+ if(!menu||menu.dataset.finalStageReady==='1')return;
+ menu.dataset.finalStageReady='1';
+ const art=menu.querySelector('.main-menu-artwork-final-v5');
+ const musicBtn=menu.querySelector('#mainMenuMusicToggle');
+ const soundBtn=menu.querySelector('#mainMenuSfxToggle');
+ const fullBtn=menu.querySelector('#mainMenuFullscreenToggle');
+ let audio=null,musicTimer=null,musicGain=null,noteIndex=0,sfxOn=true;
+ const notes=[523.25,659.25,783.99,659.25,587.33,698.46,880,783.99];
+ function audioContext(){
+  const C=window.AudioContext||window.webkitAudioContext;
+  if(!C)return null;
+  if(!audio)audio=new C();
+  if(audio.state==='suspended')audio.resume().catch(()=>{});
+  return audio;
+ }
+ function beep(frequency=660,duration=.14,volume=.035){
+  if(!sfxOn)return;
+  const ac=audioContext();if(!ac)return;
+  const osc=ac.createOscillator(),gain=ac.createGain();
+  osc.type='sine';osc.frequency.setValueAtTime(frequency,ac.currentTime);
+  gain.gain.setValueAtTime(.0001,ac.currentTime);
+  gain.gain.exponentialRampToValueAtTime(volume,ac.currentTime+.018);
+  gain.gain.exponentialRampToValueAtTime(.0001,ac.currentTime+duration);
+  osc.connect(gain);gain.connect(ac.destination);osc.start();osc.stop(ac.currentTime+duration+.025);
+ }
+ function clickSound(){beep(659,.11,.035);window.setTimeout(()=>beep(880,.13,.025),65);}
+ function startMusic(){
+  const ac=audioContext();if(!ac||musicTimer)return;
+  musicGain=ac.createGain();musicGain.gain.setValueAtTime(.0001,ac.currentTime);
+  musicGain.gain.exponentialRampToValueAtTime(.035,ac.currentTime+1);musicGain.connect(ac.destination);
+  function playNote(){
+   if(!audio||!musicGain)return;
+   const osc=audio.createOscillator(),env=audio.createGain();
+   osc.type='sine';osc.frequency.setValueAtTime(notes[noteIndex%notes.length],audio.currentTime);
+   env.gain.setValueAtTime(.0001,audio.currentTime);
+   env.gain.exponentialRampToValueAtTime(.2,audio.currentTime+.04);
+   env.gain.exponentialRampToValueAtTime(.0001,audio.currentTime+.56);
+   osc.connect(env);env.connect(musicGain);osc.start();osc.stop(audio.currentTime+.59);noteIndex++;
+  }
+  playNote();musicTimer=window.setInterval(playNote,680);
+ }
+ function stopMusic(){
+  if(musicTimer){clearInterval(musicTimer);musicTimer=null;}
+  if(musicGain&&audio){const g=musicGain;g.gain.cancelScheduledValues(audio.currentTime);g.gain.setTargetAtTime(.0001,audio.currentTime,.12);window.setTimeout(()=>{try{g.disconnect();}catch(e){}},650);}
+  musicGain=null;
+ }
+ function setMusic(on){
+  if(on)startMusic();else stopMusic();
+  if(musicBtn){musicBtn.setAttribute('aria-pressed',String(on));musicBtn.title=on?'Tắt nhạc nền':'Bật nhạc nền';}
+ }
+ if(musicBtn)musicBtn.addEventListener('click',function(){
+  const on=musicBtn.getAttribute('aria-pressed')!=='true';setMusic(on);if(sfxOn)clickSound();
+ });
+ if(soundBtn)soundBtn.addEventListener('click',function(){
+  sfxOn=soundBtn.getAttribute('aria-pressed')!=='true';
+  soundBtn.setAttribute('aria-pressed',String(sfxOn));soundBtn.title=sfxOn?'Tắt âm thanh hiệu ứng':'Bật âm thanh hiệu ứng';
+  if(sfxOn)clickSound();
+ });
+ if(fullBtn)fullBtn.addEventListener('click',function(){
+  if(!document.fullscreenElement){const target=menu.requestFullscreen?menu:document.documentElement;if(target.requestFullscreen)target.requestFullscreen().catch(()=>{});}
+  else if(document.exitFullscreen)document.exitFullscreen().catch(()=>{});
+  if(sfxOn)clickSound();
+ });
+ menu.addEventListener('click',function(ev){
+  const portal=ev.target.closest('.hit-math,.hit-english,.hit-mystery');
+  if(portal){if(sfxOn)clickSound();return;}
+  if(ev.target.closest('#mainMenuStartExplore')){
+   if(art){art.classList.remove('is-starting');void art.offsetWidth;art.classList.add('is-starting');window.setTimeout(()=>art.classList.remove('is-starting'),1500);}
+   if(sfxOn){beep(523,.12,.04);window.setTimeout(()=>beep(659,.12,.04),90);window.setTimeout(()=>beep(784,.2,.04),180);}
+  }
+ });
+ const observer=new MutationObserver(()=>{
+  if(menu.classList.contains('hidden'))setMusic(false);
+ });
+ observer.observe(menu,{attributes:true,attributeFilter:['class']});
+ document.addEventListener('visibilitychange',()=>{if(document.hidden)setMusic(false);});
+})();
+</script></body></html>
