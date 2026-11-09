@@ -1,4 +1,4 @@
-const CACHE='vui-de-hoc-v49-random-exam-ai-brand';
+const CACHE='vui-de-hoc-v50-random-exam-ai-brand';
 const CORE=['./','./index.html','./manifest.webmanifest','./icons/icon-152.webp','./icons/icon-192.webp','./assets/vuihoc_brand_logo_3d.png',
 './images/topics/nature.webp','./images/topics/land.webp','./images/topics/sea.webp',
 './images/topics/transport.webp','./images/topics/home.webp','./images/topics/school.webp',
