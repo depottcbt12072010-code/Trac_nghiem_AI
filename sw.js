@@ -1,4 +1,4 @@
-const CACHE='vui-de-hoc-2026-11-09-mystery-arena-30s-v1';
+const CACHE='vui-de-hoc-2026-11-09-english-clean-clues-v2';
 const CORE=['./','./index.html','./manifest.webmanifest','./icons/icon-152.webp','./icons/icon-192.webp','./assets/vuihoc_brand_logo_3d.png',
 './avatar_explorer.jpg','./avatar_team_blue.jpg','./avatar_team_red.jpg','./avatar_team_yellow.jpg','./avatar_team_green.jpg',
 './images/topics/nature.webp','./images/topics/land.webp','./images/topics/sea.webp',
