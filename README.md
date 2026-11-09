@@ -347,3 +347,10 @@ Cập nhật cache PWA lên v29.
 - Sao chép các trường câu hỏi, 4 phương án, đáp án đúng, gợi ý, giải thích và mức độ vào đúng cấu trúc ngân hàng hiện có của Đường đua tri thức.
 - Không sửa cấu trúc hoặc dữ liệu gốc của Giải cứu hành tinh; không ghi đè câu hỏi đã có. Câu hỏi được lưu trong khóa lưu trữ hiện có của Đường đua tri thức.
 - Cache PWA nâng lên v37.
+
+
+## KHÁM PHÁ BÍ ẨN – ngân hàng 800 câu
+- 4 chủ đề, mỗi chủ đề 200 câu: 70 dễ, 70 trung bình, 60 khó.
+- Trong trò chơi, mở mục **QUẢN LÝ / NHẬP CÂU HỎI HÀNG LOẠT** để nhập CSV/JSON, xem trước, kiểm tra lỗi và thêm câu hợp lệ.
+- Câu hỏi nhập thêm được lưu trong localStorage của trình duyệt trên thiết bị đang dùng; nên xuất JSON để sao lưu khi cần chuyển thiết bị/xóa dữ liệu trình duyệt.
+- Có sẵn `NGAN_HANG_KHAM_PHA_BI_AN_800_CAU.json` và `MAU_NHAP_HANG_LOAT_KHAM_PHA_BI_AN.csv`.
