@@ -354,3 +354,26 @@ Cập nhật cache PWA lên v29.
 - Trong trò chơi, mở mục **QUẢN LÝ / NHẬP CÂU HỎI HÀNG LOẠT** để nhập CSV/JSON, xem trước, kiểm tra lỗi và thêm câu hợp lệ.
 - Câu hỏi nhập thêm được lưu trong localStorage của trình duyệt trên thiết bị đang dùng; nên xuất JSON để sao lưu khi cần chuyển thiết bị/xóa dữ liệu trình duyệt.
 - Có sẵn `NGAN_HANG_KHAM_PHA_BI_AN_800_CAU.json` và `MAU_NHAP_HANG_LOAT_KHAM_PHA_BI_AN.csv`.
+
+
+## Cập nhật giao diện quản lý ngân hàng câu hỏi
+- Các tiêu đề, nhãn, nút và hướng dẫn nhập dữ liệu đã được Việt hóa.
+- Tệp mẫu CSV sử dụng tên cột tiếng Việt; hệ thống vẫn hỗ trợ dữ liệu JSON/CSV cũ dùng các khóa tiếng Anh.
+- Nút mở quản lý ngân hàng đã được đồng bộ kiểu chữ, tăng độ đậm và độ rõ.
+- Xem ảnh `MO_PHONG_GIAO_DIEN_VA_NHAN_VAT_4_DOI.png` để tham khảo phong cách nhân vật và giao diện.
+
+
+## Cập nhật điều hướng KHÁM PHÁ BÍ ẨN
+- Nút mở chủ đề đưa người dùng vào màn hình chủ đề và đặt trạng thái tab Trò chơi nhất quán với Toán học/Tiếng Anh.
+- Nút Trang chủ, nút về trang chủ ở màn kết quả và các điểm đóng đều dọn màn hình đang mở, dừng đọc giọng nói và trở lại màn hình Chọn môn học.
+- Có thể mở lại KHÁM PHÁ BÍ ẨN sau khi quay về trang chủ; các nút chọn chủ đề, bắt đầu thi, chơi lại và chọn chủ đề khác vẫn hoạt động theo luồng hiện có.
+
+
+## Cập nhật giao diện KHÁM PHÁ BÍ ẨN – 09/11/2026
+
+- Sửa điều hướng: khi chọn Trang chủ/MENU CHÍNH hoặc chuyển sang Toán học, Tiếng Anh, màn hình KHÁM PHÁ BÍ ẨN được ẩn hoàn toàn bằng cả trạng thái giao diện và thuộc tính `hidden`, tránh còn lớp giao diện bên dưới.
+- Chuyển nút `CÀI ĐẶT CÂU HỎI` khỏi thanh điều hướng toàn cục vào trang MENU Toán học, đặt cạnh chức năng `THI TRẮC NGHIỆM`.
+- Tích hợp ảnh nhân vật thám hiểm nhí vào phần giới thiệu KHÁM PHÁ BÍ ẨN; bốn ảnh đại diện theo màu đội được dùng ở lượt thi và bảng xếp hạng.
+- Tăng phiên bản cache Service Worker để thiết bị tải phiên bản giao diện và ảnh đại diện mới.
+
+Kiểm tra tĩnh: 9 thẻ script được phân tích; 8 khối JavaScript có nội dung đều vượt qua `node --check`; không phát hiện ID HTML trùng; tệp ngân hàng JSON có 800 câu (200 câu mỗi chủ đề; 70 dễ, 70 trung bình, 60 khó mỗi chủ đề).
