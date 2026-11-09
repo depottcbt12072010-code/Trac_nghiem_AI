@@ -1,0 +1,4204 @@
+{
+  "nature": [
+    {
+      "q": "Đặc điểm nào sau đây đúng về rễ cây?",
+      "a": [
+        "hút nước và muối khoáng từ đất",
+        "tạo ánh sáng",
+        "hấp thụ thức ăn từ không khí",
+        "giúp cây nghe âm thanh"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rễ cây.",
+      "e": "Rễ thường bám đất và hấp thụ nước cùng muối khoáng.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về rễ cây, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "thu nhận ánh sáng để quang hợp",
+        "hút nước trực tiếp từ đất",
+        "giữ hạt giống",
+        "hút nước và muối khoáng từ đất"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rễ cây.",
+      "e": "Rễ thường bám đất và hấp thụ nước cùng muối khoáng.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác rễ cây?",
+      "a": [
+        "nâng đỡ cành lá và vận chuyển nước",
+        "hấp thụ âm thanh",
+        "hút nước và muối khoáng từ đất",
+        "tạo tiếng kêu"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rễ cây.",
+      "e": "Rễ thường bám đất và hấp thụ nước cùng muối khoáng.",
+      "category": "cay_coi",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của rễ cây?",
+      "a": [
+        "tham gia sinh sản ở nhiều loài thực vật",
+        "hút nước và muối khoáng từ đất",
+        "tạo đất mới",
+        "giúp cây di chuyển"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rễ cây.",
+      "e": "Rễ thường bám đất và hấp thụ nước cùng muối khoáng.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về rễ cây, nhận định nào phù hợp nhất?",
+      "a": [
+        "hút nước và muối khoáng từ đất",
+        "là bộ phận hút nước chính",
+        "là nơi cây lấy ánh sáng duy nhất",
+        "là rễ mọc trên cao"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rễ cây.",
+      "e": "Rễ thường bám đất và hấp thụ nước cùng muối khoáng.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về lá cây?",
+      "a": [
+        "hấp thụ âm thanh",
+        "tạo đất mới",
+        "thu nhận ánh sáng để quang hợp",
+        "nâng đỡ cành lá và vận chuyển nước"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của lá cây.",
+      "e": "Lá thường chứa diệp lục giúp cây sử dụng ánh sáng.",
+      "category": "cay_coi",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về lá cây, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "là bộ phận hút nước chính",
+        "thu nhận ánh sáng để quang hợp",
+        "giúp cây di chuyển",
+        "tham gia sinh sản ở nhiều loài thực vật"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của lá cây.",
+      "e": "Lá thường chứa diệp lục giúp cây sử dụng ánh sáng.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác lá cây?",
+      "a": [
+        "thu nhận ánh sáng để quang hợp",
+        "là nơi cây lấy ánh sáng duy nhất",
+        "là rễ mọc trên cao",
+        "cần nước, không khí và nhiệt độ phù hợp"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của lá cây.",
+      "e": "Lá thường chứa diệp lục giúp cây sử dụng ánh sáng.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của lá cây?",
+      "a": [
+        "cần được phủ sơn",
+        "cần ngâm trong dầu",
+        "cần bóng tối tuyệt đối",
+        "thu nhận ánh sáng để quang hợp"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của lá cây.",
+      "e": "Lá thường chứa diệp lục giúp cây sử dụng ánh sáng.",
+      "category": "cay_coi",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về lá cây, nhận định nào phù hợp nhất?",
+      "a": [
+        "là cách cây tìm nước",
+        "là quá trình biến đá thành đất",
+        "thu nhận ánh sáng để quang hợp",
+        "là quá trình cây dùng ánh sáng để tạo chất dinh dưỡng"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của lá cây.",
+      "e": "Lá thường chứa diệp lục giúp cây sử dụng ánh sáng.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về thân cây?",
+      "a": [
+        "nâng đỡ cành lá và vận chuyển nước",
+        "là rễ mọc trên cao",
+        "cần nước, không khí và nhiệt độ phù hợp",
+        "cần được phủ sơn"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của thân cây.",
+      "e": "Thân nâng đỡ các bộ phận và vận chuyển nước.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về thân cây, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "cần ngâm trong dầu",
+        "cần bóng tối tuyệt đối",
+        "là quá trình cây dùng ánh sáng để tạo chất dinh dưỡng",
+        "nâng đỡ cành lá và vận chuyển nước"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của thân cây.",
+      "e": "Thân nâng đỡ các bộ phận và vận chuyển nước.",
+      "category": "cay_coi",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác thân cây?",
+      "a": [
+        "là quá trình biến đá thành đất",
+        "là cách cây phát âm thanh",
+        "nâng đỡ cành lá và vận chuyển nước",
+        "là cách cây tìm nước"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của thân cây.",
+      "e": "Thân nâng đỡ các bộ phận và vận chuyển nước.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của thân cây?",
+      "a": [
+        "có rễ biết bay",
+        "nâng đỡ cành lá và vận chuyển nước",
+        "có thân mọng nước và lá biến thành gai ở nhiều loài",
+        "có lá lớn để sống dưới biển"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của thân cây.",
+      "e": "Thân nâng đỡ các bộ phận và vận chuyển nước.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về thân cây, nhận định nào phù hợp nhất?",
+      "a": [
+        "nâng đỡ cành lá và vận chuyển nước",
+        "chỉ sống trong nước mặn",
+        "thường mọc ở vùng ven biển ngập mặn",
+        "chỉ mọc trên núi tuyết"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của thân cây.",
+      "e": "Thân nâng đỡ các bộ phận và vận chuyển nước.",
+      "category": "cay_coi",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về hoa?",
+      "a": [
+        "là cách cây phát âm thanh",
+        "có thân mọng nước và lá biến thành gai ở nhiều loài",
+        "tham gia sinh sản ở nhiều loài thực vật",
+        "là quá trình biến đá thành đất"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hoa.",
+      "e": "Hoa tham gia tạo quả và hạt ở nhiều loài cây.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về hoa, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "chỉ sống trong nước mặn",
+        "tham gia sinh sản ở nhiều loài thực vật",
+        "có lá lớn để sống dưới biển",
+        "có rễ biết bay"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hoa.",
+      "e": "Hoa tham gia tạo quả và hạt ở nhiều loài cây.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác hoa?",
+      "a": [
+        "tham gia sinh sản ở nhiều loài thực vật",
+        "thường mọc ở vùng ven biển ngập mặn",
+        "chỉ mọc trên núi tuyết",
+        "sống hoàn toàn trong sa mạc"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hoa.",
+      "e": "Hoa tham gia tạo quả và hạt ở nhiều loài cây.",
+      "category": "cay_coi",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của hoa?",
+      "a": [
+        "mọc trong hang động",
+        "có thân thường rỗng ở các đốt và mọc thành bụi",
+        "thân làm bằng kim loại",
+        "tham gia sinh sản ở nhiều loài thực vật"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hoa.",
+      "e": "Hoa tham gia tạo quả và hạt ở nhiều loài cây.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về hoa, nhận định nào phù hợp nhất?",
+      "a": [
+        "chỉ mọc dưới nước sâu",
+        "thường có lá hình kim và nhiều loài có quả nón",
+        "tham gia sinh sản ở nhiều loài thực vật",
+        "không có rễ"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hoa.",
+      "e": "Hoa tham gia tạo quả và hạt ở nhiều loài cây.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về hạt nảy mầm?",
+      "a": [
+        "cần nước, không khí và nhiệt độ phù hợp",
+        "chỉ mọc trên núi tuyết",
+        "sống hoàn toàn trong sa mạc",
+        "mọc trong hang động"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hạt nảy mầm.",
+      "e": "Hạt cần nước, không khí và nhiệt độ thích hợp.",
+      "category": "cay_coi",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về hạt nảy mầm, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "có thân thường rỗng ở các đốt và mọc thành bụi",
+        "thân làm bằng kim loại",
+        "không có rễ",
+        "cần nước, không khí và nhiệt độ phù hợp"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hạt nảy mầm.",
+      "e": "Hạt cần nước, không khí và nhiệt độ thích hợp.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác hạt nảy mầm?",
+      "a": [
+        "thường có lá hình kim và nhiều loài có quả nón",
+        "lá hình mái chèo",
+        "cần nước, không khí và nhiệt độ phù hợp",
+        "chỉ mọc dưới nước sâu"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hạt nảy mầm.",
+      "e": "Hạt cần nước, không khí và nhiệt độ thích hợp.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của hạt nảy mầm?",
+      "a": [
+        "hút nước và muối khoáng từ đất",
+        "cần nước, không khí và nhiệt độ phù hợp",
+        "không có thân",
+        "có hoa lớn dưới nước"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hạt nảy mầm.",
+      "e": "Hạt cần nước, không khí và nhiệt độ thích hợp.",
+      "category": "cay_coi",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về hạt nảy mầm, nhận định nào phù hợp nhất?",
+      "a": [
+        "cần nước, không khí và nhiệt độ phù hợp",
+        "tạo ánh sáng",
+        "hấp thụ thức ăn từ không khí",
+        "giúp cây nghe âm thanh"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hạt nảy mầm.",
+      "e": "Hạt cần nước, không khí và nhiệt độ thích hợp.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về quang hợp?",
+      "a": [
+        "lá hình mái chèo",
+        "không có thân",
+        "là quá trình cây dùng ánh sáng để tạo chất dinh dưỡng",
+        "thường có lá hình kim và nhiều loài có quả nón"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của quang hợp.",
+      "e": "Quang hợp giúp cây tạo chất hữu cơ và giải phóng ô-xi.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về quang hợp, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "tạo ánh sáng",
+        "là quá trình cây dùng ánh sáng để tạo chất dinh dưỡng",
+        "có hoa lớn dưới nước",
+        "hút nước và muối khoáng từ đất"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của quang hợp.",
+      "e": "Quang hợp giúp cây tạo chất hữu cơ và giải phóng ô-xi.",
+      "category": "cay_coi",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác quang hợp?",
+      "a": [
+        "là quá trình cây dùng ánh sáng để tạo chất dinh dưỡng",
+        "hấp thụ thức ăn từ không khí",
+        "giúp cây nghe âm thanh",
+        "thu nhận ánh sáng để quang hợp"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của quang hợp.",
+      "e": "Quang hợp giúp cây tạo chất hữu cơ và giải phóng ô-xi.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của quang hợp?",
+      "a": [
+        "hút nước trực tiếp từ đất",
+        "giữ hạt giống",
+        "tạo tiếng kêu",
+        "là quá trình cây dùng ánh sáng để tạo chất dinh dưỡng"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của quang hợp.",
+      "e": "Quang hợp giúp cây tạo chất hữu cơ và giải phóng ô-xi.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về quang hợp, nhận định nào phù hợp nhất?",
+      "a": [
+        "hấp thụ âm thanh",
+        "tạo đất mới",
+        "là quá trình cây dùng ánh sáng để tạo chất dinh dưỡng",
+        "nâng đỡ cành lá và vận chuyển nước"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của quang hợp.",
+      "e": "Quang hợp giúp cây tạo chất hữu cơ và giải phóng ô-xi.",
+      "category": "cay_coi",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về xương rồng?",
+      "a": [
+        "có thân mọng nước và lá biến thành gai ở nhiều loài",
+        "giúp cây nghe âm thanh",
+        "thu nhận ánh sáng để quang hợp",
+        "hút nước trực tiếp từ đất"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của xương rồng.",
+      "e": "Đặc điểm này giúp xương rồng thích nghi nơi khô hạn.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về xương rồng, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "giữ hạt giống",
+        "tạo tiếng kêu",
+        "nâng đỡ cành lá và vận chuyển nước",
+        "có thân mọng nước và lá biến thành gai ở nhiều loài"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của xương rồng.",
+      "e": "Đặc điểm này giúp xương rồng thích nghi nơi khô hạn.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác xương rồng?",
+      "a": [
+        "tạo đất mới",
+        "giúp cây di chuyển",
+        "có thân mọng nước và lá biến thành gai ở nhiều loài",
+        "hấp thụ âm thanh"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của xương rồng.",
+      "e": "Đặc điểm này giúp xương rồng thích nghi nơi khô hạn.",
+      "category": "cay_coi",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của xương rồng?",
+      "a": [
+        "là nơi cây lấy ánh sáng duy nhất",
+        "có thân mọng nước và lá biến thành gai ở nhiều loài",
+        "tham gia sinh sản ở nhiều loài thực vật",
+        "là bộ phận hút nước chính"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của xương rồng.",
+      "e": "Đặc điểm này giúp xương rồng thích nghi nơi khô hạn.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về xương rồng, nhận định nào phù hợp nhất?",
+      "a": [
+        "có thân mọng nước và lá biến thành gai ở nhiều loài",
+        "là rễ mọc trên cao",
+        "cần nước, không khí và nhiệt độ phù hợp",
+        "cần được phủ sơn"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của xương rồng.",
+      "e": "Đặc điểm này giúp xương rồng thích nghi nơi khô hạn.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về cây đước?",
+      "a": [
+        "giúp cây di chuyển",
+        "tham gia sinh sản ở nhiều loài thực vật",
+        "thường mọc ở vùng ven biển ngập mặn",
+        "tạo đất mới"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cây đước.",
+      "e": "Rừng đước góp phần giữ đất và bảo vệ bờ biển.",
+      "category": "cay_coi",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về cây đước, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "là rễ mọc trên cao",
+        "thường mọc ở vùng ven biển ngập mặn",
+        "là bộ phận hút nước chính",
+        "là nơi cây lấy ánh sáng duy nhất"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cây đước.",
+      "e": "Rừng đước góp phần giữ đất và bảo vệ bờ biển.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác cây đước?",
+      "a": [
+        "thường mọc ở vùng ven biển ngập mặn",
+        "cần nước, không khí và nhiệt độ phù hợp",
+        "cần được phủ sơn",
+        "cần ngâm trong dầu"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cây đước.",
+      "e": "Rừng đước góp phần giữ đất và bảo vệ bờ biển.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của cây đước?",
+      "a": [
+        "cần bóng tối tuyệt đối",
+        "là quá trình cây dùng ánh sáng để tạo chất dinh dưỡng",
+        "là cách cây tìm nước",
+        "thường mọc ở vùng ven biển ngập mặn"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cây đước.",
+      "e": "Rừng đước góp phần giữ đất và bảo vệ bờ biển.",
+      "category": "cay_coi",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về cây đước, nhận định nào phù hợp nhất?",
+      "a": [
+        "là cách cây phát âm thanh",
+        "có thân mọng nước và lá biến thành gai ở nhiều loài",
+        "thường mọc ở vùng ven biển ngập mặn",
+        "là quá trình biến đá thành đất"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cây đước.",
+      "e": "Rừng đước góp phần giữ đất và bảo vệ bờ biển.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về cây tre?",
+      "a": [
+        "có thân thường rỗng ở các đốt và mọc thành bụi",
+        "cần được phủ sơn",
+        "cần ngâm trong dầu",
+        "cần bóng tối tuyệt đối"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cây tre.",
+      "e": "Tre có thân chia đốt và thường mọc thành bụi.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về cây tre, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "là quá trình cây dùng ánh sáng để tạo chất dinh dưỡng",
+        "là cách cây tìm nước",
+        "là quá trình biến đá thành đất",
+        "có thân thường rỗng ở các đốt và mọc thành bụi"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cây tre.",
+      "e": "Tre có thân chia đốt và thường mọc thành bụi.",
+      "category": "cay_coi",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác cây tre?",
+      "a": [
+        "có thân mọng nước và lá biến thành gai ở nhiều loài",
+        "có lá lớn để sống dưới biển",
+        "có thân thường rỗng ở các đốt và mọc thành bụi",
+        "là cách cây phát âm thanh"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cây tre.",
+      "e": "Tre có thân chia đốt và thường mọc thành bụi.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của cây tre?",
+      "a": [
+        "thường mọc ở vùng ven biển ngập mặn",
+        "có thân thường rỗng ở các đốt và mọc thành bụi",
+        "có rễ biết bay",
+        "chỉ sống trong nước mặn"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cây tre.",
+      "e": "Tre có thân chia đốt và thường mọc thành bụi.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về cây tre, nhận định nào phù hợp nhất?",
+      "a": [
+        "có thân thường rỗng ở các đốt và mọc thành bụi",
+        "chỉ mọc trên núi tuyết",
+        "sống hoàn toàn trong sa mạc",
+        "mọc trong hang động"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cây tre.",
+      "e": "Tre có thân chia đốt và thường mọc thành bụi.",
+      "category": "cay_coi",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về cây thông?",
+      "a": [
+        "có lá lớn để sống dưới biển",
+        "có rễ biết bay",
+        "thường có lá hình kim và nhiều loài có quả nón",
+        "có thân mọng nước và lá biến thành gai ở nhiều loài"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cây thông.",
+      "e": "Nhiều loài thông có lá kim và quả dạng nón.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về cây thông, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "chỉ mọc trên núi tuyết",
+        "thường có lá hình kim và nhiều loài có quả nón",
+        "chỉ sống trong nước mặn",
+        "thường mọc ở vùng ven biển ngập mặn"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cây thông.",
+      "e": "Nhiều loài thông có lá kim và quả dạng nón.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác cây thông?",
+      "a": [
+        "thường có lá hình kim và nhiều loài có quả nón",
+        "sống hoàn toàn trong sa mạc",
+        "mọc trong hang động",
+        "có thân thường rỗng ở các đốt và mọc thành bụi"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cây thông.",
+      "e": "Nhiều loài thông có lá kim và quả dạng nón.",
+      "category": "cay_coi",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của cây thông?",
+      "a": [
+        "thân làm bằng kim loại",
+        "không có rễ",
+        "chỉ mọc dưới nước sâu",
+        "thường có lá hình kim và nhiều loài có quả nón"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cây thông.",
+      "e": "Nhiều loài thông có lá kim và quả dạng nón.",
+      "category": "cay_coi",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về cây thông, nhận định nào phù hợp nhất?",
+      "a": [
+        "không có thân",
+        "có hoa lớn dưới nước",
+        "thường có lá hình kim và nhiều loài có quả nón",
+        "lá hình mái chèo"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cây thông.",
+      "e": "Nhiều loài thông có lá kim và quả dạng nón.",
+      "category": "cay_coi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về con bò?",
+      "a": [
+        "là động vật có vú và con cái có thể cho sữa",
+        "là cá nước ngọt",
+        "thở bằng mang",
+        "là côn trùng"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con bò.",
+      "e": "Bò nuôi thuộc nhóm động vật có vú.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về con bò, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "đẻ trứng và có lông vũ",
+        "sinh con non",
+        "thở bằng mang",
+        "là động vật có vú và con cái có thể cho sữa"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con bò.",
+      "e": "Bò nuôi thuộc nhóm động vật có vú.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác con bò?",
+      "a": [
+        "có khứu giác phát triển và thường sủa",
+        "có vòi dài",
+        "là động vật có vú và con cái có thể cho sữa",
+        "có vảy như cá"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con bò.",
+      "e": "Bò nuôi thuộc nhóm động vật có vú.",
+      "category": "dong_vat_nuoi",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của con bò?",
+      "a": [
+        "có móng vuốt và ria mép giúp cảm nhận môi trường",
+        "là động vật có vú và con cái có thể cho sữa",
+        "có mang để thở",
+        "thường tạo mật ong"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con bò.",
+      "e": "Bò nuôi thuộc nhóm động vật có vú.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về con bò, nhận định nào phù hợp nhất?",
+      "a": [
+        "là động vật có vú và con cái có thể cho sữa",
+        "có mai cứng",
+        "có cánh để bay",
+        "có vây để bơi"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con bò.",
+      "e": "Bò nuôi thuộc nhóm động vật có vú.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về con gà?",
+      "a": [
+        "có vòi dài",
+        "có mang để thở",
+        "đẻ trứng và có lông vũ",
+        "có khứu giác phát triển và thường sủa"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con gà.",
+      "e": "Gà là gia cầm có lông vũ và đẻ trứng.",
+      "category": "dong_vat_nuoi",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về con gà, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "có mai cứng",
+        "đẻ trứng và có lông vũ",
+        "thường tạo mật ong",
+        "có móng vuốt và ria mép giúp cảm nhận môi trường"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con gà.",
+      "e": "Gà là gia cầm có lông vũ và đẻ trứng.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác con gà?",
+      "a": [
+        "đẻ trứng và có lông vũ",
+        "có cánh để bay",
+        "có vây để bơi",
+        "có bàn chân thường có màng giúp bơi"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con gà.",
+      "e": "Gà là gia cầm có lông vũ và đẻ trứng.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của con gà?",
+      "a": [
+        "có móng guốc",
+        "có vòi dài",
+        "có tám chân",
+        "đẻ trứng và có lông vũ"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con gà.",
+      "e": "Gà là gia cầm có lông vũ và đẻ trứng.",
+      "category": "dong_vat_nuoi",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về con gà, nhận định nào phù hợp nhất?",
+      "a": [
+        "chỉ ăn lá trên cao",
+        "chỉ ăn cá sống",
+        "đẻ trứng và có lông vũ",
+        "là động vật nuôi ăn tạp"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con gà.",
+      "e": "Gà là gia cầm có lông vũ và đẻ trứng.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về con chó?",
+      "a": [
+        "có khứu giác phát triển và thường sủa",
+        "có vây để bơi",
+        "có bàn chân thường có màng giúp bơi",
+        "có móng guốc"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con chó.",
+      "e": "Chó có khứu giác nhạy và thường giao tiếp bằng tiếng sủa.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về con chó, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "có vòi dài",
+        "có tám chân",
+        "là động vật nuôi ăn tạp",
+        "có khứu giác phát triển và thường sủa"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con chó.",
+      "e": "Chó có khứu giác nhạy và thường giao tiếp bằng tiếng sủa.",
+      "category": "dong_vat_nuoi",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác con chó?",
+      "a": [
+        "chỉ ăn cá sống",
+        "tự tạo thức ăn bằng quang hợp",
+        "có khứu giác phát triển và thường sủa",
+        "chỉ ăn lá trên cao"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con chó.",
+      "e": "Chó có khứu giác nhạy và thường giao tiếp bằng tiếng sủa.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của con chó?",
+      "a": [
+        "có cánh lớn",
+        "có khứu giác phát triển và thường sủa",
+        "có móng guốc chẻ đôi và thường ăn lá, cỏ",
+        "có vây và mang"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con chó.",
+      "e": "Chó có khứu giác nhạy và thường giao tiếp bằng tiếng sủa.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về con chó, nhận định nào phù hợp nhất?",
+      "a": [
+        "có khứu giác phát triển và thường sủa",
+        "chỉ ăn thịt",
+        "là động vật nhai lại và từng được nuôi làm sức kéo",
+        "là chim di cư"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con chó.",
+      "e": "Chó có khứu giác nhạy và thường giao tiếp bằng tiếng sủa.",
+      "category": "dong_vat_nuoi",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về con mèo?",
+      "a": [
+        "tự tạo thức ăn bằng quang hợp",
+        "có móng guốc chẻ đôi và thường ăn lá, cỏ",
+        "có móng vuốt và ria mép giúp cảm nhận môi trường",
+        "chỉ ăn cá sống"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con mèo.",
+      "e": "Ria mép hỗ trợ mèo cảm nhận vật thể gần.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về con mèo, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "chỉ ăn thịt",
+        "có móng vuốt và ria mép giúp cảm nhận môi trường",
+        "có vây và mang",
+        "có cánh lớn"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con mèo.",
+      "e": "Ria mép hỗ trợ mèo cảm nhận vật thể gần.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác con mèo?",
+      "a": [
+        "có móng vuốt và ria mép giúp cảm nhận môi trường",
+        "là động vật nhai lại và từng được nuôi làm sức kéo",
+        "là chim di cư",
+        "sống hoàn toàn dưới biển"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con mèo.",
+      "e": "Ria mép hỗ trợ mèo cảm nhận vật thể gần.",
+      "category": "dong_vat_nuoi",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của con mèo?",
+      "a": [
+        "là côn trùng thụ phấn",
+        "có răng cửa phát triển và tai thường dài",
+        "có mai như rùa",
+        "có móng vuốt và ria mép giúp cảm nhận môi trường"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con mèo.",
+      "e": "Ria mép hỗ trợ mèo cảm nhận vật thể gần.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về con mèo, nhận định nào phù hợp nhất?",
+      "a": [
+        "có mang như cá",
+        "cần nước sạch phù hợp và thức ăn dành riêng cho cá",
+        "có móng vuốt và ria mép giúp cảm nhận môi trường",
+        "có vòi như voi"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con mèo.",
+      "e": "Ria mép hỗ trợ mèo cảm nhận vật thể gần.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về con vịt?",
+      "a": [
+        "có bàn chân thường có màng giúp bơi",
+        "là chim di cư",
+        "sống hoàn toàn dưới biển",
+        "là côn trùng thụ phấn"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con vịt.",
+      "e": "Màng chân giúp vịt đạp nước khi bơi.",
+      "category": "dong_vat_nuoi",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về con vịt, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "có răng cửa phát triển và tai thường dài",
+        "có mai như rùa",
+        "có vòi như voi",
+        "có bàn chân thường có màng giúp bơi"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con vịt.",
+      "e": "Màng chân giúp vịt đạp nước khi bơi.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác con vịt?",
+      "a": [
+        "cần nước sạch phù hợp và thức ăn dành riêng cho cá",
+        "sống trong dầu ăn",
+        "có bàn chân thường có màng giúp bơi",
+        "có mang như cá"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con vịt.",
+      "e": "Màng chân giúp vịt đạp nước khi bơi.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của con vịt?",
+      "a": [
+        "là động vật có vú và con cái có thể cho sữa",
+        "có bàn chân thường có màng giúp bơi",
+        "nước ngọt có ga",
+        "ăn bánh kẹo"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con vịt.",
+      "e": "Màng chân giúp vịt đạp nước khi bơi.",
+      "category": "dong_vat_nuoi",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về con vịt, nhận định nào phù hợp nhất?",
+      "a": [
+        "có bàn chân thường có màng giúp bơi",
+        "là cá nước ngọt",
+        "thở bằng mang",
+        "là côn trùng"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con vịt.",
+      "e": "Màng chân giúp vịt đạp nước khi bơi.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về con lợn?",
+      "a": [
+        "sống trong dầu ăn",
+        "nước ngọt có ga",
+        "là động vật nuôi ăn tạp",
+        "cần nước sạch phù hợp và thức ăn dành riêng cho cá"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con lợn.",
+      "e": "Lợn có thể ăn nhiều loại thức ăn phù hợp.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về con lợn, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "là cá nước ngọt",
+        "là động vật nuôi ăn tạp",
+        "ăn bánh kẹo",
+        "là động vật có vú và con cái có thể cho sữa"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con lợn.",
+      "e": "Lợn có thể ăn nhiều loại thức ăn phù hợp.",
+      "category": "dong_vat_nuoi",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác con lợn?",
+      "a": [
+        "là động vật nuôi ăn tạp",
+        "thở bằng mang",
+        "là côn trùng",
+        "đẻ trứng và có lông vũ"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con lợn.",
+      "e": "Lợn có thể ăn nhiều loại thức ăn phù hợp.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của con lợn?",
+      "a": [
+        "sinh con non",
+        "thở bằng mang",
+        "có vảy như cá",
+        "là động vật nuôi ăn tạp"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con lợn.",
+      "e": "Lợn có thể ăn nhiều loại thức ăn phù hợp.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về con lợn, nhận định nào phù hợp nhất?",
+      "a": [
+        "có vòi dài",
+        "có mang để thở",
+        "là động vật nuôi ăn tạp",
+        "có khứu giác phát triển và thường sủa"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con lợn.",
+      "e": "Lợn có thể ăn nhiều loại thức ăn phù hợp.",
+      "category": "dong_vat_nuoi",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về con dê?",
+      "a": [
+        "có móng guốc chẻ đôi và thường ăn lá, cỏ",
+        "là côn trùng",
+        "đẻ trứng và có lông vũ",
+        "sinh con non"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con dê.",
+      "e": "Dê là động vật nhai lại, có móng guốc chẻ đôi.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về con dê, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "thở bằng mang",
+        "có vảy như cá",
+        "có khứu giác phát triển và thường sủa",
+        "có móng guốc chẻ đôi và thường ăn lá, cỏ"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con dê.",
+      "e": "Dê là động vật nhai lại, có móng guốc chẻ đôi.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác con dê?",
+      "a": [
+        "có mang để thở",
+        "thường tạo mật ong",
+        "có móng guốc chẻ đôi và thường ăn lá, cỏ",
+        "có vòi dài"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con dê.",
+      "e": "Dê là động vật nhai lại, có móng guốc chẻ đôi.",
+      "category": "dong_vat_nuoi",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của con dê?",
+      "a": [
+        "có cánh để bay",
+        "có móng guốc chẻ đôi và thường ăn lá, cỏ",
+        "có móng vuốt và ria mép giúp cảm nhận môi trường",
+        "có mai cứng"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con dê.",
+      "e": "Dê là động vật nhai lại, có móng guốc chẻ đôi.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về con dê, nhận định nào phù hợp nhất?",
+      "a": [
+        "có móng guốc chẻ đôi và thường ăn lá, cỏ",
+        "có vây để bơi",
+        "có bàn chân thường có màng giúp bơi",
+        "có móng guốc"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con dê.",
+      "e": "Dê là động vật nhai lại, có móng guốc chẻ đôi.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về con trâu?",
+      "a": [
+        "thường tạo mật ong",
+        "có móng vuốt và ria mép giúp cảm nhận môi trường",
+        "là động vật nhai lại và từng được nuôi làm sức kéo",
+        "có mang để thở"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con trâu.",
+      "e": "Trâu được sử dụng phổ biến trong sản xuất nông nghiệp.",
+      "category": "dong_vat_nuoi",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về con trâu, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "có vây để bơi",
+        "là động vật nhai lại và từng được nuôi làm sức kéo",
+        "có mai cứng",
+        "có cánh để bay"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con trâu.",
+      "e": "Trâu được sử dụng phổ biến trong sản xuất nông nghiệp.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác con trâu?",
+      "a": [
+        "là động vật nhai lại và từng được nuôi làm sức kéo",
+        "có bàn chân thường có màng giúp bơi",
+        "có móng guốc",
+        "có vòi dài"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con trâu.",
+      "e": "Trâu được sử dụng phổ biến trong sản xuất nông nghiệp.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của con trâu?",
+      "a": [
+        "có tám chân",
+        "là động vật nuôi ăn tạp",
+        "chỉ ăn lá trên cao",
+        "là động vật nhai lại và từng được nuôi làm sức kéo"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con trâu.",
+      "e": "Trâu được sử dụng phổ biến trong sản xuất nông nghiệp.",
+      "category": "dong_vat_nuoi",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về con trâu, nhận định nào phù hợp nhất?",
+      "a": [
+        "tự tạo thức ăn bằng quang hợp",
+        "có móng guốc chẻ đôi và thường ăn lá, cỏ",
+        "là động vật nhai lại và từng được nuôi làm sức kéo",
+        "chỉ ăn cá sống"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con trâu.",
+      "e": "Trâu được sử dụng phổ biến trong sản xuất nông nghiệp.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về con thỏ?",
+      "a": [
+        "có răng cửa phát triển và tai thường dài",
+        "có móng guốc",
+        "có vòi dài",
+        "có tám chân"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con thỏ.",
+      "e": "Thỏ là động vật ăn thực vật, có răng cửa phát triển.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về con thỏ, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "là động vật nuôi ăn tạp",
+        "chỉ ăn lá trên cao",
+        "chỉ ăn cá sống",
+        "có răng cửa phát triển và tai thường dài"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con thỏ.",
+      "e": "Thỏ là động vật ăn thực vật, có răng cửa phát triển.",
+      "category": "dong_vat_nuoi",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác con thỏ?",
+      "a": [
+        "có móng guốc chẻ đôi và thường ăn lá, cỏ",
+        "có vây và mang",
+        "có răng cửa phát triển và tai thường dài",
+        "tự tạo thức ăn bằng quang hợp"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con thỏ.",
+      "e": "Thỏ là động vật ăn thực vật, có răng cửa phát triển.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của con thỏ?",
+      "a": [
+        "là động vật nhai lại và từng được nuôi làm sức kéo",
+        "có răng cửa phát triển và tai thường dài",
+        "có cánh lớn",
+        "chỉ ăn thịt"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con thỏ.",
+      "e": "Thỏ là động vật ăn thực vật, có răng cửa phát triển.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về con thỏ, nhận định nào phù hợp nhất?",
+      "a": [
+        "có răng cửa phát triển và tai thường dài",
+        "là chim di cư",
+        "sống hoàn toàn dưới biển",
+        "là côn trùng thụ phấn"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của con thỏ.",
+      "e": "Thỏ là động vật ăn thực vật, có răng cửa phát triển.",
+      "category": "dong_vat_nuoi",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về cá cảnh?",
+      "a": [
+        "có vây và mang",
+        "có cánh lớn",
+        "cần nước sạch phù hợp và thức ăn dành riêng cho cá",
+        "có móng guốc chẻ đôi và thường ăn lá, cỏ"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cá cảnh.",
+      "e": "Chăm cá cần giữ chất lượng nước và cho ăn vừa đủ.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về cá cảnh, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "là chim di cư",
+        "cần nước sạch phù hợp và thức ăn dành riêng cho cá",
+        "chỉ ăn thịt",
+        "là động vật nhai lại và từng được nuôi làm sức kéo"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cá cảnh.",
+      "e": "Chăm cá cần giữ chất lượng nước và cho ăn vừa đủ.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác cá cảnh?",
+      "a": [
+        "cần nước sạch phù hợp và thức ăn dành riêng cho cá",
+        "sống hoàn toàn dưới biển",
+        "là côn trùng thụ phấn",
+        "có răng cửa phát triển và tai thường dài"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cá cảnh.",
+      "e": "Chăm cá cần giữ chất lượng nước và cho ăn vừa đủ.",
+      "category": "dong_vat_nuoi",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của cá cảnh?",
+      "a": [
+        "có mai như rùa",
+        "có vòi như voi",
+        "có mang như cá",
+        "cần nước sạch phù hợp và thức ăn dành riêng cho cá"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cá cảnh.",
+      "e": "Chăm cá cần giữ chất lượng nước và cho ăn vừa đủ.",
+      "category": "dong_vat_nuoi",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về cá cảnh, nhận định nào phù hợp nhất?",
+      "a": [
+        "nước ngọt có ga",
+        "ăn bánh kẹo",
+        "cần nước sạch phù hợp và thức ăn dành riêng cho cá",
+        "sống trong dầu ăn"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cá cảnh.",
+      "e": "Chăm cá cần giữ chất lượng nước và cho ăn vừa đủ.",
+      "category": "dong_vat_nuoi",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về voi?",
+      "a": [
+        "có vòi dài dùng để lấy thức ăn và hút nước",
+        "có mai cứng",
+        "có cánh để bay",
+        "có tám chân"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của voi.",
+      "e": "Vòi voi là bộ phận rất linh hoạt.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về voi, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "là loài mèo lớn có bộ lông vằn",
+        "là chim có mỏ cong",
+        "là cá có vảy xanh",
+        "có vòi dài dùng để lấy thức ăn và hút nước"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của voi.",
+      "e": "Vòi voi là bộ phận rất linh hoạt.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác voi?",
+      "a": [
+        "có chiếc cổ rất dài giúp với tới lá trên cao",
+        "có vòi để đào đất",
+        "có vòi dài dùng để lấy thức ăn và hút nước",
+        "là thú có mai"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của voi.",
+      "e": "Vòi voi là bộ phận rất linh hoạt.",
+      "category": "dong_vat_hoang_da",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của voi?",
+      "a": [
+        "ăn chủ yếu là tre và trúc",
+        "có vòi dài dùng để lấy thức ăn và hút nước",
+        "có mai để trú ẩn",
+        "có mang để thở"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của voi.",
+      "e": "Vòi voi là bộ phận rất linh hoạt.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về voi, nhận định nào phù hợp nhất?",
+      "a": [
+        "có vòi dài dùng để lấy thức ăn và hút nước",
+        "chỉ ăn cá voi",
+        "chỉ ăn cỏ biển",
+        "chỉ ăn côn trùng bay"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của voi.",
+      "e": "Vòi voi là bộ phận rất linh hoạt.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về hổ?",
+      "a": [
+        "có vòi để đào đất",
+        "có mai để trú ẩn",
+        "là loài mèo lớn có bộ lông vằn",
+        "có chiếc cổ rất dài giúp với tới lá trên cao"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hổ.",
+      "e": "Các vằn trên lông giúp hổ ngụy trang.",
+      "category": "dong_vat_hoang_da",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về hổ, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "chỉ ăn cá voi",
+        "là loài mèo lớn có bộ lông vằn",
+        "có mang để thở",
+        "ăn chủ yếu là tre và trúc"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hổ.",
+      "e": "Các vằn trên lông giúp hổ ngụy trang.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác hổ?",
+      "a": [
+        "là loài mèo lớn có bộ lông vằn",
+        "chỉ ăn cỏ biển",
+        "chỉ ăn côn trùng bay",
+        "là động vật có vú sống dưới nước và thở bằng phổi"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hổ.",
+      "e": "Các vằn trên lông giúp hổ ngụy trang.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của hổ?",
+      "a": [
+        "là cá thở bằng mang",
+        "là lưỡng cư có vảy",
+        "là thực vật biển",
+        "là loài mèo lớn có bộ lông vằn"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hổ.",
+      "e": "Các vằn trên lông giúp hổ ngụy trang.",
+      "category": "dong_vat_hoang_da",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về hổ, nhận định nào phù hợp nhất?",
+      "a": [
+        "có răng cửa dài",
+        "có mai mềm",
+        "là loài mèo lớn có bộ lông vằn",
+        "có thị lực tốt và móng vuốt khỏe"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hổ.",
+      "e": "Các vằn trên lông giúp hổ ngụy trang.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về hươu cao cổ?",
+      "a": [
+        "có chiếc cổ rất dài giúp với tới lá trên cao",
+        "chỉ ăn côn trùng bay",
+        "là động vật có vú sống dưới nước và thở bằng phổi",
+        "là cá thở bằng mang"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hươu cao cổ.",
+      "e": "Hươu cao cổ thường ăn lá trên các cây cao.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về hươu cao cổ, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "là lưỡng cư có vảy",
+        "là thực vật biển",
+        "có thị lực tốt và móng vuốt khỏe",
+        "có chiếc cổ rất dài giúp với tới lá trên cao"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hươu cao cổ.",
+      "e": "Hươu cao cổ thường ăn lá trên các cây cao.",
+      "category": "dong_vat_hoang_da",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác hươu cao cổ?",
+      "a": [
+        "có mai mềm",
+        "có vây bơi",
+        "có chiếc cổ rất dài giúp với tới lá trên cao",
+        "có răng cửa dài"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hươu cao cổ.",
+      "e": "Hươu cao cổ thường ăn lá trên các cây cao.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của hươu cao cổ?",
+      "a": [
+        "là côn trùng có sáu cánh",
+        "có chiếc cổ rất dài giúp với tới lá trên cao",
+        "là động vật có vú duy nhất có khả năng bay chủ động",
+        "là cá biết đi"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hươu cao cổ.",
+      "e": "Hươu cao cổ thường ăn lá trên các cây cao.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về hươu cao cổ, nhận định nào phù hợp nhất?",
+      "a": [
+        "có chiếc cổ rất dài giúp với tới lá trên cao",
+        "là bò sát có mai",
+        "là bò sát thở bằng phổi và đẻ trứng trên cạn",
+        "thở bằng mang suốt đời"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của hươu cao cổ.",
+      "e": "Hươu cao cổ thường ăn lá trên các cây cao.",
+      "category": "dong_vat_hoang_da",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về gấu trúc lớn?",
+      "a": [
+        "có vây bơi",
+        "là động vật có vú duy nhất có khả năng bay chủ động",
+        "ăn chủ yếu là tre và trúc",
+        "có mai mềm"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của gấu trúc lớn.",
+      "e": "Thức ăn chủ yếu của gấu trúc lớn là tre trúc.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về gấu trúc lớn, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "là bò sát có mai",
+        "ăn chủ yếu là tre và trúc",
+        "là cá biết đi",
+        "là côn trùng có sáu cánh"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của gấu trúc lớn.",
+      "e": "Thức ăn chủ yếu của gấu trúc lớn là tre trúc.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác gấu trúc lớn?",
+      "a": [
+        "ăn chủ yếu là tre và trúc",
+        "là bò sát thở bằng phổi và đẻ trứng trên cạn",
+        "thở bằng mang suốt đời",
+        "đẻ trứng trên cành cây"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của gấu trúc lớn.",
+      "e": "Thức ăn chủ yếu của gấu trúc lớn là tre trúc.",
+      "category": "dong_vat_hoang_da",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của gấu trúc lớn?",
+      "a": [
+        "là động vật có lông vũ",
+        "góp phần thụ phấn cho nhiều loài thực vật",
+        "làm đất thành đá",
+        "ăn chủ yếu là tre và trúc"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của gấu trúc lớn.",
+      "e": "Thức ăn chủ yếu của gấu trúc lớn là tre trúc.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về gấu trúc lớn, nhận định nào phù hợp nhất?",
+      "a": [
+        "ăn hết ánh sáng",
+        "là động vật ăn thịt thường sống và săn mồi theo đàn",
+        "ăn chủ yếu là tre và trúc",
+        "tạo ra mưa"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của gấu trúc lớn.",
+      "e": "Thức ăn chủ yếu của gấu trúc lớn là tre trúc.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về cá heo?",
+      "a": [
+        "là động vật có vú sống dưới nước và thở bằng phổi",
+        "thở bằng mang suốt đời",
+        "đẻ trứng trên cành cây",
+        "là động vật có lông vũ"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cá heo.",
+      "e": "Cá heo phải ngoi lên mặt nước để thở.",
+      "category": "dong_vat_hoang_da",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về cá heo, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "góp phần thụ phấn cho nhiều loài thực vật",
+        "làm đất thành đá",
+        "tạo ra mưa",
+        "là động vật có vú sống dưới nước và thở bằng phổi"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cá heo.",
+      "e": "Cá heo phải ngoi lên mặt nước để thở.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác cá heo?",
+      "a": [
+        "là động vật ăn thịt thường sống và săn mồi theo đàn",
+        "ăn cỏ có móng guốc",
+        "là động vật có vú sống dưới nước và thở bằng phổi",
+        "ăn hết ánh sáng"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cá heo.",
+      "e": "Cá heo phải ngoi lên mặt nước để thở.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của cá heo?",
+      "a": [
+        "có vòi dài dùng để lấy thức ăn và hút nước",
+        "là động vật có vú sống dưới nước và thở bằng phổi",
+        "là chim trong tổ ong",
+        "là cá ở rạn san hô"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cá heo.",
+      "e": "Cá heo phải ngoi lên mặt nước để thở.",
+      "category": "dong_vat_hoang_da",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về cá heo, nhận định nào phù hợp nhất?",
+      "a": [
+        "là động vật có vú sống dưới nước và thở bằng phổi",
+        "có mai cứng",
+        "có cánh để bay",
+        "có tám chân"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cá heo.",
+      "e": "Cá heo phải ngoi lên mặt nước để thở.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về đại bàng?",
+      "a": [
+        "ăn cỏ có móng guốc",
+        "là chim trong tổ ong",
+        "có thị lực tốt và móng vuốt khỏe",
+        "là động vật ăn thịt thường sống và săn mồi theo đàn"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đại bàng.",
+      "e": "Đại bàng là chim săn mồi với thị lực tốt.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về đại bàng, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "có mai cứng",
+        "có thị lực tốt và móng vuốt khỏe",
+        "là cá ở rạn san hô",
+        "có vòi dài dùng để lấy thức ăn và hút nước"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đại bàng.",
+      "e": "Đại bàng là chim săn mồi với thị lực tốt.",
+      "category": "dong_vat_hoang_da",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác đại bàng?",
+      "a": [
+        "có thị lực tốt và móng vuốt khỏe",
+        "có cánh để bay",
+        "có tám chân",
+        "là loài mèo lớn có bộ lông vằn"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đại bàng.",
+      "e": "Đại bàng là chim săn mồi với thị lực tốt.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của đại bàng?",
+      "a": [
+        "là chim có mỏ cong",
+        "là cá có vảy xanh",
+        "là thú có mai",
+        "có thị lực tốt và móng vuốt khỏe"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đại bàng.",
+      "e": "Đại bàng là chim săn mồi với thị lực tốt.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về đại bàng, nhận định nào phù hợp nhất?",
+      "a": [
+        "có vòi để đào đất",
+        "có mai để trú ẩn",
+        "có thị lực tốt và móng vuốt khỏe",
+        "có chiếc cổ rất dài giúp với tới lá trên cao"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đại bàng.",
+      "e": "Đại bàng là chim săn mồi với thị lực tốt.",
+      "category": "dong_vat_hoang_da",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về dơi?",
+      "a": [
+        "là động vật có vú duy nhất có khả năng bay chủ động",
+        "có tám chân",
+        "là loài mèo lớn có bộ lông vằn",
+        "là chim có mỏ cong"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của dơi.",
+      "e": "Cánh dơi là màng da nối các ngón chi trước.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về dơi, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "là cá có vảy xanh",
+        "là thú có mai",
+        "có chiếc cổ rất dài giúp với tới lá trên cao",
+        "là động vật có vú duy nhất có khả năng bay chủ động"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của dơi.",
+      "e": "Cánh dơi là màng da nối các ngón chi trước.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác dơi?",
+      "a": [
+        "có mai để trú ẩn",
+        "có mang để thở",
+        "là động vật có vú duy nhất có khả năng bay chủ động",
+        "có vòi để đào đất"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của dơi.",
+      "e": "Cánh dơi là màng da nối các ngón chi trước.",
+      "category": "dong_vat_hoang_da",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của dơi?",
+      "a": [
+        "chỉ ăn cỏ biển",
+        "là động vật có vú duy nhất có khả năng bay chủ động",
+        "ăn chủ yếu là tre và trúc",
+        "chỉ ăn cá voi"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của dơi.",
+      "e": "Cánh dơi là màng da nối các ngón chi trước.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về dơi, nhận định nào phù hợp nhất?",
+      "a": [
+        "là động vật có vú duy nhất có khả năng bay chủ động",
+        "chỉ ăn côn trùng bay",
+        "là động vật có vú sống dưới nước và thở bằng phổi",
+        "là cá thở bằng mang"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của dơi.",
+      "e": "Cánh dơi là màng da nối các ngón chi trước.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về rùa biển?",
+      "a": [
+        "có mang để thở",
+        "ăn chủ yếu là tre và trúc",
+        "là bò sát thở bằng phổi và đẻ trứng trên cạn",
+        "có mai để trú ẩn"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rùa biển.",
+      "e": "Rùa biển phải lên mặt nước để thở; con cái lên bãi cát đẻ trứng.",
+      "category": "dong_vat_hoang_da",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về rùa biển, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "chỉ ăn côn trùng bay",
+        "là bò sát thở bằng phổi và đẻ trứng trên cạn",
+        "chỉ ăn cá voi",
+        "chỉ ăn cỏ biển"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rùa biển.",
+      "e": "Rùa biển phải lên mặt nước để thở; con cái lên bãi cát đẻ trứng.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác rùa biển?",
+      "a": [
+        "là bò sát thở bằng phổi và đẻ trứng trên cạn",
+        "là động vật có vú sống dưới nước và thở bằng phổi",
+        "là cá thở bằng mang",
+        "là lưỡng cư có vảy"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rùa biển.",
+      "e": "Rùa biển phải lên mặt nước để thở; con cái lên bãi cát đẻ trứng.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của rùa biển?",
+      "a": [
+        "là thực vật biển",
+        "có thị lực tốt và móng vuốt khỏe",
+        "có răng cửa dài",
+        "là bò sát thở bằng phổi và đẻ trứng trên cạn"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rùa biển.",
+      "e": "Rùa biển phải lên mặt nước để thở; con cái lên bãi cát đẻ trứng.",
+      "category": "dong_vat_hoang_da",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về rùa biển, nhận định nào phù hợp nhất?",
+      "a": [
+        "có vây bơi",
+        "là động vật có vú duy nhất có khả năng bay chủ động",
+        "là bò sát thở bằng phổi và đẻ trứng trên cạn",
+        "có mai mềm"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rùa biển.",
+      "e": "Rùa biển phải lên mặt nước để thở; con cái lên bãi cát đẻ trứng.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về ong rừng?",
+      "a": [
+        "góp phần thụ phấn cho nhiều loài thực vật",
+        "là cá thở bằng mang",
+        "là lưỡng cư có vảy",
+        "là thực vật biển"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ong rừng.",
+      "e": "Ong mang phấn hoa khi tìm mật.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về ong rừng, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "có thị lực tốt và móng vuốt khỏe",
+        "có răng cửa dài",
+        "có mai mềm",
+        "góp phần thụ phấn cho nhiều loài thực vật"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ong rừng.",
+      "e": "Ong mang phấn hoa khi tìm mật.",
+      "category": "dong_vat_hoang_da",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác ong rừng?",
+      "a": [
+        "là động vật có vú duy nhất có khả năng bay chủ động",
+        "là cá biết đi",
+        "góp phần thụ phấn cho nhiều loài thực vật",
+        "có vây bơi"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ong rừng.",
+      "e": "Ong mang phấn hoa khi tìm mật.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của ong rừng?",
+      "a": [
+        "là bò sát thở bằng phổi và đẻ trứng trên cạn",
+        "góp phần thụ phấn cho nhiều loài thực vật",
+        "là côn trùng có sáu cánh",
+        "là bò sát có mai"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ong rừng.",
+      "e": "Ong mang phấn hoa khi tìm mật.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về ong rừng, nhận định nào phù hợp nhất?",
+      "a": [
+        "góp phần thụ phấn cho nhiều loài thực vật",
+        "thở bằng mang suốt đời",
+        "đẻ trứng trên cành cây",
+        "là động vật có lông vũ"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ong rừng.",
+      "e": "Ong mang phấn hoa khi tìm mật.",
+      "category": "dong_vat_hoang_da",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về sói?",
+      "a": [
+        "là cá biết đi",
+        "là côn trùng có sáu cánh",
+        "là động vật ăn thịt thường sống và săn mồi theo đàn",
+        "là động vật có vú duy nhất có khả năng bay chủ động"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của sói.",
+      "e": "Nhiều loài sói phối hợp khi săn mồi.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về sói, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "thở bằng mang suốt đời",
+        "là động vật ăn thịt thường sống và săn mồi theo đàn",
+        "là bò sát có mai",
+        "là bò sát thở bằng phổi và đẻ trứng trên cạn"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của sói.",
+      "e": "Nhiều loài sói phối hợp khi săn mồi.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác sói?",
+      "a": [
+        "là động vật ăn thịt thường sống và săn mồi theo đàn",
+        "đẻ trứng trên cành cây",
+        "là động vật có lông vũ",
+        "góp phần thụ phấn cho nhiều loài thực vật"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của sói.",
+      "e": "Nhiều loài sói phối hợp khi săn mồi.",
+      "category": "dong_vat_hoang_da",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của sói?",
+      "a": [
+        "làm đất thành đá",
+        "tạo ra mưa",
+        "ăn hết ánh sáng",
+        "là động vật ăn thịt thường sống và săn mồi theo đàn"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của sói.",
+      "e": "Nhiều loài sói phối hợp khi săn mồi.",
+      "category": "dong_vat_hoang_da",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về sói, nhận định nào phù hợp nhất?",
+      "a": [
+        "là chim trong tổ ong",
+        "là cá ở rạn san hô",
+        "là động vật ăn thịt thường sống và săn mồi theo đàn",
+        "ăn cỏ có móng guốc"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của sói.",
+      "e": "Nhiều loài sói phối hợp khi săn mồi.",
+      "category": "dong_vat_hoang_da",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về cầu vồng?",
+      "a": [
+        "có thể xuất hiện khi ánh sáng mặt trời gặp các giọt nước trong không khí",
+        "xuất hiện do đá phát sáng",
+        "được tạo bởi khói đen",
+        "chỉ xuất hiện trong phòng tối"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cầu vồng.",
+      "e": "Ánh sáng bị khúc xạ, phản xạ và tán sắc trong giọt nước.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về cầu vồng, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "là âm thanh do không khí nóng lên và giãn nở nhanh quanh tia sét",
+        "là tiếng cây mọc",
+        "là tiếng sóng biển בלבד",
+        "có thể xuất hiện khi ánh sáng mặt trời gặp các giọt nước trong không khí"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cầu vồng.",
+      "e": "Ánh sáng bị khúc xạ, phản xạ và tán sắc trong giọt nước.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác cầu vồng?",
+      "a": [
+        "là sự phóng điện mạnh trong khí quyển",
+        "là ánh sáng từ đèn đường",
+        "có thể xuất hiện khi ánh sáng mặt trời gặp các giọt nước trong không khí",
+        "là tiếng mưa đóng băng"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cầu vồng.",
+      "e": "Ánh sáng bị khúc xạ, phản xạ và tán sắc trong giọt nước.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của cầu vồng?",
+      "a": [
+        "hình thành khi các giọt nước trong mây đủ lớn và rơi xuống",
+        "có thể xuất hiện khi ánh sáng mặt trời gặp các giọt nước trong không khí",
+        "là ánh sáng phản chiếu của cây",
+        "là ánh sáng do cá phát ra"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cầu vồng.",
+      "e": "Ánh sáng bị khúc xạ, phản xạ và tán sắc trong giọt nước.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về cầu vồng, nhận định nào phù hợp nhất?",
+      "a": [
+        "có thể xuất hiện khi ánh sáng mặt trời gặp các giọt nước trong không khí",
+        "hình thành khi cát bay lên",
+        "là nước biển bốc lên nguyên vẹn",
+        "do cây thải ra"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của cầu vồng.",
+      "e": "Ánh sáng bị khúc xạ, phản xạ và tán sắc trong giọt nước.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về sấm?",
+      "a": [
+        "là ánh sáng từ đèn đường",
+        "là ánh sáng phản chiếu của cây",
+        "là âm thanh do không khí nóng lên và giãn nở nhanh quanh tia sét",
+        "là sự phóng điện mạnh trong khí quyển"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của sấm.",
+      "e": "Tia sét làm không khí nóng lên nhanh, tạo sóng âm.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về sấm, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "hình thành khi cát bay lên",
+        "là âm thanh do không khí nóng lên và giãn nở nhanh quanh tia sét",
+        "là ánh sáng do cá phát ra",
+        "hình thành khi các giọt nước trong mây đủ lớn và rơi xuống"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của sấm.",
+      "e": "Tia sét làm không khí nóng lên nhanh, tạo sóng âm.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác sấm?",
+      "a": [
+        "là âm thanh do không khí nóng lên và giãn nở nhanh quanh tia sét",
+        "là nước biển bốc lên nguyên vẹn",
+        "do cây thải ra",
+        "là sự chuyển động của không khí"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của sấm.",
+      "e": "Tia sét làm không khí nóng lên nhanh, tạo sóng âm.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của sấm?",
+      "a": [
+        "là dòng chảy của đất",
+        "là ánh sáng di chuyển",
+        "là nước đóng băng",
+        "là âm thanh do không khí nóng lên và giãn nở nhanh quanh tia sét"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của sấm.",
+      "e": "Tia sét làm không khí nóng lên nhanh, tạo sóng âm.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về sấm, nhận định nào phù hợp nhất?",
+      "a": [
+        "là bụi kim loại nóng chảy",
+        "là lớp cát trên trời",
+        "là âm thanh do không khí nóng lên và giãn nở nhanh quanh tia sét",
+        "gồm những giọt nước rất nhỏ lơ lửng gần mặt đất"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của sấm.",
+      "e": "Tia sét làm không khí nóng lên nhanh, tạo sóng âm.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về tia chớp?",
+      "a": [
+        "là sự phóng điện mạnh trong khí quyển",
+        "do cây thải ra",
+        "là sự chuyển động của không khí",
+        "là dòng chảy của đất"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tia chớp.",
+      "e": "Chớp thường xuất hiện trong mây dông hoặc giữa mây và mặt đất.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về tia chớp, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "là ánh sáng di chuyển",
+        "là nước đóng băng",
+        "gồm những giọt nước rất nhỏ lơ lửng gần mặt đất",
+        "là sự phóng điện mạnh trong khí quyển"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tia chớp.",
+      "e": "Chớp thường xuất hiện trong mây dông hoặc giữa mây và mặt đất.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác tia chớp?",
+      "a": [
+        "là lớp cát trên trời",
+        "là mây làm bằng khói",
+        "là sự phóng điện mạnh trong khí quyển",
+        "là bụi kim loại nóng chảy"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tia chớp.",
+      "e": "Chớp thường xuất hiện trong mây dông hoặc giữa mây và mặt đất.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của tia chớp?",
+      "a": [
+        "lá cây đổi màu",
+        "là sự phóng điện mạnh trong khí quyển",
+        "là hiện tượng mực nước biển lên xuống theo chu kỳ",
+        "núi tự di chuyển"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tia chớp.",
+      "e": "Chớp thường xuất hiện trong mây dông hoặc giữa mây và mặt đất.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về tia chớp, nhận định nào phù hợp nhất?",
+      "a": [
+        "là sự phóng điện mạnh trong khí quyển",
+        "mưa đá trên biển",
+        "là sự rung chuyển mặt đất do năng lượng trong lòng Trái Đất giải phóng",
+        "là sự thay đổi mùa"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tia chớp.",
+      "e": "Chớp thường xuất hiện trong mây dông hoặc giữa mây và mặt đất.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về mưa?",
+      "a": [
+        "là mây làm bằng khói",
+        "là hiện tượng mực nước biển lên xuống theo chu kỳ",
+        "hình thành khi các giọt nước trong mây đủ lớn và rơi xuống",
+        "là lớp cát trên trời"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của mưa.",
+      "e": "Hơi nước ngưng tụ thành giọt, lớn dần rồi rơi xuống.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về mưa, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "mưa đá trên biển",
+        "hình thành khi các giọt nước trong mây đủ lớn và rơi xuống",
+        "núi tự di chuyển",
+        "lá cây đổi màu"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của mưa.",
+      "e": "Hơi nước ngưng tụ thành giọt, lớn dần rồi rơi xuống.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác mưa?",
+      "a": [
+        "hình thành khi các giọt nước trong mây đủ lớn và rơi xuống",
+        "là sự rung chuyển mặt đất do năng lượng trong lòng Trái Đất giải phóng",
+        "là sự thay đổi mùa",
+        "là tiếng gió qua cây"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của mưa.",
+      "e": "Hơi nước ngưng tụ thành giọt, lớn dần rồi rơi xuống.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của mưa?",
+      "a": [
+        "là nước sông dâng do mưa",
+        "xảy ra khi magma và khí thoát lên bề mặt",
+        "xảy ra khi tuyết tan",
+        "hình thành khi các giọt nước trong mây đủ lớn và rơi xuống"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của mưa.",
+      "e": "Hơi nước ngưng tụ thành giọt, lớn dần rồi rơi xuống.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về mưa, nhận định nào phù hợp nhất?",
+      "a": [
+        "do thủy triều lên",
+        "luân phiên do Trái Đất tự quay quanh trục",
+        "hình thành khi các giọt nước trong mây đủ lớn và rơi xuống",
+        "do cây rụng lá"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của mưa.",
+      "e": "Hơi nước ngưng tụ thành giọt, lớn dần rồi rơi xuống.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về gió?",
+      "a": [
+        "là sự chuyển động của không khí",
+        "là sự thay đổi mùa",
+        "là tiếng gió qua cây",
+        "là nước sông dâng do mưa"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của gió.",
+      "e": "Không khí chuyển động tạo thành gió.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về gió, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "xảy ra khi magma và khí thoát lên bề mặt",
+        "xảy ra khi tuyết tan",
+        "do cây rụng lá",
+        "là sự chuyển động của không khí"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của gió.",
+      "e": "Không khí chuyển động tạo thành gió.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác gió?",
+      "a": [
+        "luân phiên do Trái Đất tự quay quanh trục",
+        "do Mặt Trời tắt rồi bật",
+        "là sự chuyển động của không khí",
+        "do thủy triều lên"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của gió.",
+      "e": "Không khí chuyển động tạo thành gió.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của gió?",
+      "a": [
+        "có thể xuất hiện khi ánh sáng mặt trời gặp các giọt nước trong không khí",
+        "là sự chuyển động của không khí",
+        "do Mặt Trăng che Trái Đất mỗi ngày",
+        "do mây di chuyển"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của gió.",
+      "e": "Không khí chuyển động tạo thành gió.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về gió, nhận định nào phù hợp nhất?",
+      "a": [
+        "là sự chuyển động của không khí",
+        "xuất hiện do đá phát sáng",
+        "được tạo bởi khói đen",
+        "chỉ xuất hiện trong phòng tối"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của gió.",
+      "e": "Không khí chuyển động tạo thành gió.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về sương mù?",
+      "a": [
+        "do Mặt Trời tắt rồi bật",
+        "do Mặt Trăng che Trái Đất mỗi ngày",
+        "gồm những giọt nước rất nhỏ lơ lửng gần mặt đất",
+        "luân phiên do Trái Đất tự quay quanh trục"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của sương mù.",
+      "e": "Sương mù làm giảm tầm nhìn.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về sương mù, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "xuất hiện do đá phát sáng",
+        "gồm những giọt nước rất nhỏ lơ lửng gần mặt đất",
+        "do mây di chuyển",
+        "có thể xuất hiện khi ánh sáng mặt trời gặp các giọt nước trong không khí"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của sương mù.",
+      "e": "Sương mù làm giảm tầm nhìn.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác sương mù?",
+      "a": [
+        "gồm những giọt nước rất nhỏ lơ lửng gần mặt đất",
+        "được tạo bởi khói đen",
+        "chỉ xuất hiện trong phòng tối",
+        "là âm thanh do không khí nóng lên và giãn nở nhanh quanh tia sét"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của sương mù.",
+      "e": "Sương mù làm giảm tầm nhìn.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của sương mù?",
+      "a": [
+        "là tiếng cây mọc",
+        "là tiếng sóng biển בלבד",
+        "là tiếng mưa đóng băng",
+        "gồm những giọt nước rất nhỏ lơ lửng gần mặt đất"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của sương mù.",
+      "e": "Sương mù làm giảm tầm nhìn.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về sương mù, nhận định nào phù hợp nhất?",
+      "a": [
+        "là ánh sáng từ đèn đường",
+        "là ánh sáng phản chiếu của cây",
+        "gồm những giọt nước rất nhỏ lơ lửng gần mặt đất",
+        "là sự phóng điện mạnh trong khí quyển"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của sương mù.",
+      "e": "Sương mù làm giảm tầm nhìn.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về thủy triều?",
+      "a": [
+        "là hiện tượng mực nước biển lên xuống theo chu kỳ",
+        "chỉ xuất hiện trong phòng tối",
+        "là âm thanh do không khí nóng lên và giãn nở nhanh quanh tia sét",
+        "là tiếng cây mọc"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của thủy triều.",
+      "e": "Lực hấp dẫn của Mặt Trăng và Mặt Trời góp phần tạo thủy triều.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về thủy triều, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "là tiếng sóng biển בלבד",
+        "là tiếng mưa đóng băng",
+        "là sự phóng điện mạnh trong khí quyển",
+        "là hiện tượng mực nước biển lên xuống theo chu kỳ"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của thủy triều.",
+      "e": "Lực hấp dẫn của Mặt Trăng và Mặt Trời góp phần tạo thủy triều.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác thủy triều?",
+      "a": [
+        "là ánh sáng phản chiếu của cây",
+        "là ánh sáng do cá phát ra",
+        "là hiện tượng mực nước biển lên xuống theo chu kỳ",
+        "là ánh sáng từ đèn đường"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của thủy triều.",
+      "e": "Lực hấp dẫn của Mặt Trăng và Mặt Trời góp phần tạo thủy triều.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của thủy triều?",
+      "a": [
+        "là nước biển bốc lên nguyên vẹn",
+        "là hiện tượng mực nước biển lên xuống theo chu kỳ",
+        "hình thành khi các giọt nước trong mây đủ lớn và rơi xuống",
+        "hình thành khi cát bay lên"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của thủy triều.",
+      "e": "Lực hấp dẫn của Mặt Trăng và Mặt Trời góp phần tạo thủy triều.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về thủy triều, nhận định nào phù hợp nhất?",
+      "a": [
+        "là hiện tượng mực nước biển lên xuống theo chu kỳ",
+        "do cây thải ra",
+        "là sự chuyển động của không khí",
+        "là dòng chảy của đất"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của thủy triều.",
+      "e": "Lực hấp dẫn của Mặt Trăng và Mặt Trời góp phần tạo thủy triều.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về động đất?",
+      "a": [
+        "là ánh sáng do cá phát ra",
+        "hình thành khi các giọt nước trong mây đủ lớn và rơi xuống",
+        "là sự rung chuyển mặt đất do năng lượng trong lòng Trái Đất giải phóng",
+        "là ánh sáng phản chiếu của cây"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của động đất.",
+      "e": "Động đất có thể xảy ra khi các khối đá trong vỏ Trái Đất dịch chuyển.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về động đất, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "do cây thải ra",
+        "là sự rung chuyển mặt đất do năng lượng trong lòng Trái Đất giải phóng",
+        "hình thành khi cát bay lên",
+        "là nước biển bốc lên nguyên vẹn"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của động đất.",
+      "e": "Động đất có thể xảy ra khi các khối đá trong vỏ Trái Đất dịch chuyển.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác động đất?",
+      "a": [
+        "là sự rung chuyển mặt đất do năng lượng trong lòng Trái Đất giải phóng",
+        "là sự chuyển động của không khí",
+        "là dòng chảy của đất",
+        "là ánh sáng di chuyển"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của động đất.",
+      "e": "Động đất có thể xảy ra khi các khối đá trong vỏ Trái Đất dịch chuyển.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của động đất?",
+      "a": [
+        "là nước đóng băng",
+        "gồm những giọt nước rất nhỏ lơ lửng gần mặt đất",
+        "là bụi kim loại nóng chảy",
+        "là sự rung chuyển mặt đất do năng lượng trong lòng Trái Đất giải phóng"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của động đất.",
+      "e": "Động đất có thể xảy ra khi các khối đá trong vỏ Trái Đất dịch chuyển.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về động đất, nhận định nào phù hợp nhất?",
+      "a": [
+        "là mây làm bằng khói",
+        "là hiện tượng mực nước biển lên xuống theo chu kỳ",
+        "là sự rung chuyển mặt đất do năng lượng trong lòng Trái Đất giải phóng",
+        "là lớp cát trên trời"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của động đất.",
+      "e": "Động đất có thể xảy ra khi các khối đá trong vỏ Trái Đất dịch chuyển.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về núi lửa phun trào?",
+      "a": [
+        "xảy ra khi magma và khí thoát lên bề mặt",
+        "là dòng chảy của đất",
+        "là ánh sáng di chuyển",
+        "là nước đóng băng"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của núi lửa phun trào.",
+      "e": "Magma khi ra ngoài bề mặt được gọi là dung nham.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về núi lửa phun trào, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "gồm những giọt nước rất nhỏ lơ lửng gần mặt đất",
+        "là bụi kim loại nóng chảy",
+        "là lớp cát trên trời",
+        "xảy ra khi magma và khí thoát lên bề mặt"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của núi lửa phun trào.",
+      "e": "Magma khi ra ngoài bề mặt được gọi là dung nham.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác núi lửa phun trào?",
+      "a": [
+        "là hiện tượng mực nước biển lên xuống theo chu kỳ",
+        "núi tự di chuyển",
+        "xảy ra khi magma và khí thoát lên bề mặt",
+        "là mây làm bằng khói"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của núi lửa phun trào.",
+      "e": "Magma khi ra ngoài bề mặt được gọi là dung nham.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của núi lửa phun trào?",
+      "a": [
+        "là sự rung chuyển mặt đất do năng lượng trong lòng Trái Đất giải phóng",
+        "xảy ra khi magma và khí thoát lên bề mặt",
+        "lá cây đổi màu",
+        "mưa đá trên biển"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của núi lửa phun trào.",
+      "e": "Magma khi ra ngoài bề mặt được gọi là dung nham.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về núi lửa phun trào, nhận định nào phù hợp nhất?",
+      "a": [
+        "xảy ra khi magma và khí thoát lên bề mặt",
+        "là sự thay đổi mùa",
+        "là tiếng gió qua cây",
+        "là nước sông dâng do mưa"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của núi lửa phun trào.",
+      "e": "Magma khi ra ngoài bề mặt được gọi là dung nham.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về ngày và đêm?",
+      "a": [
+        "núi tự di chuyển",
+        "lá cây đổi màu",
+        "luân phiên do Trái Đất tự quay quanh trục",
+        "là hiện tượng mực nước biển lên xuống theo chu kỳ"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ngày và đêm.",
+      "e": "Phần Trái Đất hướng về Mặt Trời là ban ngày, phần khuất là ban đêm.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về ngày và đêm, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "là sự thay đổi mùa",
+        "luân phiên do Trái Đất tự quay quanh trục",
+        "mưa đá trên biển",
+        "là sự rung chuyển mặt đất do năng lượng trong lòng Trái Đất giải phóng"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ngày và đêm.",
+      "e": "Phần Trái Đất hướng về Mặt Trời là ban ngày, phần khuất là ban đêm.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác ngày và đêm?",
+      "a": [
+        "luân phiên do Trái Đất tự quay quanh trục",
+        "là tiếng gió qua cây",
+        "là nước sông dâng do mưa",
+        "xảy ra khi magma và khí thoát lên bề mặt"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ngày và đêm.",
+      "e": "Phần Trái Đất hướng về Mặt Trời là ban ngày, phần khuất là ban đêm.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của ngày và đêm?",
+      "a": [
+        "xảy ra khi tuyết tan",
+        "do cây rụng lá",
+        "do thủy triều lên",
+        "luân phiên do Trái Đất tự quay quanh trục"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ngày và đêm.",
+      "e": "Phần Trái Đất hướng về Mặt Trời là ban ngày, phần khuất là ban đêm.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về ngày và đêm, nhận định nào phù hợp nhất?",
+      "a": [
+        "do Mặt Trăng che Trái Đất mỗi ngày",
+        "do mây di chuyển",
+        "luân phiên do Trái Đất tự quay quanh trục",
+        "do Mặt Trời tắt rồi bật"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ngày và đêm.",
+      "e": "Phần Trái Đất hướng về Mặt Trời là ban ngày, phần khuất là ban đêm.",
+      "category": "hien_tuong_thien_nhien",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về phân loại rác?",
+      "a": [
+        "giúp thu gom đúng cách và tăng khả năng tái chế",
+        "làm rác biến mất ngay",
+        "khiến mọi loại rác thành thức ăn",
+        "làm nước biển mặn hơn"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của phân loại rác.",
+      "e": "Phân loại rác giúp xử lý phù hợp từng nhóm chất thải.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về phân loại rác, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "giúp giảm nhu cầu sử dụng nguyên liệu gỗ mới",
+        "làm tăng rác giấy",
+        "khiến cây không cần nước",
+        "giúp thu gom đúng cách và tăng khả năng tái chế"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của phân loại rác.",
+      "e": "Phân loại rác giúp xử lý phù hợp từng nhóm chất thải.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác phân loại rác?",
+      "a": [
+        "giúp giảm lượng năng lượng cần sản xuất",
+        "làm thiết bị chạy mãi không cần điện",
+        "giúp thu gom đúng cách và tăng khả năng tái chế",
+        "tạo khói độc bắt buộc"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của phân loại rác.",
+      "e": "Phân loại rác giúp xử lý phù hợp từng nhóm chất thải.",
+      "category": "bao_ve_moi_truong",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của phân loại rác?",
+      "a": [
+        "giúp tạo nơi sống cho sinh vật và hấp thụ khí các-bon đi-ô-xít",
+        "giúp thu gom đúng cách và tăng khả năng tái chế",
+        "làm tăng khói bụi",
+        "khiến bóng đèn sáng hơn khi tắt"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của phân loại rác.",
+      "e": "Phân loại rác giúp xử lý phù hợp từng nhóm chất thải.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về phân loại rác, nhận định nào phù hợp nhất?",
+      "a": [
+        "giúp thu gom đúng cách và tăng khả năng tái chế",
+        "làm mất hết đất màu",
+        "khiến không khí không còn ô-xi",
+        "làm nước thành dầu"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của phân loại rác.",
+      "e": "Phân loại rác giúp xử lý phù hợp từng nhóm chất thải.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về tái chế giấy?",
+      "a": [
+        "làm thiết bị chạy mãi không cần điện",
+        "làm tăng khói bụi",
+        "giúp giảm nhu cầu sử dụng nguyên liệu gỗ mới",
+        "giúp giảm lượng năng lượng cần sản xuất"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tái chế giấy.",
+      "e": "Giấy đã dùng có thể được xử lý để sản xuất giấy mới.",
+      "category": "bao_ve_moi_truong",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về tái chế giấy, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "làm mất hết đất màu",
+        "giúp giảm nhu cầu sử dụng nguyên liệu gỗ mới",
+        "khiến bóng đèn sáng hơn khi tắt",
+        "giúp tạo nơi sống cho sinh vật và hấp thụ khí các-bon đi-ô-xít"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tái chế giấy.",
+      "e": "Giấy đã dùng có thể được xử lý để sản xuất giấy mới.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác tái chế giấy?",
+      "a": [
+        "giúp giảm nhu cầu sử dụng nguyên liệu gỗ mới",
+        "khiến không khí không còn ô-xi",
+        "làm nước thành dầu",
+        "có thể tồn tại rất lâu trong môi trường nếu không được thu gom đúng cách"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tái chế giấy.",
+      "e": "Giấy đã dùng có thể được xử lý để sản xuất giấy mới.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của tái chế giấy?",
+      "a": [
+        "luôn tự tan trong một ngày",
+        "là thức ăn an toàn cho mọi loài",
+        "biến thành nước sạch",
+        "giúp giảm nhu cầu sử dụng nguyên liệu gỗ mới"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tái chế giấy.",
+      "e": "Giấy đã dùng có thể được xử lý để sản xuất giấy mới.",
+      "category": "bao_ve_moi_truong",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về tái chế giấy, nhận định nào phù hợp nhất?",
+      "a": [
+        "nên đổ thẳng vào sông hồ",
+        "có thể uống ngay trong mọi trường hợp",
+        "giúp giảm nhu cầu sử dụng nguyên liệu gỗ mới",
+        "cần được xử lý phù hợp trước khi xả ra môi trường"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tái chế giấy.",
+      "e": "Giấy đã dùng có thể được xử lý để sản xuất giấy mới.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về tiết kiệm điện?",
+      "a": [
+        "giúp giảm lượng năng lượng cần sản xuất",
+        "làm nước thành dầu",
+        "có thể tồn tại rất lâu trong môi trường nếu không được thu gom đúng cách",
+        "luôn tự tan trong một ngày"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tiết kiệm điện.",
+      "e": "Tắt thiết bị khi không dùng giúp tiết kiệm điện.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về tiết kiệm điện, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "là thức ăn an toàn cho mọi loài",
+        "biến thành nước sạch",
+        "cần được xử lý phù hợp trước khi xả ra môi trường",
+        "giúp giảm lượng năng lượng cần sản xuất"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tiết kiệm điện.",
+      "e": "Tắt thiết bị khi không dùng giúp tiết kiệm điện.",
+      "category": "bao_ve_moi_truong",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác tiết kiệm điện?",
+      "a": [
+        "có thể uống ngay trong mọi trường hợp",
+        "không ảnh hưởng sinh vật",
+        "giúp giảm lượng năng lượng cần sản xuất",
+        "nên đổ thẳng vào sông hồ"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tiết kiệm điện.",
+      "e": "Tắt thiết bị khi không dùng giúp tiết kiệm điện.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của tiết kiệm điện?",
+      "a": [
+        "được lấy từ rác nhựa",
+        "giúp giảm lượng năng lượng cần sản xuất",
+        "là nguồn năng lượng tái tạo từ ánh sáng và nhiệt Mặt Trời",
+        "là nhiên liệu hóa thạch"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tiết kiệm điện.",
+      "e": "Tắt thiết bị khi không dùng giúp tiết kiệm điện.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về tiết kiệm điện, nhận định nào phù hợp nhất?",
+      "a": [
+        "giúp giảm lượng năng lượng cần sản xuất",
+        "chỉ có vào ban đêm",
+        "là sự phong phú về các loài sinh vật và hệ sinh thái",
+        "nơi chỉ có một loài vật"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tiết kiệm điện.",
+      "e": "Tắt thiết bị khi không dùng giúp tiết kiệm điện.",
+      "category": "bao_ve_moi_truong",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về trồng cây?",
+      "a": [
+        "không ảnh hưởng sinh vật",
+        "là nguồn năng lượng tái tạo từ ánh sáng và nhiệt Mặt Trời",
+        "giúp tạo nơi sống cho sinh vật và hấp thụ khí các-bon đi-ô-xít",
+        "có thể uống ngay trong mọi trường hợp"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của trồng cây.",
+      "e": "Cây xanh góp phần điều hòa không khí và bảo vệ đất.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về trồng cây, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "chỉ có vào ban đêm",
+        "giúp tạo nơi sống cho sinh vật và hấp thụ khí các-bon đi-ô-xít",
+        "là nhiên liệu hóa thạch",
+        "được lấy từ rác nhựa"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của trồng cây.",
+      "e": "Cây xanh góp phần điều hòa không khí và bảo vệ đất.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác trồng cây?",
+      "a": [
+        "giúp tạo nơi sống cho sinh vật và hấp thụ khí các-bon đi-ô-xít",
+        "là sự phong phú về các loài sinh vật và hệ sinh thái",
+        "nơi chỉ có một loài vật",
+        "sự biến mất của mọi cây cối"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của trồng cây.",
+      "e": "Cây xanh góp phần điều hòa không khí và bảo vệ đất.",
+      "category": "bao_ve_moi_truong",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của trồng cây?",
+      "a": [
+        "lượng rác trong thành phố",
+        "có thể ảnh hưởng đến thính giác và sức khỏe",
+        "luôn giúp tai khỏe hơn",
+        "giúp tạo nơi sống cho sinh vật và hấp thụ khí các-bon đi-ô-xít"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của trồng cây.",
+      "e": "Cây xanh góp phần điều hòa không khí và bảo vệ đất.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về trồng cây, nhận định nào phù hợp nhất?",
+      "a": [
+        "giúp cây quang hợp nhanh",
+        "giúp giảm nhu cầu sử dụng túi nhựa dùng một lần",
+        "giúp tạo nơi sống cho sinh vật và hấp thụ khí các-bon đi-ô-xít",
+        "làm nước sạch hơn"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của trồng cây.",
+      "e": "Cây xanh góp phần điều hòa không khí và bảo vệ đất.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về rác thải nhựa?",
+      "a": [
+        "có thể tồn tại rất lâu trong môi trường nếu không được thu gom đúng cách",
+        "nơi chỉ có một loài vật",
+        "sự biến mất của mọi cây cối",
+        "lượng rác trong thành phố"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rác thải nhựa.",
+      "e": "Nhựa phân rã rất chậm và có thể gây hại cho động vật.",
+      "category": "bao_ve_moi_truong",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về rác thải nhựa, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "có thể ảnh hưởng đến thính giác và sức khỏe",
+        "luôn giúp tai khỏe hơn",
+        "làm nước sạch hơn",
+        "có thể tồn tại rất lâu trong môi trường nếu không được thu gom đúng cách"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rác thải nhựa.",
+      "e": "Nhựa phân rã rất chậm và có thể gây hại cho động vật.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác rác thải nhựa?",
+      "a": [
+        "giúp giảm nhu cầu sử dụng túi nhựa dùng một lần",
+        "làm tăng rác nhựa",
+        "có thể tồn tại rất lâu trong môi trường nếu không được thu gom đúng cách",
+        "giúp cây quang hợp nhanh"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rác thải nhựa.",
+      "e": "Nhựa phân rã rất chậm và có thể gây hại cho động vật.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của rác thải nhựa?",
+      "a": [
+        "giúp thu gom đúng cách và tăng khả năng tái chế",
+        "có thể tồn tại rất lâu trong môi trường nếu không được thu gom đúng cách",
+        "không thể mang đồ",
+        "chỉ dùng được một lần"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rác thải nhựa.",
+      "e": "Nhựa phân rã rất chậm và có thể gây hại cho động vật.",
+      "category": "bao_ve_moi_truong",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về rác thải nhựa, nhận định nào phù hợp nhất?",
+      "a": [
+        "có thể tồn tại rất lâu trong môi trường nếu không được thu gom đúng cách",
+        "làm rác biến mất ngay",
+        "khiến mọi loại rác thành thức ăn",
+        "làm nước biển mặn hơn"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rác thải nhựa.",
+      "e": "Nhựa phân rã rất chậm và có thể gây hại cho động vật.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về nước thải?",
+      "a": [
+        "làm tăng rác nhựa",
+        "không thể mang đồ",
+        "cần được xử lý phù hợp trước khi xả ra môi trường",
+        "giúp giảm nhu cầu sử dụng túi nhựa dùng một lần"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của nước thải.",
+      "e": "Xử lý nước thải giúp giảm chất ô nhiễm.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về nước thải, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "làm rác biến mất ngay",
+        "cần được xử lý phù hợp trước khi xả ra môi trường",
+        "chỉ dùng được một lần",
+        "giúp thu gom đúng cách và tăng khả năng tái chế"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của nước thải.",
+      "e": "Xử lý nước thải giúp giảm chất ô nhiễm.",
+      "category": "bao_ve_moi_truong",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác nước thải?",
+      "a": [
+        "cần được xử lý phù hợp trước khi xả ra môi trường",
+        "khiến mọi loại rác thành thức ăn",
+        "làm nước biển mặn hơn",
+        "giúp giảm nhu cầu sử dụng nguyên liệu gỗ mới"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của nước thải.",
+      "e": "Xử lý nước thải giúp giảm chất ô nhiễm.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của nước thải?",
+      "a": [
+        "làm tăng rác giấy",
+        "khiến cây không cần nước",
+        "tạo khói độc bắt buộc",
+        "cần được xử lý phù hợp trước khi xả ra môi trường"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của nước thải.",
+      "e": "Xử lý nước thải giúp giảm chất ô nhiễm.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về nước thải, nhận định nào phù hợp nhất?",
+      "a": [
+        "làm thiết bị chạy mãi không cần điện",
+        "làm tăng khói bụi",
+        "cần được xử lý phù hợp trước khi xả ra môi trường",
+        "giúp giảm lượng năng lượng cần sản xuất"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của nước thải.",
+      "e": "Xử lý nước thải giúp giảm chất ô nhiễm.",
+      "category": "bao_ve_moi_truong",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về năng lượng mặt trời?",
+      "a": [
+        "là nguồn năng lượng tái tạo từ ánh sáng và nhiệt Mặt Trời",
+        "làm nước biển mặn hơn",
+        "giúp giảm nhu cầu sử dụng nguyên liệu gỗ mới",
+        "làm tăng rác giấy"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của năng lượng mặt trời.",
+      "e": "Pin mặt trời có thể chuyển ánh sáng thành điện năng.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về năng lượng mặt trời, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "khiến cây không cần nước",
+        "tạo khói độc bắt buộc",
+        "giúp giảm lượng năng lượng cần sản xuất",
+        "là nguồn năng lượng tái tạo từ ánh sáng và nhiệt Mặt Trời"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của năng lượng mặt trời.",
+      "e": "Pin mặt trời có thể chuyển ánh sáng thành điện năng.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác năng lượng mặt trời?",
+      "a": [
+        "làm tăng khói bụi",
+        "khiến bóng đèn sáng hơn khi tắt",
+        "là nguồn năng lượng tái tạo từ ánh sáng và nhiệt Mặt Trời",
+        "làm thiết bị chạy mãi không cần điện"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của năng lượng mặt trời.",
+      "e": "Pin mặt trời có thể chuyển ánh sáng thành điện năng.",
+      "category": "bao_ve_moi_truong",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của năng lượng mặt trời?",
+      "a": [
+        "khiến không khí không còn ô-xi",
+        "là nguồn năng lượng tái tạo từ ánh sáng và nhiệt Mặt Trời",
+        "giúp tạo nơi sống cho sinh vật và hấp thụ khí các-bon đi-ô-xít",
+        "làm mất hết đất màu"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của năng lượng mặt trời.",
+      "e": "Pin mặt trời có thể chuyển ánh sáng thành điện năng.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về năng lượng mặt trời, nhận định nào phù hợp nhất?",
+      "a": [
+        "là nguồn năng lượng tái tạo từ ánh sáng và nhiệt Mặt Trời",
+        "làm nước thành dầu",
+        "có thể tồn tại rất lâu trong môi trường nếu không được thu gom đúng cách",
+        "luôn tự tan trong một ngày"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của năng lượng mặt trời.",
+      "e": "Pin mặt trời có thể chuyển ánh sáng thành điện năng.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về đa dạng sinh học?",
+      "a": [
+        "khiến bóng đèn sáng hơn khi tắt",
+        "giúp tạo nơi sống cho sinh vật và hấp thụ khí các-bon đi-ô-xít",
+        "là sự phong phú về các loài sinh vật và hệ sinh thái",
+        "làm tăng khói bụi"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đa dạng sinh học.",
+      "e": "Đa dạng sinh học giúp hệ sinh thái duy trì cân bằng.",
+      "category": "bao_ve_moi_truong",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về đa dạng sinh học, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "làm nước thành dầu",
+        "là sự phong phú về các loài sinh vật và hệ sinh thái",
+        "làm mất hết đất màu",
+        "khiến không khí không còn ô-xi"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đa dạng sinh học.",
+      "e": "Đa dạng sinh học giúp hệ sinh thái duy trì cân bằng.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác đa dạng sinh học?",
+      "a": [
+        "là sự phong phú về các loài sinh vật và hệ sinh thái",
+        "có thể tồn tại rất lâu trong môi trường nếu không được thu gom đúng cách",
+        "luôn tự tan trong một ngày",
+        "là thức ăn an toàn cho mọi loài"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đa dạng sinh học.",
+      "e": "Đa dạng sinh học giúp hệ sinh thái duy trì cân bằng.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của đa dạng sinh học?",
+      "a": [
+        "biến thành nước sạch",
+        "cần được xử lý phù hợp trước khi xả ra môi trường",
+        "nên đổ thẳng vào sông hồ",
+        "là sự phong phú về các loài sinh vật và hệ sinh thái"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đa dạng sinh học.",
+      "e": "Đa dạng sinh học giúp hệ sinh thái duy trì cân bằng.",
+      "category": "bao_ve_moi_truong",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về đa dạng sinh học, nhận định nào phù hợp nhất?",
+      "a": [
+        "không ảnh hưởng sinh vật",
+        "là nguồn năng lượng tái tạo từ ánh sáng và nhiệt Mặt Trời",
+        "là sự phong phú về các loài sinh vật và hệ sinh thái",
+        "có thể uống ngay trong mọi trường hợp"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đa dạng sinh học.",
+      "e": "Đa dạng sinh học giúp hệ sinh thái duy trì cân bằng.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về tiếng ồn quá lớn?",
+      "a": [
+        "có thể ảnh hưởng đến thính giác và sức khỏe",
+        "luôn tự tan trong một ngày",
+        "là thức ăn an toàn cho mọi loài",
+        "biến thành nước sạch"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tiếng ồn quá lớn.",
+      "e": "Nên giảm âm lượng và tránh tiếp xúc lâu với tiếng ồn lớn.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về tiếng ồn quá lớn, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "cần được xử lý phù hợp trước khi xả ra môi trường",
+        "nên đổ thẳng vào sông hồ",
+        "có thể uống ngay trong mọi trường hợp",
+        "có thể ảnh hưởng đến thính giác và sức khỏe"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tiếng ồn quá lớn.",
+      "e": "Nên giảm âm lượng và tránh tiếp xúc lâu với tiếng ồn lớn.",
+      "category": "bao_ve_moi_truong",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác tiếng ồn quá lớn?",
+      "a": [
+        "là nguồn năng lượng tái tạo từ ánh sáng và nhiệt Mặt Trời",
+        "là nhiên liệu hóa thạch",
+        "có thể ảnh hưởng đến thính giác và sức khỏe",
+        "không ảnh hưởng sinh vật"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tiếng ồn quá lớn.",
+      "e": "Nên giảm âm lượng và tránh tiếp xúc lâu với tiếng ồn lớn.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của tiếng ồn quá lớn?",
+      "a": [
+        "là sự phong phú về các loài sinh vật và hệ sinh thái",
+        "có thể ảnh hưởng đến thính giác và sức khỏe",
+        "được lấy từ rác nhựa",
+        "chỉ có vào ban đêm"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tiếng ồn quá lớn.",
+      "e": "Nên giảm âm lượng và tránh tiếp xúc lâu với tiếng ồn lớn.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về tiếng ồn quá lớn, nhận định nào phù hợp nhất?",
+      "a": [
+        "có thể ảnh hưởng đến thính giác và sức khỏe",
+        "nơi chỉ có một loài vật",
+        "sự biến mất của mọi cây cối",
+        "lượng rác trong thành phố"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của tiếng ồn quá lớn.",
+      "e": "Nên giảm âm lượng và tránh tiếp xúc lâu với tiếng ồn lớn.",
+      "category": "bao_ve_moi_truong",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về túi dùng nhiều lần?",
+      "a": [
+        "là nhiên liệu hóa thạch",
+        "được lấy từ rác nhựa",
+        "giúp giảm nhu cầu sử dụng túi nhựa dùng một lần",
+        "là nguồn năng lượng tái tạo từ ánh sáng và nhiệt Mặt Trời"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của túi dùng nhiều lần.",
+      "e": "Túi vải hoặc túi bền có thể dùng lại nhiều lần.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về túi dùng nhiều lần, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "nơi chỉ có một loài vật",
+        "giúp giảm nhu cầu sử dụng túi nhựa dùng một lần",
+        "chỉ có vào ban đêm",
+        "là sự phong phú về các loài sinh vật và hệ sinh thái"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của túi dùng nhiều lần.",
+      "e": "Túi vải hoặc túi bền có thể dùng lại nhiều lần.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác túi dùng nhiều lần?",
+      "a": [
+        "giúp giảm nhu cầu sử dụng túi nhựa dùng một lần",
+        "sự biến mất của mọi cây cối",
+        "lượng rác trong thành phố",
+        "có thể ảnh hưởng đến thính giác và sức khỏe"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của túi dùng nhiều lần.",
+      "e": "Túi vải hoặc túi bền có thể dùng lại nhiều lần.",
+      "category": "bao_ve_moi_truong",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của túi dùng nhiều lần?",
+      "a": [
+        "luôn giúp tai khỏe hơn",
+        "làm nước sạch hơn",
+        "giúp cây quang hợp nhanh",
+        "giúp giảm nhu cầu sử dụng túi nhựa dùng một lần"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của túi dùng nhiều lần.",
+      "e": "Túi vải hoặc túi bền có thể dùng lại nhiều lần.",
+      "category": "bao_ve_moi_truong",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về túi dùng nhiều lần, nhận định nào phù hợp nhất?",
+      "a": [
+        "không thể mang đồ",
+        "chỉ dùng được một lần",
+        "giúp giảm nhu cầu sử dụng túi nhựa dùng một lần",
+        "làm tăng rác nhựa"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của túi dùng nhiều lần.",
+      "e": "Túi vải hoặc túi bền có thể dùng lại nhiều lần.",
+      "category": "bao_ve_moi_truong",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về rửa tay bằng xà phòng?",
+      "a": [
+        "giúp loại bỏ bụi bẩn và nhiều vi khuẩn trên tay",
+        "làm tay phát sáng",
+        "thay thế hoàn toàn việc tắm",
+        "giúp tay không bao giờ bẩn"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rửa tay bằng xà phòng.",
+      "e": "Rửa tay đúng cách giúp phòng tránh bệnh truyền nhiễm.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về rửa tay bằng xà phòng, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "nên thực hiện ít nhất hai lần mỗi ngày",
+        "chỉ cần mỗi tháng",
+        "chỉ đánh khi ăn kẹo",
+        "giúp loại bỏ bụi bẩn và nhiều vi khuẩn trên tay"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rửa tay bằng xà phòng.",
+      "e": "Rửa tay đúng cách giúp phòng tránh bệnh truyền nhiễm.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác rửa tay bằng xà phòng?",
+      "a": [
+        "giúp cơ thể duy trì hoạt động bình thường",
+        "thay thế mọi bữa ăn",
+        "giúp loại bỏ bụi bẩn và nhiều vi khuẩn trên tay",
+        "không cần bàn chải"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rửa tay bằng xà phòng.",
+      "e": "Rửa tay đúng cách giúp phòng tránh bệnh truyền nhiễm.",
+      "category": "loi_song_sinh_hoat",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của rửa tay bằng xà phòng?",
+      "a": [
+        "giúp cơ thể nghỉ ngơi và phục hồi",
+        "giúp loại bỏ bụi bẩn và nhiều vi khuẩn trên tay",
+        "làm cơ thể không cần ngủ",
+        "chỉ cần uống khi trời mưa"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rửa tay bằng xà phòng.",
+      "e": "Rửa tay đúng cách giúp phòng tránh bệnh truyền nhiễm.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về rửa tay bằng xà phòng, nhận định nào phù hợp nhất?",
+      "a": [
+        "giúp loại bỏ bụi bẩn và nhiều vi khuẩn trên tay",
+        "làm cơ thể không cần vận động",
+        "khiến trí nhớ biến mất",
+        "thay thế việc ăn uống"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rửa tay bằng xà phòng.",
+      "e": "Rửa tay đúng cách giúp phòng tránh bệnh truyền nhiễm.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về đánh răng?",
+      "a": [
+        "thay thế mọi bữa ăn",
+        "làm cơ thể không cần ngủ",
+        "nên thực hiện ít nhất hai lần mỗi ngày",
+        "giúp cơ thể duy trì hoạt động bình thường"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đánh răng.",
+      "e": "Đánh răng buổi sáng và trước khi ngủ giúp chăm sóc răng miệng.",
+      "category": "loi_song_sinh_hoat",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về đánh răng, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "làm cơ thể không cần vận động",
+        "nên thực hiện ít nhất hai lần mỗi ngày",
+        "chỉ cần uống khi trời mưa",
+        "giúp cơ thể nghỉ ngơi và phục hồi"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đánh răng.",
+      "e": "Đánh răng buổi sáng và trước khi ngủ giúp chăm sóc răng miệng.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác đánh răng?",
+      "a": [
+        "nên thực hiện ít nhất hai lần mỗi ngày",
+        "khiến trí nhớ biến mất",
+        "thay thế việc ăn uống",
+        "giúp cơ bắp và tim mạch khỏe mạnh"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đánh răng.",
+      "e": "Đánh răng buổi sáng và trước khi ngủ giúp chăm sóc răng miệng.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của đánh răng?",
+      "a": [
+        "làm cơ thể không cần nước",
+        "khiến xương biến mất",
+        "thay thế hoàn toàn giấc ngủ",
+        "nên thực hiện ít nhất hai lần mỗi ngày"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đánh răng.",
+      "e": "Đánh răng buổi sáng và trước khi ngủ giúp chăm sóc răng miệng.",
+      "category": "loi_song_sinh_hoat",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về đánh răng, nhận định nào phù hợp nhất?",
+      "a": [
+        "làm rau quả tự chín",
+        "tạo thêm thuốc trừ sâu",
+        "nên thực hiện ít nhất hai lần mỗi ngày",
+        "giúp loại bỏ đất cát và một phần chất bẩn trên bề mặt"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đánh răng.",
+      "e": "Đánh răng buổi sáng và trước khi ngủ giúp chăm sóc răng miệng.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về uống nước?",
+      "a": [
+        "giúp cơ thể duy trì hoạt động bình thường",
+        "thay thế việc ăn uống",
+        "giúp cơ bắp và tim mạch khỏe mạnh",
+        "làm cơ thể không cần nước"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của uống nước.",
+      "e": "Nước cần thiết cho nhiều hoạt động của cơ thể.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về uống nước, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "khiến xương biến mất",
+        "thay thế hoàn toàn giấc ngủ",
+        "giúp loại bỏ đất cát và một phần chất bẩn trên bề mặt",
+        "giúp cơ thể duy trì hoạt động bình thường"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của uống nước.",
+      "e": "Nước cần thiết cho nhiều hoạt động của cơ thể.",
+      "category": "loi_song_sinh_hoat",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác uống nước?",
+      "a": [
+        "tạo thêm thuốc trừ sâu",
+        "khiến thực phẩm mất hết dinh dưỡng",
+        "giúp cơ thể duy trì hoạt động bình thường",
+        "làm rau quả tự chín"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của uống nước.",
+      "e": "Nước cần thiết cho nhiều hoạt động của cơ thể.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của uống nước?",
+      "a": [
+        "thay thế dây phanh",
+        "giúp cơ thể duy trì hoạt động bình thường",
+        "giúp bảo vệ đầu khi đi xe máy hoặc xe đạp điện",
+        "giúp xe chạy nhanh hơn"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của uống nước.",
+      "e": "Nước cần thiết cho nhiều hoạt động của cơ thể.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về uống nước, nhận định nào phù hợp nhất?",
+      "a": [
+        "giúp cơ thể duy trì hoạt động bình thường",
+        "giúp không cần quan sát đường",
+        "cần quan sát hai phía và đi đúng nơi dành cho người đi bộ",
+        "chạy nhanh mà không nhìn"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của uống nước.",
+      "e": "Nước cần thiết cho nhiều hoạt động của cơ thể.",
+      "category": "loi_song_sinh_hoat",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về ngủ đủ giấc?",
+      "a": [
+        "khiến thực phẩm mất hết dinh dưỡng",
+        "giúp bảo vệ đầu khi đi xe máy hoặc xe đạp điện",
+        "giúp cơ thể nghỉ ngơi và phục hồi",
+        "tạo thêm thuốc trừ sâu"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ngủ đủ giấc.",
+      "e": "Giấc ngủ hỗ trợ sức khỏe và khả năng học tập.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về ngủ đủ giấc, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "giúp không cần quan sát đường",
+        "giúp cơ thể nghỉ ngơi và phục hồi",
+        "giúp xe chạy nhanh hơn",
+        "thay thế dây phanh"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ngủ đủ giấc.",
+      "e": "Giấc ngủ hỗ trợ sức khỏe và khả năng học tập.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác ngủ đủ giấc?",
+      "a": [
+        "giúp cơ thể nghỉ ngơi và phục hồi",
+        "cần quan sát hai phía và đi đúng nơi dành cho người đi bộ",
+        "chạy nhanh mà không nhìn",
+        "vừa đi vừa nhìn điện thoại"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ngủ đủ giấc.",
+      "e": "Giấc ngủ hỗ trợ sức khỏe và khả năng học tập.",
+      "category": "loi_song_sinh_hoat",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của ngủ đủ giấc?",
+      "a": [
+        "đi giữa dòng xe",
+        "giúp cơ thể nhận được nhiều nhóm chất dinh dưỡng",
+        "chỉ ăn một món",
+        "giúp cơ thể nghỉ ngơi và phục hồi"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ngủ đủ giấc.",
+      "e": "Giấc ngủ hỗ trợ sức khỏe và khả năng học tập.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về ngủ đủ giấc, nhận định nào phù hợp nhất?",
+      "a": [
+        "bỏ tất cả rau xanh",
+        "giúp hạn chế nơi trú ẩn và sinh sản của côn trùng gây bệnh",
+        "giúp cơ thể nghỉ ngơi và phục hồi",
+        "chỉ ăn đồ ngọt"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ngủ đủ giấc.",
+      "e": "Giấc ngủ hỗ trợ sức khỏe và khả năng học tập.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về vận động thường xuyên?",
+      "a": [
+        "giúp cơ bắp và tim mạch khỏe mạnh",
+        "chạy nhanh mà không nhìn",
+        "vừa đi vừa nhìn điện thoại",
+        "đi giữa dòng xe"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của vận động thường xuyên.",
+      "e": "Vận động phù hợp tốt cho sức khỏe thể chất.",
+      "category": "loi_song_sinh_hoat",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về vận động thường xuyên, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "giúp cơ thể nhận được nhiều nhóm chất dinh dưỡng",
+        "chỉ ăn một món",
+        "chỉ ăn đồ ngọt",
+        "giúp cơ bắp và tim mạch khỏe mạnh"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của vận động thường xuyên.",
+      "e": "Vận động phù hợp tốt cho sức khỏe thể chất.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác vận động thường xuyên?",
+      "a": [
+        "giúp hạn chế nơi trú ẩn và sinh sản của côn trùng gây bệnh",
+        "tạo thêm rác quanh nhà",
+        "giúp cơ bắp và tim mạch khỏe mạnh",
+        "bỏ tất cả rau xanh"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của vận động thường xuyên.",
+      "e": "Vận động phù hợp tốt cho sức khỏe thể chất.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của vận động thường xuyên?",
+      "a": [
+        "giúp loại bỏ bụi bẩn và nhiều vi khuẩn trên tay",
+        "giúp cơ bắp và tim mạch khỏe mạnh",
+        "để nước đọng lâu ngày",
+        "không cần dọn dẹp"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của vận động thường xuyên.",
+      "e": "Vận động phù hợp tốt cho sức khỏe thể chất.",
+      "category": "loi_song_sinh_hoat",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về vận động thường xuyên, nhận định nào phù hợp nhất?",
+      "a": [
+        "giúp cơ bắp và tim mạch khỏe mạnh",
+        "làm tay phát sáng",
+        "thay thế hoàn toàn việc tắm",
+        "giúp tay không bao giờ bẩn"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của vận động thường xuyên.",
+      "e": "Vận động phù hợp tốt cho sức khỏe thể chất.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về rửa rau quả?",
+      "a": [
+        "tạo thêm rác quanh nhà",
+        "để nước đọng lâu ngày",
+        "giúp loại bỏ đất cát và một phần chất bẩn trên bề mặt",
+        "giúp hạn chế nơi trú ẩn và sinh sản của côn trùng gây bệnh"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rửa rau quả.",
+      "e": "Rau quả cần được rửa sạch dưới nước an toàn trước khi ăn.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về rửa rau quả, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "làm tay phát sáng",
+        "giúp loại bỏ đất cát và một phần chất bẩn trên bề mặt",
+        "không cần dọn dẹp",
+        "giúp loại bỏ bụi bẩn và nhiều vi khuẩn trên tay"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rửa rau quả.",
+      "e": "Rau quả cần được rửa sạch dưới nước an toàn trước khi ăn.",
+      "category": "loi_song_sinh_hoat",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác rửa rau quả?",
+      "a": [
+        "giúp loại bỏ đất cát và một phần chất bẩn trên bề mặt",
+        "thay thế hoàn toàn việc tắm",
+        "giúp tay không bao giờ bẩn",
+        "nên thực hiện ít nhất hai lần mỗi ngày"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rửa rau quả.",
+      "e": "Rau quả cần được rửa sạch dưới nước an toàn trước khi ăn.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của rửa rau quả?",
+      "a": [
+        "chỉ cần mỗi tháng",
+        "chỉ đánh khi ăn kẹo",
+        "không cần bàn chải",
+        "giúp loại bỏ đất cát và một phần chất bẩn trên bề mặt"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rửa rau quả.",
+      "e": "Rau quả cần được rửa sạch dưới nước an toàn trước khi ăn.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về rửa rau quả, nhận định nào phù hợp nhất?",
+      "a": [
+        "thay thế mọi bữa ăn",
+        "làm cơ thể không cần ngủ",
+        "giúp loại bỏ đất cát và một phần chất bẩn trên bề mặt",
+        "giúp cơ thể duy trì hoạt động bình thường"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của rửa rau quả.",
+      "e": "Rau quả cần được rửa sạch dưới nước an toàn trước khi ăn.",
+      "category": "loi_song_sinh_hoat",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về đội mũ bảo hiểm?",
+      "a": [
+        "giúp bảo vệ đầu khi đi xe máy hoặc xe đạp điện",
+        "giúp tay không bao giờ bẩn",
+        "nên thực hiện ít nhất hai lần mỗi ngày",
+        "chỉ cần mỗi tháng"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đội mũ bảo hiểm.",
+      "e": "Mũ đạt chuẩn và cài quai đúng cách giúp giảm nguy cơ chấn thương.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về đội mũ bảo hiểm, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "chỉ đánh khi ăn kẹo",
+        "không cần bàn chải",
+        "giúp cơ thể duy trì hoạt động bình thường",
+        "giúp bảo vệ đầu khi đi xe máy hoặc xe đạp điện"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đội mũ bảo hiểm.",
+      "e": "Mũ đạt chuẩn và cài quai đúng cách giúp giảm nguy cơ chấn thương.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác đội mũ bảo hiểm?",
+      "a": [
+        "làm cơ thể không cần ngủ",
+        "chỉ cần uống khi trời mưa",
+        "giúp bảo vệ đầu khi đi xe máy hoặc xe đạp điện",
+        "thay thế mọi bữa ăn"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đội mũ bảo hiểm.",
+      "e": "Mũ đạt chuẩn và cài quai đúng cách giúp giảm nguy cơ chấn thương.",
+      "category": "loi_song_sinh_hoat",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của đội mũ bảo hiểm?",
+      "a": [
+        "khiến trí nhớ biến mất",
+        "giúp bảo vệ đầu khi đi xe máy hoặc xe đạp điện",
+        "giúp cơ thể nghỉ ngơi và phục hồi",
+        "làm cơ thể không cần vận động"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đội mũ bảo hiểm.",
+      "e": "Mũ đạt chuẩn và cài quai đúng cách giúp giảm nguy cơ chấn thương.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về đội mũ bảo hiểm, nhận định nào phù hợp nhất?",
+      "a": [
+        "giúp bảo vệ đầu khi đi xe máy hoặc xe đạp điện",
+        "thay thế việc ăn uống",
+        "giúp cơ bắp và tim mạch khỏe mạnh",
+        "làm cơ thể không cần nước"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của đội mũ bảo hiểm.",
+      "e": "Mũ đạt chuẩn và cài quai đúng cách giúp giảm nguy cơ chấn thương.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về qua đường an toàn?",
+      "a": [
+        "chỉ cần uống khi trời mưa",
+        "giúp cơ thể nghỉ ngơi và phục hồi",
+        "cần quan sát hai phía và đi đúng nơi dành cho người đi bộ",
+        "làm cơ thể không cần ngủ"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của qua đường an toàn.",
+      "e": "Quan sát và tuân thủ tín hiệu giao thông giúp giảm tai nạn.",
+      "category": "loi_song_sinh_hoat",
+      "level": "kho"
+    },
+    {
+      "q": "Khi tìm hiểu về qua đường an toàn, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "thay thế việc ăn uống",
+        "cần quan sát hai phía và đi đúng nơi dành cho người đi bộ",
+        "làm cơ thể không cần vận động",
+        "khiến trí nhớ biến mất"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của qua đường an toàn.",
+      "e": "Quan sát và tuân thủ tín hiệu giao thông giúp giảm tai nạn.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác qua đường an toàn?",
+      "a": [
+        "cần quan sát hai phía và đi đúng nơi dành cho người đi bộ",
+        "giúp cơ bắp và tim mạch khỏe mạnh",
+        "làm cơ thể không cần nước",
+        "khiến xương biến mất"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của qua đường an toàn.",
+      "e": "Quan sát và tuân thủ tín hiệu giao thông giúp giảm tai nạn.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của qua đường an toàn?",
+      "a": [
+        "thay thế hoàn toàn giấc ngủ",
+        "giúp loại bỏ đất cát và một phần chất bẩn trên bề mặt",
+        "làm rau quả tự chín",
+        "cần quan sát hai phía và đi đúng nơi dành cho người đi bộ"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của qua đường an toàn.",
+      "e": "Quan sát và tuân thủ tín hiệu giao thông giúp giảm tai nạn.",
+      "category": "loi_song_sinh_hoat",
+      "level": "kho"
+    },
+    {
+      "q": "Để hiểu đúng về qua đường an toàn, nhận định nào phù hợp nhất?",
+      "a": [
+        "khiến thực phẩm mất hết dinh dưỡng",
+        "giúp bảo vệ đầu khi đi xe máy hoặc xe đạp điện",
+        "cần quan sát hai phía và đi đúng nơi dành cho người đi bộ",
+        "tạo thêm thuốc trừ sâu"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của qua đường an toàn.",
+      "e": "Quan sát và tuân thủ tín hiệu giao thông giúp giảm tai nạn.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về ăn đa dạng thực phẩm?",
+      "a": [
+        "giúp cơ thể nhận được nhiều nhóm chất dinh dưỡng",
+        "làm cơ thể không cần nước",
+        "khiến xương biến mất",
+        "thay thế hoàn toàn giấc ngủ"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ăn đa dạng thực phẩm.",
+      "e": "Bữa ăn cân đối nên có nhiều nhóm thực phẩm.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Khi tìm hiểu về ăn đa dạng thực phẩm, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "giúp loại bỏ đất cát và một phần chất bẩn trên bề mặt",
+        "làm rau quả tự chín",
+        "tạo thêm thuốc trừ sâu",
+        "giúp cơ thể nhận được nhiều nhóm chất dinh dưỡng"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ăn đa dạng thực phẩm.",
+      "e": "Bữa ăn cân đối nên có nhiều nhóm thực phẩm.",
+      "category": "loi_song_sinh_hoat",
+      "level": "kho"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác ăn đa dạng thực phẩm?",
+      "a": [
+        "giúp bảo vệ đầu khi đi xe máy hoặc xe đạp điện",
+        "giúp xe chạy nhanh hơn",
+        "giúp cơ thể nhận được nhiều nhóm chất dinh dưỡng",
+        "khiến thực phẩm mất hết dinh dưỡng"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ăn đa dạng thực phẩm.",
+      "e": "Bữa ăn cân đối nên có nhiều nhóm thực phẩm.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của ăn đa dạng thực phẩm?",
+      "a": [
+        "cần quan sát hai phía và đi đúng nơi dành cho người đi bộ",
+        "giúp cơ thể nhận được nhiều nhóm chất dinh dưỡng",
+        "thay thế dây phanh",
+        "giúp không cần quan sát đường"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ăn đa dạng thực phẩm.",
+      "e": "Bữa ăn cân đối nên có nhiều nhóm thực phẩm.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Để hiểu đúng về ăn đa dạng thực phẩm, nhận định nào phù hợp nhất?",
+      "a": [
+        "giúp cơ thể nhận được nhiều nhóm chất dinh dưỡng",
+        "chạy nhanh mà không nhìn",
+        "vừa đi vừa nhìn điện thoại",
+        "đi giữa dòng xe"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của ăn đa dạng thực phẩm.",
+      "e": "Bữa ăn cân đối nên có nhiều nhóm thực phẩm.",
+      "category": "loi_song_sinh_hoat",
+      "level": "kho"
+    },
+    {
+      "q": "Đặc điểm nào sau đây đúng về giữ vệ sinh nơi ở?",
+      "a": [
+        "giúp xe chạy nhanh hơn",
+        "thay thế dây phanh",
+        "giúp hạn chế nơi trú ẩn và sinh sản của côn trùng gây bệnh",
+        "giúp bảo vệ đầu khi đi xe máy hoặc xe đạp điện"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của giữ vệ sinh nơi ở.",
+      "e": "Nhà cửa sạch sẽ, khô thoáng giúp phòng bệnh.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Khi tìm hiểu về giữ vệ sinh nơi ở, em nên ghi nhớ đặc điểm nào?",
+      "a": [
+        "chạy nhanh mà không nhìn",
+        "giúp hạn chế nơi trú ẩn và sinh sản của côn trùng gây bệnh",
+        "giúp không cần quan sát đường",
+        "cần quan sát hai phía và đi đúng nơi dành cho người đi bộ"
+      ],
+      "c": 1,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của giữ vệ sinh nơi ở.",
+      "e": "Nhà cửa sạch sẽ, khô thoáng giúp phòng bệnh.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    },
+    {
+      "q": "Nhận định nào mô tả chính xác giữ vệ sinh nơi ở?",
+      "a": [
+        "giúp hạn chế nơi trú ẩn và sinh sản của côn trùng gây bệnh",
+        "vừa đi vừa nhìn điện thoại",
+        "đi giữa dòng xe",
+        "giúp cơ thể nhận được nhiều nhóm chất dinh dưỡng"
+      ],
+      "c": 0,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của giữ vệ sinh nơi ở.",
+      "e": "Nhà cửa sạch sẽ, khô thoáng giúp phòng bệnh.",
+      "category": "loi_song_sinh_hoat",
+      "level": "kho"
+    },
+    {
+      "q": "Phương án nào giải thích đúng vai trò hoặc đặc điểm của giữ vệ sinh nơi ở?",
+      "a": [
+        "chỉ ăn một món",
+        "chỉ ăn đồ ngọt",
+        "bỏ tất cả rau xanh",
+        "giúp hạn chế nơi trú ẩn và sinh sản của côn trùng gây bệnh"
+      ],
+      "c": 3,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của giữ vệ sinh nơi ở.",
+      "e": "Nhà cửa sạch sẽ, khô thoáng giúp phòng bệnh.",
+      "category": "loi_song_sinh_hoat",
+      "level": "de"
+    },
+    {
+      "q": "Để hiểu đúng về giữ vệ sinh nơi ở, nhận định nào phù hợp nhất?",
+      "a": [
+        "để nước đọng lâu ngày",
+        "không cần dọn dẹp",
+        "giúp hạn chế nơi trú ẩn và sinh sản của côn trùng gây bệnh",
+        "tạo thêm rác quanh nhà"
+      ],
+      "c": 2,
+      "h": "Hãy nghĩ đến đặc điểm hoặc vai trò của giữ vệ sinh nơi ở.",
+      "e": "Nhà cửa sạch sẽ, khô thoáng giúp phòng bệnh.",
+      "category": "loi_song_sinh_hoat",
+      "level": "trung_binh"
+    }
+  ]
+}
