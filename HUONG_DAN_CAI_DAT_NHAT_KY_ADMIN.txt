@@ -1,0 +1,105 @@
+VUI ĐỂ HỌC – HƯỚNG DẪN KÍCH HOẠT NHẬT KÝ TRUY CẬP ADMIN
+========================================================
+
+BẢN NÀY ĐƯỢC TẠO TỪ ĐÚNG GÓI:
+Vui_De_Hoc_TOI_UU_MENU_DIEN_THOAI_AM_NHAC_CO_VU.zip
+
+THÀNH PHẦN BỔ SUNG
+------------------
+1. index.html: thêm nút đăng nhập Quản trị, màn hình Nhật ký truy cập,
+   ghi nhận sự kiện chính và gọi API Apps Script.
+2. sw.js: đổi mã cache để thiết bị tải phiên bản index.html mới.
+3. Code_Nhat_Ky_Truy_Cap.gs: backend Apps Script, tạo Sheet nhật ký,
+   xác thực Admin và API tra cứu.
+4. HUONG_DAN_CAI_DAT_NHAT_KY_ADMIN.txt: tài liệu này.
+
+LƯU Ý QUAN TRỌNG
+----------------
+Mã nguồn đã tích hợp giao diện và phần gọi API, nhưng không thể tự triển khai
+vào tài khoản Google của bạn. Bạn cần tạo Apps Script Web App, sau đó dán URL
+Web App vào một hằng số trong index.html. Trước khi hoàn tất bước này, nhật ký
+chưa thể gửi/lưu trên Google Sheets.
+
+A. TẠO GOOGLE APPS SCRIPT
+-------------------------
+1. Mở https://script.google.com/ và chọn Dự án mới.
+2. Đặt tên: VUI DE HOC - NHAT KY TRUY CAP.
+3. Mở tệp Code.gs, xóa nội dung mẫu và dán toàn bộ nội dung từ
+   Code_Nhat_Ky_Truy_Cap.gs trong gói ZIP.
+4. Vào Cài đặt dự án (Project Settings) → Múi giờ, chọn
+   (GMT+07:00) Ho Chi Minh.
+5. Trong Project Settings → Script Properties, thêm:
+   Property: ADMIN_SETUP_PASSWORD
+   Value: một mật khẩu Quản trị mạnh, tối thiểu 12 ký tự.
+   Không dùng mật khẩu đang dùng cho tài khoản Google.
+6. Chọn hàm initializeAuditSystem và nhấn Run; cấp quyền cho Apps Script.
+   Hệ thống sẽ tạo Google Spreadsheet và sheet NHAT_KY_TRUY_CAP.
+7. Chọn hàm setAdminPasswordOnce và nhấn Run.
+   Hàm sẽ băm mật khẩu, lưu salt/hash trong Script Properties và xóa
+   ADMIN_SETUP_PASSWORD dạng chữ thường.
+8. Không chia sẻ quyền chỉnh sửa Apps Script hoặc Google Sheet nhật ký cho
+   người dùng thông thường. Chỉ chủ sở hữu/Quản trị tin cậy được giữ quyền.
+
+B. TRIỂN KHAI WEB APP
+--------------------
+1. Chọn Deploy → New deployment.
+2. Select type: Web app.
+3. Execute as: Me (tài khoản chủ sở hữu).
+4. Who has access: Anyone.
+   Lý do: PWA trên HOST cần gửi sự kiện không yêu cầu người dùng đăng nhập
+   Google. API đọc nhật ký vẫn bắt buộc session token Admin được máy chủ xác thực.
+5. Nhấn Deploy, hoàn tất cấp quyền và sao chép URL có đuôi /exec.
+
+C. KẾT NỐI PWA VỚI APPS SCRIPT
+------------------------------
+1. Mở index.html trong gói ZIP bằng trình soạn thảo mã nguồn.
+2. Tìm dòng:
+   const API_URL='PASTE_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE';
+3. Thay phần PASTE... bằng URL /exec vừa sao chép, ví dụ:
+   const API_URL='https://script.google.com/macros/s/DEPLOYMENT_ID/exec';
+4. Lưu index.html.
+5. Upload toàn bộ nội dung trong thư mục dự án lên HOST, giữ nguyên cấu trúc
+   thư mục assets, images, icons và các tệp dữ liệu.
+6. Đảm bảo sw.js mới được upload cùng index.html.
+
+D. KIỂM THỬ
+------------
+1. Mở PWA trên một trình duyệt/thiết bị người dùng, thao tác:
+   - mở ứng dụng;
+   - vào Toán học hoặc Tiếng Anh;
+   - mở Khám phá bí ẩn;
+   - bắt đầu và hoàn thành một lượt học/thi;
+   - quay lại MENU.
+2. Mở Google Sheet NHAT_KY_TRUY_CAP, kiểm tra có các sự kiện tương ứng.
+3. Trên PWA, nhấn nút 🛡️ Quản trị, nhập mật khẩu đã thiết lập.
+4. Vào Nhật ký truy cập, nhấn Tra cứu; kiểm tra bộ lọc và phân trang.
+5. Đăng xuất Quản trị. Mở lại nút Quản trị, xác nhận cần nhập mật khẩu.
+6. Thử gọi API listLogs không có token hoặc token sai: máy chủ phải từ chối.
+
+QUYỀN VÀ DỮ LIỆU
+----------------
+- Người dùng thông thường chỉ gửi sự kiện của trình duyệt mình; không có API
+  đọc nhật ký.
+- Chỉ Admin có token phiên do Apps Script cấp mới được gọi listLogs.
+- Token Admin lưu trong sessionStorage và hết hạn sau 6 giờ phía máy chủ.
+- Mã người dùng hiện là ID ngẫu nhiên theo trình duyệt, không phải danh tính
+  đã xác minh. Ứng dụng nguồn hiện tại chưa có đăng nhập người dùng, vì vậy
+  không thể xác định chắc chắn tên từng học sinh. Nếu cần báo cáo theo họ tên,
+  cần bổ sung hệ thống tài khoản/xác thực học sinh riêng ở giai đoạn sau.
+- Dữ liệu nhật ký lưu trong Google Sheet riêng, không thay đổi ngân hàng câu hỏi
+  hoặc các cấu trúc dữ liệu học tập hiện có.
+- Nhật ký ghi nhận các hoạt động chính, không ghi lại mọi thao tác bàn phím
+  hoặc nội dung cá nhân.
+- Web App Anyone cho phép ghi sự kiện công khai; API đọc vẫn khóa bằng token.
+  Chủ sở hữu cần bảo vệ dự án Apps Script và Google Sheet, theo dõi quota,
+  và có thể bổ sung CAPTCHA/giới hạn nâng cao nếu ứng dụng có lượng truy cập lớn.
+
+XỬ LÝ SỰ CỐ
+-----------
+- Nếu giao diện báo chưa cấu hình URL: kiểm tra hằng API_URL trong index.html.
+- Nếu báo máy chủ không phản hồi: kiểm tra URL /exec, trạng thái deployment,
+  quyền truy cập Anyone và đã cấp quyền cho Apps Script chưa.
+- Nếu báo chưa thiết lập mật khẩu Admin: chạy setAdminPasswordOnce sau khi
+  tạo Script Property ADMIN_SETUP_PASSWORD.
+- Nếu cập nhật HOST nhưng giao diện cũ: tăng tên CACHE trong sw.js hoặc xóa
+  cache/site data của PWA rồi tải lại.

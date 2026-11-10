@@ -377,3 +377,9 @@ Cập nhật cache PWA lên v29.
 - Tăng phiên bản cache Service Worker để thiết bị tải phiên bản giao diện và ảnh đại diện mới.
 
 Kiểm tra tĩnh: 9 thẻ script được phân tích; 8 khối JavaScript có nội dung đều vượt qua `node --check`; không phát hiện ID HTML trùng; tệp ngân hàng JSON có 800 câu (200 câu mỗi chủ đề; 70 dễ, 70 trung bình, 60 khó mỗi chủ đề).
+
+
+## Bổ sung Nhật ký truy cập Quản trị
+- Thêm màn hình đăng nhập Admin và Nhật ký truy cập, quyền đọc nhật ký được xác thực tại Google Apps Script.
+- Bổ sung backend `Code_Nhat_Ky_Truy_Cap.gs` và hướng dẫn triển khai trong `HUONG_DAN_CAI_DAT_NHAT_KY_ADMIN.txt`.
+- Cần cấu hình URL Web App Apps Script vào hằng `API_URL` trong `index.html` trước khi sử dụng chức năng ghi/tra cứu nhật ký.

@@ -3610,4 +3610,225 @@ $('mxPause').addEventListener('keydown',e=>{if(e.key==='Escape')closeApp();});
  window.VuiHocStageAudio={setMusic,setSfx,playCheer:playCrowd,playCorrect,playVictory,playFanfare};
 })();
 </script>
+
+<style id="vui-audit-admin-style">
+#vuiAuditAdminLaunch{position:fixed;right:16px;bottom:16px;z-index:99990;border:1px solid #fff;border-radius:999px;padding:10px 16px;background:linear-gradient(135deg,#123f91,#7352d7);color:#fff;font:800 13px/1.2 system-ui,sans-serif;box-shadow:0 6px 0 #172e8055,0 12px 24px #12275a55;cursor:pointer}
+#vuiAuditAdminLaunch:hover{filter:brightness(1.12);transform:translateY(-2px)}
+#vuiAuditLogin,#vuiAuditDashboard{position:fixed;inset:0;z-index:100000;background:#07183dcc;backdrop-filter:blur(8px);display:none;align-items:center;justify-content:center;padding:14px;font-family:system-ui,sans-serif}
+#vuiAuditLogin.vui-show,#vuiAuditDashboard.vui-show{display:flex}
+.vui-audit-card{width:min(100%,560px);max-height:92dvh;overflow:auto;background:linear-gradient(145deg,#fff,#edf5ff);border:2px solid #fff;border-radius:24px;box-shadow:0 18px 0 #0c246a55,0 28px 70px #07183d88;padding:22px;color:#17336f}
+.vui-audit-head{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.vui-audit-icon{width:48px;height:48px;border-radius:15px;background:linear-gradient(135deg,#287df1,#8b48df);display:grid;place-items:center;color:#fff;font-size:25px;box-shadow:0 6px 0 #263b8a33}
+.vui-audit-title{font-size:21px;font-weight:900;color:#173d91}
+.vui-audit-sub{font-size:12px;color:#60739a;font-weight:600}
+.vui-audit-field{display:flex;flex-direction:column;gap:6px;margin:12px 0;font-size:13px;font-weight:800}
+.vui-audit-field input,.vui-audit-field select{border:1px solid #c7d7f2;border-radius:12px;padding:11px 12px;background:#fff;color:#1d3268;font:600 14px system-ui;min-width:0}
+.vui-audit-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}
+.vui-audit-btn{border:1px solid #fff;border-radius:13px;padding:10px 15px;background:linear-gradient(135deg,#286fe1,#7548d5);color:#fff;font-weight:850;cursor:pointer;box-shadow:0 4px 0 #203c8b35}
+.vui-audit-btn.secondary{background:linear-gradient(135deg,#eef5ff,#dce9ff);color:#23427f;border-color:#b9cdf2}
+.vui-audit-btn:disabled{opacity:.5;cursor:wait}
+#vuiAuditMessage{min-height:20px;color:#c13d52;font-size:12px;font-weight:700;margin-top:8px}
+#vuiAuditDashboard .vui-audit-card{width:min(100%,1120px);padding:18px}
+.vui-audit-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:12px 0}
+.vui-audit-stat{background:#fff;border:1px solid #dce8fa;border-radius:15px;padding:12px;box-shadow:0 4px 0 #233f8c14}
+.vui-audit-stat strong{display:block;font-size:22px;color:#174da5}
+.vui-audit-stat span{font-size:11px;color:#64769a;font-weight:700}
+.vui-audit-filters{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;background:#f5f8ff;border:1px solid #dce8fa;padding:10px;border-radius:15px}
+.vui-audit-filters label{display:flex;flex-direction:column;gap:5px;font-size:11px;font-weight:800;color:#52688f}
+.vui-audit-filters input,.vui-audit-filters select{width:100%;min-width:0;border:1px solid #c9d8f0;border-radius:9px;padding:8px;background:#fff;color:#19366f;font:600 12px system-ui}
+.vui-audit-table-wrap{overflow:auto;max-height:48dvh;margin-top:12px;border-radius:13px;border:1px solid #d9e5f7;background:#fff}
+#vuiAuditTable{border-collapse:collapse;width:100%;min-width:850px;font-size:12px}
+#vuiAuditTable th{position:sticky;top:0;background:#173f91;color:#fff;text-align:left;padding:10px;white-space:nowrap}
+#vuiAuditTable td{padding:9px 10px;border-bottom:1px solid #e9eff9;color:#30466f;vertical-align:top}
+#vuiAuditTable tr:nth-child(even) td{background:#f7faff}
+.vui-audit-pill{display:inline-block;border-radius:999px;padding:3px 7px;background:#e7f0ff;color:#2455a0;font-weight:800;white-space:nowrap}
+.vui-audit-foot{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:10px;color:#66789a;font-size:12px}
+@media(max-width:700px){
+ #vuiAuditAdminLaunch{right:10px;bottom:10px;padding:9px 12px;font-size:12px}
+ .vui-audit-card{padding:16px;border-radius:19px}
+ .vui-audit-filters{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .vui-audit-stats{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .vui-audit-stat{padding:9px}.vui-audit-stat strong{font-size:18px}
+ .vui-audit-title{font-size:18px}
+}
+@media(max-width:390px){.vui-audit-filters{grid-template-columns:1fr}.vui-audit-stats{grid-template-columns:1fr}}
+</style>
+<button id="vuiAuditAdminLaunch" type="button" aria-label="Đăng nhập Quản trị">🛡️ Quản trị</button>
+<div id="vuiAuditLogin" role="dialog" aria-modal="true" aria-labelledby="vuiAuditLoginTitle">
+ <div class="vui-audit-card">
+  <div class="vui-audit-head"><div class="vui-audit-icon">🛡️</div><div><div class="vui-audit-title" id="vuiAuditLoginTitle">ĐĂNG NHẬP QUẢN TRỊ</div><div class="vui-audit-sub">Chức năng dành riêng cho người quản trị ứng dụng</div></div></div>
+  <label class="vui-audit-field">Mật khẩu Quản trị
+   <input id="vuiAuditPassword" type="password" autocomplete="current-password" placeholder="Nhập mật khẩu Quản trị">
+  </label>
+  <div id="vuiAuditMessage" role="status"></div>
+  <div class="vui-audit-actions">
+   <button class="vui-audit-btn" id="vuiAuditLoginSubmit" type="button">🔐 Đăng nhập</button>
+   <button class="vui-audit-btn secondary" id="vuiAuditLoginClose" type="button">Đóng</button>
+  </div>
+  <div class="vui-audit-sub" style="margin-top:14px">Phiên quản trị có thời hạn; đăng xuất khi hoàn tất công việc.</div>
+ </div>
+</div>
+<div id="vuiAuditDashboard" role="dialog" aria-modal="true" aria-labelledby="vuiAuditDashboardTitle">
+ <div class="vui-audit-card">
+  <div class="vui-audit-head">
+   <div class="vui-audit-icon">📊</div>
+   <div style="flex:1"><div class="vui-audit-title" id="vuiAuditDashboardTitle">NHẬT KÝ TRUY CẬP</div><div class="vui-audit-sub">Khu vực bảo mật – chỉ Quản trị được phép xem</div></div>
+   <button class="vui-audit-btn secondary" id="vuiAuditDashboardClose" type="button">✕ Đóng</button>
+  </div>
+  <div class="vui-audit-stats">
+   <div class="vui-audit-stat"><strong id="vuiAuditTotal">—</strong><span>Sự kiện phù hợp bộ lọc</span></div>
+   <div class="vui-audit-stat"><strong id="vuiAuditUsers">—</strong><span>Mã người dùng</span></div>
+   <div class="vui-audit-stat"><strong id="vuiAuditSessions">—</strong><span>Phiên truy cập</span></div>
+  </div>
+  <div class="vui-audit-filters">
+   <label>Từ ngày<input id="vuiAuditFrom" type="date"></label>
+   <label>Đến ngày<input id="vuiAuditTo" type="date"></label>
+   <label>Loại hoạt động<select id="vuiAuditEvent"><option value="">Tất cả hoạt động</option><option value="app_open">Mở ứng dụng</option><option value="screen_open">Mở màn hình</option><option value="menu_click">Chọn MENU</option><option value="lesson_start">Bắt đầu học</option><option value="lesson_complete">Hoàn thành học</option><option value="quiz_start">Bắt đầu thi</option><option value="quiz_complete">Hoàn thành thi</option><option value="answer_submit">Trả lời</option><option value="game_start">Bắt đầu trò chơi</option><option value="game_complete">Hoàn thành trò chơi</option><option value="achievement_view">Xem thành tích</option><option value="leaderboard_view">Xem bảng xếp hạng</option><option value="navigation">Điều hướng</option></select></label>
+   <label>Tìm tài khoản / nội dung<input id="vuiAuditKeyword" type="search" placeholder="Mã người dùng, thiết bị..."></label>
+  </div>
+  <div class="vui-audit-actions">
+   <button class="vui-audit-btn" id="vuiAuditSearch" type="button">🔎 Tra cứu</button>
+   <button class="vui-audit-btn secondary" id="vuiAuditExport" type="button">📥 Xuất CSV / Excel</button>
+   <button class="vui-audit-btn secondary" id="vuiAuditLogout" type="button">Đăng xuất Quản trị</button>
+  </div>
+  <div class="vui-audit-table-wrap"><table id="vuiAuditTable"><thead><tr><th>Thời gian</th><th>Mã người dùng</th><th>Hoạt động</th><th>Màn hình</th><th>Chi tiết</th><th>Thiết bị</th><th>Trình duyệt</th></tr></thead><tbody id="vuiAuditRows"><tr><td colspan="7">Đăng nhập và nhấn Tra cứu để xem dữ liệu.</td></tr></tbody></table></div>
+  <div class="vui-audit-foot"><span id="vuiAuditPageInfo">Chưa tải dữ liệu</span><span><button class="vui-audit-btn secondary" id="vuiAuditPrev" type="button">← Trước</button> <button class="vui-audit-btn secondary" id="vuiAuditNext" type="button">Sau →</button></span></div>
+ </div>
+</div>
+<script id="vui-audit-client-v1">
+(function(){
+'use strict';
+/* Dán URL Web App Apps Script sau khi triển khai, dạng https://script.google.com/macros/s/.../exec */
+const API_URL='https://script.google.com/macros/s/AKfycbxdrFS1J-QwZIm86uWAcSaUeLS9VO8oDhM937WRKK7pNn2t91tjArph0isdwURJ8l8jiQ/exec';
+const CLIENT_KEY='vui_audit_client_id_v1', SESSION_KEY='vui_audit_session_id_v1', ADMIN_KEY='vui_audit_admin_token_v1';
+const $=id=>document.getElementById(id);
+const uuid=()=>((window.crypto&&crypto.randomUUID)?crypto.randomUUID():('xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,c=>{const r=Math.random()*16|0;return(c==='x'?r:(r&3|8)).toString(16)})));
+function stored(key){try{return localStorage.getItem(key)}catch(e){return null}}
+function save(key,val){try{localStorage.setItem(key,val)}catch(e){}}
+let clientId=stored(CLIENT_KEY);if(!clientId){clientId=uuid();save(CLIENT_KEY,clientId)}
+let sessionId;try{sessionId=sessionStorage.getItem(SESSION_KEY)}catch(e){}if(!sessionId){sessionId=uuid();try{sessionStorage.setItem(SESSION_KEY,sessionId)}catch(e){}}
+let queue=[],currentScreen='',pageOffset=0,lastTotal=0,lastRows=[];
+const device=/Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)?'Điện thoại':'Máy tính';
+const os=/Android/i.test(navigator.userAgent)?'Android':/iPhone|iPad/i.test(navigator.userAgent)?'iOS':/Windows/i.test(navigator.userAgent)?'Windows':/Mac/i.test(navigator.userAgent)?'macOS':'Khác';
+function browser(){const u=navigator.userAgent;return /Edg\//.test(u)?'Edge':/Chrome\//.test(u)?'Chrome':/Firefox\//.test(u)?'Firefox':/Safari\//.test(u)?'Safari':'Khác'}
+function enqueue(type,screen,detail,result){queue.push({type:type,screen:(screen||currentScreen||'').slice(0,100),detail:(detail||'').slice(0,240),result:result||'OK'});if(queue.length>=10)flush()}
+function post(payload){
+ return new Promise((resolve,reject)=>{
+  if(!API_URL||API_URL.indexOf('PASTE_')===0){reject(new Error('Chưa cấu hình URL Apps Script trong index.html.'));return}
+  const frame=document.createElement('iframe'),form=document.createElement('form'),name='vuiAuditFrame_'+uuid().replace(/-/g,'');
+  frame.name=name;frame.style.display='none';frame.setAttribute('aria-hidden','true');
+  form.method='POST';form.action=API_URL;form.target=name;form.style.display='none';
+  const input=document.createElement('input');input.type='hidden';input.name='payload';
+  const requestId=uuid();payload.requestId=requestId;input.value=JSON.stringify(payload);form.appendChild(input);
+  let done=false;const finish=(err,val)=>{if(done)return;done=true;window.removeEventListener('message',onMessage);clearTimeout(timer);setTimeout(()=>{frame.remove();form.remove()},1000);err?reject(err):resolve(val)};
+  const onMessage=ev=>{if(ev.source!==frame.contentWindow||!ev.data||ev.data.channel!=='VUI_AUDIT'||ev.data.requestId!==requestId)return;finish(null,ev.data.result)};
+  window.addEventListener('message',onMessage);document.body.appendChild(frame);document.body.appendChild(form);
+  const timer=setTimeout(()=>finish(new Error('Máy chủ không phản hồi. Kiểm tra URL và quyền triển khai Apps Script.')),18000);
+  form.submit();
+ });
+}
+let flushBusy=false;
+async function flush(){
+ if(flushBusy||!queue.length)return;
+ const events=queue.splice(0,20);flushBusy=true;
+ try{await post({action:'logEvents',clientId:clientId,sessionId:sessionId,events:events,userAgent:browser(),device:device,os:os})}
+ catch(e){queue=events.concat(queue).slice(-60)}
+ finally{flushBusy=false}
+}
+function activeScreen(){
+ const ids=['mainMenu','mathSetupPanel','mathPracticePanel','practiceResult','englishSetupPanel','game','englishLessonPanel','mysteryExploreApp','planetRescueApp','knowledgeRace'];
+ for(let i=ids.length-1;i>=0;i--){const el=$(ids[i]);if(!el)continue;const st=getComputedStyle(el);if(st.display==='none'||st.visibility==='hidden'||el.classList.contains('hidden')||el.classList.contains('pr-hidden')||el.classList.contains('kr-hidden'))continue;return ids[i]}
+ return 'Ứng dụng';
+}
+function detectScreen(){
+ const next=activeScreen();if(next!==currentScreen){currentScreen=next;enqueue('screen_open',next,'Mở màn hình '+next)}
+}
+function classifyClick(el){
+ const id=el.id||'',label=(el.getAttribute('aria-label')||el.title||el.innerText||el.textContent||'').replace(/\s+/g,' ').trim().slice(0,150),s=(id+' '+label).toLowerCase();
+ let type='navigation';
+ if(/submit|nộp bài|hoàn thành|kết thúc lượt|xem kết quả/.test(s))type='quiz_complete';
+ else if(/bắt đầu thi|thi trắc nghiệm|start quiz|bắt đầu cuộc thi/.test(s))type='quiz_start';
+ else if(/bắt đầu học|giảng dạy|vào học|học ngay/.test(s))type='lesson_start';
+ else if(/chọn đáp án|answer|đáp án [abcd]/.test(s))type='answer_submit';
+ else if(/chơi mà học|bắt đầu trò chơi|giải cứu|đường đua/.test(s))type='game_start';
+ else if(/thành tích/.test(s))type='achievement_view';
+ else if(/bảng xếp hạng/.test(s))type='leaderboard_view';
+ else if(/toán|tiếng anh|khám phá bí ẩn|chọn chủ đề/.test(s))type='menu_click';
+ if(id.startsWith('vuiAudit'))return null;
+ return {type:type,screen:currentScreen,detail:(id?('#'+id+' · '):'')+label};
+}
+document.addEventListener('click',ev=>{const el=ev.target.closest('button,[role="button"],a');if(!el)return;const item=classifyClick(el);if(item)enqueue(item.type,item.screen,item.detail)},true);
+const observer=new MutationObserver(()=>{clearTimeout(observer._t);observer._t=setTimeout(detectScreen,300)});
+function startTracking(){
+ enqueue('app_open','mainMenu','Mở ứng dụng Vui Để Học');
+ detectScreen();
+ observer.observe(document.body,{subtree:true,attributes:true,attributeFilter:['class','style','hidden']});
+ setInterval(flush,7000);
+ document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flush()});
+ window.addEventListener('pagehide',flush);
+}
+function show(el){el.classList.add('vui-show')}
+function hide(el){el.classList.remove('vui-show')}
+function adminToken(){try{return sessionStorage.getItem(ADMIN_KEY)||''}catch(e){return''}}
+function setAdminToken(t){try{sessionStorage.setItem(ADMIN_KEY,t)}catch(e){}}
+function clearAdminToken(){try{sessionStorage.removeItem(ADMIN_KEY)}catch(e){}}
+function openLogin(){ $('vuiAuditPassword').value='';$('vuiAuditMessage').textContent='';show($('vuiAuditLogin'));setTimeout(()=>$('vuiAuditPassword').focus(),80)}
+function openDashboard(){show($('vuiAuditDashboard'));enqueue('admin_panel_open','NHAT_KY_TRUY_CAP','Quản trị mở màn hình nhật ký');loadLogs(0)}
+async function login(){
+ const btn=$('vuiAuditLoginSubmit'),password=$('vuiAuditPassword').value;
+ if(!password){$('vuiAuditMessage').textContent='Vui lòng nhập mật khẩu.';return}
+ btn.disabled=true;$('vuiAuditMessage').textContent='Đang xác thực...';
+ try{
+  const res=await post({action:'adminLogin',password:password});
+  if(!res||!res.ok)throw new Error((res&&res.error)||'Đăng nhập không thành công.');
+  setAdminToken(res.token);hide($('vuiAuditLogin'));$('vuiAuditAdminLaunch').textContent='📊 Nhật ký truy cập';openDashboard();
+ }catch(e){$('vuiAuditMessage').textContent=e.message}
+ finally{btn.disabled=false;$('vuiAuditPassword').value=''}
+}
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+async function requestLogs(offset,limit){
+ return post({action:'listLogs',token:adminToken(),from:$('vuiAuditFrom').value,to:$('vuiAuditTo').value,event:$('vuiAuditEvent').value,keyword:$('vuiAuditKeyword').value,offset:offset,limit:limit});
+}
+async function loadLogs(offset){
+ $('vuiAuditRows').innerHTML='<tr><td colspan="7">Đang tải dữ liệu...</td></tr>';
+ try{
+  const res=await requestLogs(offset,50);if(!res.ok)throw new Error(res.error||'Không thể tải nhật ký.');
+  pageOffset=offset;lastTotal=res.total;lastRows=res.rows||[];
+  $('vuiAuditTotal').textContent=res.total;
+  $('vuiAuditUsers').textContent=new Set(lastRows.map(x=>x.clientId).filter(Boolean)).size;
+  $('vuiAuditSessions').textContent=new Set(lastRows.map(x=>x.sessionId).filter(Boolean)).size;
+  $('vuiAuditRows').innerHTML=lastRows.length?lastRows.map(r=>'<tr><td>'+esc(r.time)+'</td><td>'+esc(r.clientId)+'</td><td><span class="vui-audit-pill">'+esc(r.event)+'</span></td><td>'+esc(r.screen)+'</td><td>'+esc(r.detail)+'</td><td>'+esc(r.device)+' · '+esc(r.os)+'</td><td>'+esc(r.browser)+'</td></tr>').join(''):'<tr><td colspan="7">Không có dữ liệu phù hợp.</td></tr>';
+  $('vuiAuditPageInfo').textContent='Hiển thị '+(res.total?offset+1:0)+'–'+Math.min(offset+lastRows.length,res.total)+' / '+res.total+' sự kiện';
+  $('vuiAuditPrev').disabled=offset<=0;$('vuiAuditNext').disabled=offset+50>=res.total;
+ }catch(e){$('vuiAuditRows').innerHTML='<tr><td colspan="7">'+esc(e.message)+'</td></tr>';if(/phiên|quyền/i.test(e.message))logout(false)}
+}
+async function exportLogs(){
+ const btn=$('vuiAuditExport');btn.disabled=true;btn.textContent='Đang xuất...';
+ try{
+  let all=[],total=0;
+  do{const res=await requestLogs(all.length,100);if(!res.ok)throw new Error(res.error||'Không thể xuất dữ liệu.');all=all.concat(res.rows||[]);total=res.total;if(all.length>=total||all.length>=5000)break}while(true);
+  const cols=['Thời gian','Mã người dùng','Mã phiên','Hoạt động','Màn hình','Chi tiết','Thiết bị','Trình duyệt','Hệ điều hành','Kết quả'];
+  const csv=[cols].concat(all.map(r=>[r.time,r.clientId,r.sessionId,r.event,r.screen,r.detail,r.device,r.browser,r.os,r.result])).map(row=>row.map(v=>'"'+String(v==null?'':v).replace(/"/g,'""')+'"').join(',')).join('\r\n');
+  const blob=new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='Nhat_ky_truy_cap_Vui_De_Hoc.csv';a.click();URL.revokeObjectURL(url);
+ }catch(e){alert(e.message)}finally{btn.disabled=false;btn.textContent='📥 Xuất CSV / Excel'}
+}
+async function logout(callServer){
+ const token=adminToken();clearAdminToken();hide($('vuiAuditDashboard'));$('vuiAuditAdminLaunch').textContent='🛡️ Quản trị';
+ if(callServer&&token){try{await post({action:'adminLogout',token:token})}catch(e){}}
+}
+$('vuiAuditAdminLaunch').addEventListener('click',()=>adminToken()?openDashboard():openLogin());
+$('vuiAuditLoginSubmit').addEventListener('click',login);
+$('vuiAuditPassword').addEventListener('keydown',e=>{if(e.key==='Enter')login()});
+$('vuiAuditLoginClose').addEventListener('click',()=>hide($('vuiAuditLogin')));
+$('vuiAuditDashboardClose').addEventListener('click',()=>hide($('vuiAuditDashboard')));
+$('vuiAuditSearch').addEventListener('click',()=>loadLogs(0));
+$('vuiAuditPrev').addEventListener('click',()=>loadLogs(Math.max(0,pageOffset-50)));
+$('vuiAuditNext').addEventListener('click',()=>loadLogs(pageOffset+50));
+$('vuiAuditExport').addEventListener('click',exportLogs);
+$('vuiAuditLogout').addEventListener('click',()=>logout(true));
+if(adminToken())$('vuiAuditAdminLaunch').textContent='📊 Nhật ký truy cập';
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',startTracking,{once:true});else startTracking();
+})();
+</script>
+
 </body></html>
