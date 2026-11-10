@@ -64,7 +64,10 @@ function doPost(e) {
   const json = JSON.stringify({ channel: 'VUI_AUDIT', requestId: requestId, result: result })
     .replace(/</g, '\\u003c').replace(/>/g, '\\u003e').replace(/&/g, '\\u0026');
   const page = '<!doctype html><html><head><meta charset="utf-8"></head><body><script>' +
-    'window.parent.postMessage(' + json + ',"*");' +
+    '(function(){var m=' + json + ';' +
+    'try{window.parent.postMessage(m,"*");}catch(e){}' +
+    'try{if(window.top!==window.parent)window.top.postMessage(m,"*");}catch(e){}' +
+    '})();' +
     '</script></body></html>';
   return HtmlService.createHtmlOutput(page).setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
 }

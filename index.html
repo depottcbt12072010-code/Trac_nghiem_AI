@@ -3699,7 +3699,7 @@ $('mxPause').addEventListener('keydown',e=>{if(e.key==='Escape')closeApp();});
 (function(){
 'use strict';
 /* Dán URL Web App Apps Script sau khi triển khai, dạng https://script.google.com/macros/s/.../exec */
-const API_URL='https://script.google.com/macros/s/AKfycbxdrFS1J-QwZIm86uWAcSaUeLS9VO8oDhM937WRKK7pNn2t91tjArph0isdwURJ8l8jiQ/exec';
+const API_URL='https://script.google.com/macros/s/AKfycbz_xKkwVCtQpqjQSOjSvOY0Xx8gNlZtNR2FDrzHXCOHXQ6DZMGkNU6JKk2G7kU88j7dAw/exec';
 const CLIENT_KEY='vui_audit_client_id_v1', SESSION_KEY='vui_audit_session_id_v1', ADMIN_KEY='vui_audit_admin_token_v1';
 const $=id=>document.getElementById(id);
 const uuid=()=>((window.crypto&&crypto.randomUUID)?crypto.randomUUID():('xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,c=>{const r=Math.random()*16|0;return(c==='x'?r:(r&3|8)).toString(16)})));
@@ -3721,9 +3721,17 @@ function post(payload){
   const input=document.createElement('input');input.type='hidden';input.name='payload';
   const requestId=uuid();payload.requestId=requestId;input.value=JSON.stringify(payload);form.appendChild(input);
   let done=false;const finish=(err,val)=>{if(done)return;done=true;window.removeEventListener('message',onMessage);clearTimeout(timer);setTimeout(()=>{frame.remove();form.remove()},1000);err?reject(err):resolve(val)};
-  const onMessage=ev=>{if(ev.source!==frame.contentWindow||!ev.data||ev.data.channel!=='VUI_AUDIT'||ev.data.requestId!==requestId)return;finish(null,ev.data.result)};
+  /* HtmlService có thể bọc kết quả doPost trong iframe trung gian.
+     Vì vậy không khóa ev.source vào iframe ngoài; chỉ chấp nhận mã request
+     ngẫu nhiên, dùng một lần của chính yêu cầu đang chờ. */
+  const onMessage=ev=>{
+   const data=ev&&ev.data;
+   if(!data||data.channel!=='VUI_AUDIT'||data.requestId!==requestId)return;
+   if(!data.result){finish(new Error('Phản hồi Apps Script không đúng định dạng.'));return}
+   finish(null,data.result);
+  };
   window.addEventListener('message',onMessage);document.body.appendChild(frame);document.body.appendChild(form);
-  const timer=setTimeout(()=>finish(new Error('Máy chủ không phản hồi. Kiểm tra URL và quyền triển khai Apps Script.')),18000);
+  const timer=setTimeout(()=>finish(new Error('Máy chủ không phản hồi sau 30 giây. Kiểm tra URL /exec, quyền truy cập Web App và phiên bản triển khai Apps Script.')),30000);
   form.submit();
  });
 }

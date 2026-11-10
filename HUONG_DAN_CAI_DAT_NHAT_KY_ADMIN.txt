@@ -103,3 +103,31 @@ XỬ LÝ SỰ CỐ
   tạo Script Property ADMIN_SETUP_PASSWORD.
 - Nếu cập nhật HOST nhưng giao diện cũ: tăng tên CACHE trong sw.js hoặc xóa
   cache/site data của PWA rồi tải lại.
+
+
+E. KHẮC PHỤC LỖI "MÁY CHỦ KHÔNG PHẢN HỒI" – BẢN SỬA V2
+-----------------------------------------------------
+Bản sửa V2 đã điều chỉnh cơ chế postMessage để nhận phản hồi kể cả khi
+HtmlService bọc nội dung doPost trong iframe trung gian. Đồng thời tăng
+thời gian chờ phản hồi lên 30 giây.
+
+Nếu đang dùng Apps Script đã triển khai trước đây:
+1. Mở dự án Apps Script.
+2. Thay toàn bộ Code.gs bằng Code_Nhat_Ky_Truy_Cap.gs trong gói V2.
+3. Save.
+4. Deploy → Manage deployments → chọn deployment Web App → Edit.
+5. Chọn Version: New version → Deploy.
+6. Giữ nguyên URL /exec nếu chỉnh sửa deployment hiện tại. Nếu tạo deployment
+   mới, phải cập nhật URL mới vào API_URL trong index.html.
+7. Trong index.html của gói V2, tìm:
+   const API_URL='PASTE_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE';
+   Dán chính xác URL Web App có đuôi /exec vào đây.
+8. Upload lại index.html và sw.js lên HOST cùng các tệp dự án.
+9. Đóng PWA, mở lại hoặc tải mới để Service Worker nhận cache V2.
+10. Thử đăng nhập Admin. Nếu vẫn lỗi, mở URL /exec trực tiếp trên tab mới:
+    trang phải hiện "VUI ĐỂ HỌC – Audit API is running."
+    Sau đó kiểm tra Deploy → Manage deployments → Web app access = Anyone,
+    Execute as = Me và kiểm tra Apps Script Executions để xem lỗi máy chủ.
+
+Lưu ý: Không gửi mật khẩu Admin trong ảnh chụp hoặc tin nhắn. URL Web App có thể
+gửi để kiểm tra cấu hình, nhưng không gửi mật khẩu.
