@@ -1429,6 +1429,93 @@ body:has(#mainMenu.main-menu-stage-final-v5:not(.hidden))>header{display:none!im
 @media(prefers-reduced-motion:reduce){
  #mainMenu .main-menu-art-glow-final-v5,#mainMenu .main-menu-artwork-final-v5:after{animation:none!important}
 }
+</style>
+<style id="main-menu-mobile-responsive-v1">
+#mainMenu.main-menu-stage-final-v5{box-sizing:border-box}
+#mainMenu .main-menu-artwork-final-v5{box-sizing:border-box}
+#mainMenu .main-menu-mobile-v1{display:none;box-sizing:border-box}
+#mainMenu .main-menu-mobile-v1 *{box-sizing:border-box}
+@media (max-width:700px) and (orientation:landscape){
+ body:has(#mainMenu.main-menu-stage-final-v5:not(.hidden)){overflow:hidden!important}
+ #mainMenu.main-menu-stage-final-v5{position:fixed!important;inset:0!important;z-index:999!important;display:grid!important;place-items:center!important;width:100vw!important;height:100dvh!important;min-height:0!important;background:radial-gradient(ellipse at 50% 50%,#283eae,#07164f 78%)!important;overflow:hidden!important}
+ #mainMenu .main-menu-artwork-final-v5{width:min(100vw,177.78dvh)!important;height:auto!important;max-height:100dvh!important;aspect-ratio:1672/941!important;border-radius:0!important}
+ #mainMenu .main-menu-artwork-final-v5>img{object-fit:fill!important}
+ #mainMenu .main-menu-mobile-v1{display:none!important}
+}
+@media (max-width:700px) and (orientation:portrait){
+ body:has(#mainMenu.main-menu-stage-final-v5:not(.hidden)){overflow:hidden!important;background:#09175d!important}
+ body:has(#mainMenu.main-menu-stage-final-v5:not(.hidden))>header{display:none!important}
+ #mainMenu.main-menu-stage-final-v5{
+  position:fixed!important;inset:0!important;z-index:9999!important;display:block!important;
+  width:100vw!important;height:100vh!important;height:100dvh!important;min-height:0!important;
+  max-height:100dvh!important;margin:0!important;padding:0!important;overflow-y:auto!important;overflow-x:hidden!important;
+  background:radial-gradient(ellipse at 50% 0%,#5546d9 0%,#182b91 48%,#07134f 100%)!important;
+  overscroll-behavior:contain!important;-webkit-overflow-scrolling:touch;
+ }
+ #mainMenu .main-menu-artwork-final-v5{width:100%!important;height:100%!important;min-height:100%!important;max-height:none!important;aspect-ratio:auto!important;border:0!important;border-radius:0!important;box-shadow:none!important;overflow:hidden!important;background:
+  radial-gradient(circle at 50% 13%,#fff9 0 2px,transparent 4px),
+  radial-gradient(circle at 15% 34%,#fff8 0 2px,transparent 4px),
+  radial-gradient(circle at 88% 58%,#fff8 0 2px,transparent 4px),
+  radial-gradient(ellipse at 50% 12%,#5d6dff 0%,#2639b5 43%,#101a67 100%)!important;
+ }
+ #mainMenu .main-menu-artwork-final-v5>img,
+ #mainMenu .main-menu-hitareas-final-v5,
+ #mainMenu .main-menu-art-glow-final-v5{display:none!important}
+ #mainMenu .main-menu-artwork-final-v5:after{opacity:.45}
+ #mainMenu .main-menu-mobile-v1{
+  position:relative;z-index:8;display:flex!important;flex-direction:column;align-items:stretch;
+  gap:clamp(9px,1.5dvh,15px);width:100%;min-height:100%;padding:
+  max(12px,env(safe-area-inset-top)) clamp(14px,4.5vw,24px)
+  max(14px,env(safe-area-inset-bottom));color:#fff;text-align:center;
+ }
+ #mainMenu .mm-mobile-top{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px}
+ #mainMenu .mm-mobile-brand{width:min(100%,235px);height:auto;max-height:72px;object-fit:contain;object-position:left center;filter:drop-shadow(0 4px 8px #050b4c99)}
+ #mainMenu .mm-mobile-controls{display:flex;gap:7px;align-items:center}
+ #mainMenu .mm-mobile-control{display:grid;place-items:center;width:clamp(38px,10vw,46px);height:clamp(38px,10vw,46px);padding:0;border:2px solid #fff;border-radius:50%;background:linear-gradient(145deg,#ff7de1,#9b35e7 55%,#4c37c8);box-shadow:0 4px 0 #3c258f,0 7px 13px #040b4e77;font-size:20px;color:#fff;touch-action:manipulation}
+ #mainMenu .mm-mobile-control[aria-pressed="true"]{background:linear-gradient(145deg,#8cfff0,#19a7db 55%,#174dbb);box-shadow:0 4px 0 #12418e,0 0 15px #53e8ff88}
+ #mainMenu .mm-mobile-title{margin:0;padding:4px 8px 0;font-size:clamp(26px,7.4vw,38px);line-height:1.05;font-weight:1000;letter-spacing:.4px;color:#ffe76d;text-shadow:0 3px 0 #b84b0c,0 6px 0 #542c9d,0 9px 16px #050a4f}
+ #mainMenu .mm-mobile-subtitle{margin:0;color:#fff;font-size:clamp(12px,3.5vw,15px);font-weight:850;text-shadow:0 2px 5px #07134e}
+ #mainMenu .mm-mobile-mascots{display:flex;justify-content:center;align-items:center;gap:12px;margin:-2px 0}
+ #mainMenu .mm-mobile-mascots span{display:grid;place-items:center;width:clamp(43px,12vw,58px);height:clamp(43px,12vw,58px);border:2px solid #fff;border-radius:50%;background:linear-gradient(145deg,#fff,#bdefff);box-shadow:0 5px 0 #2545aa,0 8px 15px #050b4f66;font-size:clamp(25px,7vw,35px);animation:mmMascotFloat 3s ease-in-out infinite}
+ #mainMenu .mm-mobile-mascots span:nth-child(2){animation-delay:-1.4s}
+ #mainMenu .mm-mobile-portals{display:grid;grid-template-columns:1fr;gap:clamp(8px,1.25dvh,12px);width:100%;max-width:520px;margin:0 auto}
+ #mainMenu .mm-mobile-portal{display:grid;grid-template-columns:58px minmax(0,1fr) 32px;align-items:center;gap:11px;min-height:clamp(72px,10.8dvh,90px);padding:9px 13px;border:2px solid #fff;border-radius:20px;color:#fff;text-align:left;touch-action:manipulation;cursor:pointer;box-shadow:0 6px 0 #071b6c88,0 12px 22px #020a4b66,inset 0 2px 7px #fff9;transition:transform .15s ease,filter .15s ease}
+ #mainMenu .mm-mobile-portal:active{transform:translateY(3px) scale(.99);filter:brightness(1.12)}
+ #mainMenu .mm-mobile-portal.math{background:linear-gradient(115deg,#20c9ff,#1263df 55%,#2634b7)}
+ #mainMenu .mm-mobile-portal.english{background:linear-gradient(115deg,#ff8bd6,#dc3f9c 55%,#8b2bc5)}
+ #mainMenu .mm-mobile-portal.mystery{background:linear-gradient(115deg,#7ae68c,#16a879 55%,#087b83)}
+ #mainMenu .mm-mobile-portal-icon{display:grid;place-items:center;width:54px;height:54px;border:2px solid #fff;border-radius:16px;background:#ffffff28;box-shadow:inset 0 2px 5px #fff8,0 4px 0 #061d6b55;font-size:31px}
+ #mainMenu .mm-mobile-portal-copy{min-width:0}
+ #mainMenu .mm-mobile-portal-copy b{display:block;font-size:clamp(17px,4.7vw,21px);line-height:1.1;font-weight:1000;text-shadow:0 2px 4px #08174f}
+ #mainMenu .mm-mobile-portal-copy small{display:block;margin-top:4px;font-size:clamp(10px,2.8vw,12px);font-weight:750;line-height:1.2;color:#fff}
+ #mainMenu .mm-mobile-arrow{font-size:26px;font-weight:1000;text-shadow:0 2px 4px #06134b}
+ #mainMenu .mm-mobile-start{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;max-width:520px;min-height:clamp(52px,7.5dvh,64px);margin:0 auto;padding:10px 16px;border:3px solid #fff;border-radius:20px;background:linear-gradient(100deg,#ff8b22,#ffcf39 50%,#ff7628);box-shadow:0 6px 0 #9e3b12,0 12px 20px #050b4c88,inset 0 2px 7px #fff9;color:#fff;font-size:clamp(17px,4.8vw,21px);font-weight:1000;text-shadow:0 2px 4px #92310e;touch-action:manipulation}
+ #mainMenu .mm-mobile-shortcuts{display:flex;justify-content:center;gap:8px;flex-wrap:wrap}
+ #mainMenu .mm-mobile-shortcuts span{padding:6px 10px;border:1px solid #fff8;border-radius:30px;background:#ffffff19;color:#fff;font-size:11px;font-weight:800}
+ #mainMenu .mm-mobile-footer{margin-top:auto;padding-top:2px;color:#dce7ff;font-size:10px;font-weight:700;text-shadow:0 1px 3px #06124c}
+}
+@media(max-width:380px) and (orientation:portrait){
+ #mainMenu .main-menu-mobile-v1{gap:8px;padding-left:12px;padding-right:12px}
+ #mainMenu .mm-mobile-title{font-size:25px}
+ #mainMenu .mm-mobile-portal{grid-template-columns:49px minmax(0,1fr) 24px;gap:8px;min-height:68px;padding:7px 9px}
+ #mainMenu .mm-mobile-portal-icon{width:46px;height:46px;font-size:27px}
+ #mainMenu .mm-mobile-portal-copy b{font-size:16px}
+ #mainMenu .mm-mobile-portal-copy small{font-size:10px}
+ #mainMenu .mm-mobile-start{min-height:49px;font-size:17px}
+}
+@keyframes mmMascotFloat{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-6px) rotate(3deg)}}
+@media(prefers-reduced-motion:reduce){
+ #mainMenu .mm-mobile-mascots span{animation:none!important}
+ #mainMenu .mm-mobile-portal{transition:none!important}
+}
+</style>
+
+<style id="vui-stage-audio-dock-v1">
+#vuiStageAudioDock{position:fixed;z-index:100000;right:max(12px,env(safe-area-inset-right));top:max(12px,env(safe-area-inset-top));display:none;gap:7px;padding:6px;border:1px solid #fff9;border-radius:24px;background:#101b68c9;box-shadow:0 5px 18px #07104477;backdrop-filter:blur(10px)}
+#vuiStageAudioDock.is-visible{display:flex}
+#vuiStageAudioDock button{width:42px;height:42px;border:2px solid #fff;border-radius:50%;background:linear-gradient(145deg,#ff7de1,#8c3be2);color:#fff;font-size:20px;box-shadow:0 3px 0 #38218d;touch-action:manipulation}
+#vuiStageAudioDock button[aria-pressed="true"]{background:linear-gradient(145deg,#8cfff0,#168fce);box-shadow:0 3px 0 #14518e}
+@media(max-width:700px){#vuiStageAudioDock{top:auto;bottom:max(12px,env(safe-area-inset-bottom));right:max(12px,env(safe-area-inset-right))}#vuiStageAudioDock button{width:38px;height:38px;font-size:18px}}
 </style></head><body>
 <header><div><h1>🎓 VUI ĐỂ HỌC - KHÁM PHÁ CHÂN TRỜI AI</h1><p>"Chơi mà học - Học mà chơi"</p></div><img id="headerLogo" class="hidden" style="max-height:54px;max-width:130px;object-fit:contain" alt="Logo"><nav><button id="gameTab" class="primary">🏠 Menu chính</button></nav></header>
 <main>
@@ -3312,68 +3399,167 @@ $('mxPause').addEventListener('keydown',e=>{if(e.key==='Escape')closeApp();});
 
 
 
+
 <script id="main-menu-audio-motion-final-v5">
 (function(){
  'use strict';
  const menu=document.getElementById('mainMenu');
- if(!menu||menu.dataset.finalStageReady==='1')return;
- menu.dataset.finalStageReady='1';
+ if(!menu||menu.dataset.finalStageReady==='2')return;
+ menu.dataset.finalStageReady='2';
  const art=menu.querySelector('.main-menu-artwork-final-v5');
  const musicBtn=menu.querySelector('#mainMenuMusicToggle');
  const soundBtn=menu.querySelector('#mainMenuSfxToggle');
  const fullBtn=menu.querySelector('#mainMenuFullscreenToggle');
- let audio=null,musicTimer=null,musicGain=null,noteIndex=0,sfxOn=true;
- const notes=[523.25,659.25,783.99,659.25,587.33,698.46,880,783.99];
- function audioContext(){
-  const C=window.AudioContext||window.webkitAudioContext;
-  if(!C)return null;
-  if(!audio)audio=new C();
+ let audio=null,master=null,musicBus=null,sfxBus=null,musicTimer=null,musicOn=false;
+ let sfxOn=soundBtn?soundBtn.getAttribute('aria-pressed')!=='false':true;
+ let beat=0,noiseBuffer=null,lastCheer=0;
+ const melody=[523.25,659.25,783.99,659.25,587.33,698.46,880,783.99,659.25,783.99,987.77,783.99,698.46,880,1046.5,987.77];
+ const chords=[[261.63,329.63,392],[220,261.63,329.63],[174.61,220,261.63],[196,246.94,293.66]];
+ function getAudio(){
+  const C=window.AudioContext||window.webkitAudioContext;if(!C)return null;
+  if(!audio){
+   audio=new C();master=audio.createGain();master.gain.value=.72;master.connect(audio.destination);
+   musicBus=audio.createGain();musicBus.gain.value=.0001;musicBus.connect(master);
+   sfxBus=audio.createGain();sfxBus.gain.value=.55;sfxBus.connect(master);
+   const length=Math.floor(audio.sampleRate*1.8);noiseBuffer=audio.createBuffer(1,length,audio.sampleRate);
+   const data=noiseBuffer.getChannelData(0);for(let i=0;i<length;i++)data[i]=(Math.random()*2-1)*(.7+.3*Math.sin(i/length*Math.PI));
+  }
   if(audio.state==='suspended')audio.resume().catch(()=>{});
   return audio;
  }
- function beep(frequency=660,duration=.14,volume=.035){
-  if(!sfxOn)return;
-  const ac=audioContext();if(!ac)return;
-  const osc=ac.createOscillator(),gain=ac.createGain();
-  osc.type='sine';osc.frequency.setValueAtTime(frequency,ac.currentTime);
-  gain.gain.setValueAtTime(.0001,ac.currentTime);
-  gain.gain.exponentialRampToValueAtTime(volume,ac.currentTime+.018);
-  gain.gain.exponentialRampToValueAtTime(.0001,ac.currentTime+duration);
-  osc.connect(gain);gain.connect(ac.destination);osc.start();osc.stop(ac.currentTime+duration+.025);
+ function tone(freq,dur=.18,vol=.12,type='sine',bus=sfxBus,slide=null,delay=0){
+  const ac=getAudio();if(!ac)return;
+  const osc=ac.createOscillator(),env=ac.createGain(),now=ac.currentTime+delay;
+  osc.type=type;osc.frequency.setValueAtTime(Math.max(40,freq),now);
+  if(slide)osc.frequency.exponentialRampToValueAtTime(Math.max(40,slide),now+dur);
+  env.gain.setValueAtTime(.0001,now);env.gain.exponentialRampToValueAtTime(Math.max(.0002,vol),now+.025);
+  env.gain.exponentialRampToValueAtTime(.0001,now+dur);
+  osc.connect(env);env.connect(bus||sfxBus);osc.start(now);osc.stop(now+dur+.025);
  }
- function clickSound(){beep(659,.11,.035);window.setTimeout(()=>beep(880,.13,.025),65);}
- function startMusic(){
-  const ac=audioContext();if(!ac||musicTimer)return;
-  musicGain=ac.createGain();musicGain.gain.setValueAtTime(.0001,ac.currentTime);
-  musicGain.gain.exponentialRampToValueAtTime(.035,ac.currentTime+1);musicGain.connect(ac.destination);
-  function playNote(){
-   if(!audio||!musicGain)return;
-   const osc=audio.createOscillator(),env=audio.createGain();
-   osc.type='sine';osc.frequency.setValueAtTime(notes[noteIndex%notes.length],audio.currentTime);
-   env.gain.setValueAtTime(.0001,audio.currentTime);
-   env.gain.exponentialRampToValueAtTime(.2,audio.currentTime+.04);
-   env.gain.exponentialRampToValueAtTime(.0001,audio.currentTime+.56);
-   osc.connect(env);env.connect(musicGain);osc.start();osc.stop(audio.currentTime+.59);noteIndex++;
+ function noiseBurst(dur=.16,vol=.16,filterType='highpass',cutoff=1500,delay=0,bus=sfxBus){
+  const ac=getAudio();if(!ac||!noiseBuffer)return;
+  const src=ac.createBufferSource(),filter=ac.createBiquadFilter(),env=ac.createGain(),now=ac.currentTime+delay;
+  src.buffer=noiseBuffer;filter.type=filterType;filter.frequency.value=cutoff;filter.Q.value=.7;
+  env.gain.setValueAtTime(.0001,now);env.gain.exponentialRampToValueAtTime(vol,now+.008);env.gain.exponentialRampToValueAtTime(.0001,now+dur);
+  src.connect(filter);filter.connect(env);env.connect(bus||sfxBus);src.start(now);src.stop(now+dur+.02);
+ }
+ function clap(delay=0,volume=.13,bus=sfxBus){
+  noiseBurst(.13,volume,'highpass',1800,delay,bus);
+  noiseBurst(.09,volume*.48,'bandpass',950,delay+.035,bus);
+ }
+ function clickSound(){if(!sfxOn)return;tone(659,.085,.09,'triangle');tone(880,.11,.065,'triangle',sfxBus,null,.065);}
+ function softWrong(){if(!sfxOn)return;tone(260,.16,.045,'sine');tone(220,.19,.035,'sine',sfxBus,null,.1);}
+ function playFanfare(){
+  if(!sfxOn)return;
+  [523.25,659.25,783.99,1046.5].forEach((f,i)=>tone(f,.24,.12,'triangle',sfxBus,null,i*.095));
+  clap(.32,.12);
+ }
+ function playCrowd(level=1){
+  if(!sfxOn)return;
+  const now=Date.now();if(now-lastCheer<850)return;lastCheer=now;
+  const ac=getAudio();if(!ac)return;
+  // Layered synthetic crowd "woo!" tones and applause, generated locally with Web Audio.
+  const voices=[390,470,560,640,720];
+  voices.forEach((f,i)=>{
+   const start=.02+i*.075,dur=.72+(i%3)*.16;
+   tone(f,dur,.035*level,'sawtooth',sfxBus,f*1.55,start);
+   tone(f*1.48,dur*.8,.022*level,'triangle',sfxBus,f*1.72,start+.06);
+  });
+  noiseBurst(.75,.055*level,'bandpass',1150,.04);
+  for(let i=0;i<7;i++)clap(.1+i*.105,.08*level);
+ }
+ function playCorrect(){
+  if(!sfxOn)return;
+  [659.25,783.99,987.77,1174.66].forEach((f,i)=>tone(f,.19,.09,'triangle',sfxBus,null,i*.075));
+  playCrowd(.78);
+ }
+ function playVictory(){
+  if(!sfxOn)return;
+  [523.25,659.25,783.99,1046.5,1318.51].forEach((f,i)=>tone(f,.34,.13,'triangle',sfxBus,null,i*.11));
+  playCrowd(1.25);clap(.05,.2);clap(.34,.2);
+ }
+ function musicStep(){
+  const ac=getAudio();if(!ac||!musicOn||!musicBus)return;
+  const i=beat%melody.length;
+  tone(melody[i],.36,.085,'sine',musicBus);
+  if(beat%4===0){
+   const chord=chords[Math.floor(beat/4)%chords.length];
+   chord.forEach((f,j)=>tone(f,.72,.026,'triangle',musicBus,null,j*.012));
+   // Soft, child-friendly handclap / kick pulse to give the stage a live-show rhythm.
+   tone(110,.12,.055,'sine',musicBus,null,0);
   }
-  playNote();musicTimer=window.setInterval(playNote,680);
+  if(beat%2===1)noiseBurst(.035,.012,'highpass',3600,0,musicBus);
+  if(beat%8===7)clap(0,.025,musicBus);
+  beat++;
+ }
+ function startMusic(){
+  if(musicOn)return;const ac=getAudio();if(!ac)return;
+  musicOn=true;musicBus.gain.cancelScheduledValues(ac.currentTime);
+  musicBus.gain.setTargetAtTime(.72,ac.currentTime,.35);
+  beat=0;musicStep();musicTimer=window.setInterval(musicStep,430);
  }
  function stopMusic(){
-  if(musicTimer){clearInterval(musicTimer);musicTimer=null;}
-  if(musicGain&&audio){const g=musicGain;g.gain.cancelScheduledValues(audio.currentTime);g.gain.setTargetAtTime(.0001,audio.currentTime,.12);window.setTimeout(()=>{try{g.disconnect();}catch(e){}},650);}
-  musicGain=null;
+  musicOn=false;if(musicTimer){clearInterval(musicTimer);musicTimer=null;}
+  if(audio&&musicBus){musicBus.gain.cancelScheduledValues(audio.currentTime);musicBus.gain.setTargetAtTime(.0001,audio.currentTime,.18);}
  }
  function setMusic(on){
   if(on)startMusic();else stopMusic();
-  if(musicBtn){musicBtn.setAttribute('aria-pressed',String(on));musicBtn.title=on?'Tắt nhạc nền':'Bật nhạc nền';}
+  if(musicBtn){musicBtn.setAttribute('aria-pressed',String(!!on));musicBtn.title=on?'Tắt nhạc nền':'Bật nhạc nền';}
+  const mb=menu.querySelector('#mmMobileMusic');
+  if(mb){mb.setAttribute('aria-pressed',String(!!on));mb.textContent=on?'🎵':'🎶';mb.setAttribute('aria-label',on?'Tắt nhạc nền':'Bật nhạc nền');}
+  const dm=document.getElementById('vuiDockMusic');if(dm){dm.setAttribute('aria-pressed',String(!!on));dm.textContent=on?'🎵':'🎶';}
  }
+ function setSfx(on){
+  sfxOn=!!on;
+  if(soundBtn){soundBtn.setAttribute('aria-pressed',String(sfxOn));soundBtn.title=sfxOn?'Tắt âm thanh hiệu ứng':'Bật âm thanh hiệu ứng';}
+  const sb=menu.querySelector('#mmMobileSound');
+  if(sb){sb.setAttribute('aria-pressed',String(sfxOn));sb.textContent=sfxOn?'🔊':'🔇';sb.setAttribute('aria-label',sfxOn?'Tắt âm thanh hiệu ứng':'Bật âm thanh hiệu ứng');}
+  const ds=document.getElementById('vuiDockSfx');if(ds){ds.setAttribute('aria-pressed',String(sfxOn));ds.textContent=sfxOn?'🔊':'🔇';}
+ }
+ function buildMobileMenu(){
+  if(menu.querySelector('.main-menu-mobile-v1'))return;
+  const panel=document.createElement('div');panel.className='main-menu-mobile-v1';
+  panel.innerHTML=`
+   <div class="mm-mobile-top">
+    <img class="mm-mobile-brand" src="assets/vuihoc_brand_logo_3d.png" alt="Vui Để Học">
+    <div class="mm-mobile-controls">
+     <button class="mm-mobile-control" id="mmMobileMusic" type="button" aria-label="Bật nhạc nền" aria-pressed="false">🎶</button>
+     <button class="mm-mobile-control" id="mmMobileSound" type="button" aria-label="Tắt âm thanh hiệu ứng" aria-pressed="true">🔊</button>
+     <button class="mm-mobile-control" id="mmMobileFull" type="button" aria-label="Toàn màn hình">⛶</button>
+    </div>
+   </div>
+   <h1 class="mm-mobile-title">VUI ĐỂ HỌC</h1>
+   <p class="mm-mobile-subtitle">✨ HỌC MÀ CHƠI – CHƠI MÀ HỌC ✨</p>
+   <div class="mm-mobile-mascots" aria-hidden="true"><span>🧑🏻‍🚀</span><span>⭐</span><span>👧🏻</span></div>
+   <div class="mm-mobile-portals" aria-label="Chọn môn học">
+    <button class="mm-mobile-portal math" type="button" data-open="openMathMenuV31"><span class="mm-mobile-portal-icon">➗</span><span class="mm-mobile-portal-copy"><b>TOÁN HỌC</b><small>Thử thách tư duy · Khám phá con số</small></span><span class="mm-mobile-arrow">›</span></button>
+    <button class="mm-mobile-portal english" type="button" data-open="openEnglishMenuV31"><span class="mm-mobile-portal-icon">🔤</span><span class="mm-mobile-portal-copy"><b>TIẾNG ANH</b><small>Từ vựng · Nghe · Nói · Học theo chủ đề</small></span><span class="mm-mobile-arrow">›</span></button>
+    <button class="mm-mobile-portal mystery" type="button" data-open="openMysteryExploreV1"><span class="mm-mobile-portal-icon">🧰</span><span class="mm-mobile-portal-copy"><b>KHÁM PHÁ BÍ ẨN</b><small>Câu đố · Thiên nhiên · Mẹo hay · Hộp bí ẩn</small></span><span class="mm-mobile-arrow">›</span></button>
+   </div>
+   <button class="mm-mobile-start" id="mmMobileStart" type="button">🚀 BẮT ĐẦU KHÁM PHÁ</button>
+   <div class="mm-mobile-shortcuts"><span>🏆 Học vui mỗi ngày</span><span>⭐ Chinh phục thử thách</span><span>🎉 Cùng nhau tỏa sáng</span></div>
+   <div class="mm-mobile-footer">NGÔ MINH HIẾU · KHÁM PHÁ CHÂN TRỜI AI</div>`;
+  menu.querySelector('.main-menu-artwork-final-v5').appendChild(panel);
+  panel.querySelectorAll('[data-open]').forEach(btn=>btn.addEventListener('click',()=>{
+   const target=document.getElementById(btn.dataset.open);if(target)target.click();
+  }));
+  panel.querySelector('#mmMobileStart').addEventListener('click',()=>{
+   const original=document.getElementById('mainMenuStartExplore');if(original)original.click();
+   });
+  panel.querySelector('#mmMobileMusic').addEventListener('click',()=>setMusic(!musicOn));
+  panel.querySelector('#mmMobileSound').addEventListener('click',()=>{setSfx(!sfxOn);if(sfxOn)clickSound();});
+  panel.querySelector('#mmMobileFull').addEventListener('click',()=>{
+   if(!document.fullscreenElement){const target=menu.requestFullscreen?menu:document.documentElement;if(target.requestFullscreen)target.requestFullscreen().catch(()=>{});}
+   else if(document.exitFullscreen)document.exitFullscreen().catch(()=>{});
+   if(sfxOn)clickSound();
+  });
+  setMusic(musicOn);setSfx(sfxOn);
+ }
+ buildMobileMenu();
  if(musicBtn)musicBtn.addEventListener('click',function(){
-  const on=musicBtn.getAttribute('aria-pressed')!=='true';setMusic(on);if(sfxOn)clickSound();
+  setMusic(!musicOn);if(sfxOn)clickSound();
  });
- if(soundBtn)soundBtn.addEventListener('click',function(){
-  sfxOn=soundBtn.getAttribute('aria-pressed')!=='true';
-  soundBtn.setAttribute('aria-pressed',String(sfxOn));soundBtn.title=sfxOn?'Tắt âm thanh hiệu ứng':'Bật âm thanh hiệu ứng';
-  if(sfxOn)clickSound();
- });
+ if(soundBtn)soundBtn.addEventListener('click',function(){setSfx(!sfxOn);if(sfxOn)clickSound();});
  if(fullBtn)fullBtn.addEventListener('click',function(){
   if(!document.fullscreenElement){const target=menu.requestFullscreen?menu:document.documentElement;if(target.requestFullscreen)target.requestFullscreen().catch(()=>{});}
   else if(document.exitFullscreen)document.exitFullscreen().catch(()=>{});
@@ -3381,16 +3567,47 @@ $('mxPause').addEventListener('keydown',e=>{if(e.key==='Escape')closeApp();});
  });
  menu.addEventListener('click',function(ev){
   const portal=ev.target.closest('.hit-math,.hit-english,.hit-mystery');
-  if(portal){if(sfxOn)clickSound();return;}
-  if(ev.target.closest('#mainMenuStartExplore')){
-   if(art){art.classList.remove('is-starting');void art.offsetWidth;art.classList.add('is-starting');window.setTimeout(()=>art.classList.remove('is-starting'),1500);}
-   if(sfxOn){beep(523,.12,.04);window.setTimeout(()=>beep(659,.12,.04),90);window.setTimeout(()=>beep(784,.2,.04),180);}
+  if(portal){if(sfxOn)playFanfare();return;}
+  if(ev.target.closest('#mainMenuStartExplore')){if(art){art.classList.remove('is-starting');void art.offsetWidth;art.classList.add('is-starting');setTimeout(()=>art.classList.remove('is-starting'),1500);}if(sfxOn)playFanfare();}
+ });
+ // Game starts, correct answers and result screens receive stage-like applause.
+ const startSelectors='#startMathQuizFromSetup,#startMathGame,#startGame,#startEnglishLesson,#startEnglishGame,#startRandomEnglishLesson,#startRandomEnglishGame,#mxStart,#prStartAdventure,#krStart,#krBeginRace';
+ document.addEventListener('click',function(ev){
+  const target=ev.target.closest('button');if(!target)return;
+  if(target.matches(startSelectors)){setTimeout(()=>{if(sfxOn)playFanfare();},90);return;}
+  if(target.matches('.mx-answer,.pr-option,.practice-choice,.answer')){
+   setTimeout(()=>{
+    if(!sfxOn)return;
+    if(target.classList.contains('correct')||target.getAttribute('aria-correct')==='true')playCorrect();
+    else if(target.classList.contains('wrong')||target.getAttribute('aria-incorrect')==='true')softWrong();
+   },100);
   }
+ },true);
+ const resultIds=['mxResult','prResult','krResult','resultPane','practiceResult'];
+ const resultSeen=new Set();
+ const resultObserver=new MutationObserver(()=>{
+  resultIds.forEach(id=>{
+   const el=document.getElementById(id);if(!el)return;
+   const visible=!el.classList.contains('hidden')&&!el.classList.contains('mx-hidden')&&!el.classList.contains('pr-hidden')&&!el.classList.contains('kr-hidden');
+   if(visible&&!resultSeen.has(id)){resultSeen.add(id);if(sfxOn)playVictory();}
+   if(!visible)resultSeen.delete(id);
+  });
  });
- const observer=new MutationObserver(()=>{
-  if(menu.classList.contains('hidden'))setMusic(false);
+ resultIds.forEach(id=>{const el=document.getElementById(id);if(el)resultObserver.observe(el,{attributes:true,attributeFilter:['class','style']});});
+
+ const dock=document.createElement('div');dock.id='vuiStageAudioDock';dock.innerHTML='<button type="button" id="vuiDockMusic" aria-label="Bật nhạc sân khấu" aria-pressed="false">🎶</button><button type="button" id="vuiDockSfx" aria-label="Tắt hiệu ứng âm thanh" aria-pressed="true">🔊</button>';
+ document.body.appendChild(dock);
+ setMusic(musicOn);setSfx(sfxOn);
+ dock.querySelector('#vuiDockMusic').addEventListener('click',()=>setMusic(!musicOn));
+ dock.querySelector('#vuiDockSfx').addEventListener('click',()=>{setSfx(!sfxOn);if(sfxOn)clickSound();});
+ const visibilityObserver=new MutationObserver(()=>{
+  const visible=!menu.classList.contains('hidden');
+  dock.classList.toggle('is-visible',!visible);
  });
- observer.observe(menu,{attributes:true,attributeFilter:['class']});
+ visibilityObserver.observe(menu,{attributes:true,attributeFilter:['class']});
+
  document.addEventListener('visibilitychange',()=>{if(document.hidden)setMusic(false);});
+ window.VuiHocStageAudio={setMusic,setSfx,playCheer:playCrowd,playCorrect,playVictory,playFanfare};
 })();
-</script></body></html>
+</script>
+</body></html>
